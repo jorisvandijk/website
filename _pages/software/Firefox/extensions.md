@@ -3,6 +3,7 @@ layout: default
 title: Extensions
 has_children: false
 parent: Firefox
+last_modified_date: 2025-03-30
 ---
 
 # Extensions

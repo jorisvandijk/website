@@ -3,6 +3,7 @@ layout: default
 title: Compose key
 has_children: false
 parent: Linux
+last_modified_date: 2025-03-30
 ---
 
 # Compose key

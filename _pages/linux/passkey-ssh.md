@@ -3,6 +3,7 @@ layout: default
 title: SSH keys
 has_children: false
 parent: Linux
+last_modified_date: 2025-03-30
 ---
 # Connect to SSH using keys instead of password
 

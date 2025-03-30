@@ -3,6 +3,7 @@ layout: default
 title: Distraction free YouTube
 has_children: false
 parent: Linux
+last_modified_date: 2025-03-30
 ---
 
 # Distraction free YouTube videos

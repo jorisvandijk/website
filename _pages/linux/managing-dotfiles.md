@@ -3,6 +3,7 @@ layout: default
 title: Managing dotfiles
 has_children: false
 parent: Linux
+last_modified_date: 2025-03-30
 ---
 
 # Managing dotfiles

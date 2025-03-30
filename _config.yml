@@ -1,12 +1,12 @@
 title: Jorisvandijk.com
-description: 
+description: This is my website
 theme: just-the-docs
 color_scheme: everforest
 
-url: https://jorisvandijk.com
+url: https://jorisvandijk.com/
 
 # logo: "/images/logo.png"
-favicon_ico: "/images/favicon.ico"
+favicon_ico: "/assets/img/favicon.ico"
 
 aux_links:
   Blog: /blog/
@@ -28,6 +28,9 @@ defaults:
 
 heading_anchors: true
 gh_edit_link: true
-gh_edit_repository: https://github.com/jorisvandijk/code
+gh_edit_repository: https://github.com/jorisvandijk/website
 gh_edit_branch: "main"
 gh_edit_view_mode: "tree"
+
+last_edit_timestamp: true 
+last_edit_time_format: "%B %d, %Y" 

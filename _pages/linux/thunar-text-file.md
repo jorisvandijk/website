@@ -3,6 +3,7 @@ layout: default
 title: Thunar text files
 has_children: false
 parent: Linux
+last_modified_date: 2025-03-30
 ---
 
 # Open text file in a terminal editor from Thunar

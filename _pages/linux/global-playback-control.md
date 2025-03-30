@@ -3,6 +3,7 @@ layout: default
 title: Global playback control
 has_children: false
 parent: Linux
+last_modified_date: 2025-03-30
 ---
 
 # Global playback control
