@@ -16,3 +16,6 @@ browser.backspace_action 0
 
 ## Compact browser mode
 browser.uidensity 1
+
+## Don't exit browser on last tab close
+browser.tabs.closeWindowWithLastTab false
