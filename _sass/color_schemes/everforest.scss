@@ -1,0 +1,49 @@
+@import "./color_schemes/dark";
+
+/* Custom Just the Docs Theme - Everforest Colors */
+
+$color-scheme: dark;
+$body-background-color: #323d43;
+$body-heading-color: #e68183;
+$body-text-color: #d8caac;
+$link-color: #a3be8c;
+$nav-child-link-color: #a3be8c;
+$sidebar-color: #323d43;
+$base-button-color: #505a60;
+$btn-primary-color: #a7c080;
+$code-background-color: #505a60;
+$code-linenumber-color: #d8caac;
+$feedback-color: darken($sidebar-color, 3%);
+$table-background-color: #505a60;
+$search-background-color: #505a60;
+$search-result-preview-color: #a3be8c;
+$border-color: #868d80;
+
+/* Header and Subheader */
+.header, .header a { color: #a7c080; }
+.subheader { color: #d9bb80; }
+.date { color: #868d80; }
+
+/* Typography */
+h1, h2, h3, h4 { color: #e68183; }
+
+/* Links and Borders */
+a { color: #a3be8c; }
+img { border-color: #e68183; }
+
+/* Code Blocks */
+code {
+  background-color: #505a60;
+  border-left: 10px solid #a3be8c;
+}
+
+/* Blockquotes */
+blockquote p {
+  background: #505a60;
+  border-left: 10px solid #e68183;
+}
+
+/* Tables */
+tr:hover { background-color: #e68183; }
+
+@import "./vendor/OneDarkJekyll/syntax";
