@@ -38,8 +38,7 @@ Categories=System;TerminalEmulator;
 ```
 
 Now in Thunar, we need to right click a file like say the i3 config file and select "Kitty Micro" and set it as default.
-<center>
+
 [![Launch with Micro in Kitty](/assets/img/setmicro_thumb.png)](/assets/img/setmicro.png)
-</center>
 
 Now when ever we select a text file, like a config file, it'll launch Micro in Kitty and display the file you double clicked in Thunar.
