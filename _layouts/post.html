@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="post-meta">{{ page.date | date: "%B %d, %Y" }}</p>
+  
+  <div class="post-content">
+    {{ content }}
+  </div>
+  
+  {% if page.categories %}
+  <div class="post-categories">
+    <span>Categories:</span>
+    {% for category in page.categories %}
+    <span class="post-category">{{ category }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+  
+  <div class="post-navigation">
+    <a href="{{ '/blog/' | relative_url }}">&larr; Back to Blog</a>
+  </div>
+</div>

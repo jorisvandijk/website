@@ -1,12 +1,33 @@
-title: Joris.Codes
+title: Jorisvandijk.com
 description: 
 theme: just-the-docs
 color_scheme: everforest
 
-url: https://joris.codes
+url: https://jorisvandijk.com
 
 # logo: "/images/logo.png"
 favicon_ico: "/images/favicon.ico"
 
 aux_links:
-  Git: http://www.codeberg.org/jorisvandijk
+  Blog: /blog/
+
+search_enabled: true
+
+# Configure where Jekyll looks for pages
+include:
+  - _pages
+
+# Configure blog settings
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: "/blog/:year/:month/:day/:title/"
+
+heading_anchors: true
+gh_edit_link: true
+gh_edit_repository: https://github.com/jorisvandijk/code
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"

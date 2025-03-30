@@ -1,35 +1,27 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# Welcome
+This website is a collection of notes, tips and tricks that I've collected over the years. It mainly focuses on Linux, software, coding, programming, cyber security and other computer related topics. It is a second brain, if you will. Feel free to use it for your own purposes. If you have any suggestions, questions or other feedback, please let me know.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+# Dotfiles
+I have several computers and for now they use different dotfiles. In the future I will streamline this somehow. Right now though, I've switched to Wayland in the form of Hyprland on my Thinkpad, so there are even more dotfiles to go around.
 
-More specifically, the created site:
+- [Thinkpad](https://codeberg.org/jorisvandijk/dotfiles_thinkpad)
+- [Legion](https://codeberg.org/jorisvandijk/dotfiles)
+- [Thinkpad Hyprland](https://codeberg.org/jorisvandijk/dotfiles-hyprland)
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+# Who am I?
+I'm Joris and I am from the Netherlands. I'm a student currently working to get my computer science bachelor degree. Apart from that I am an open-source advocate, a Linux enthusiast and a favorite uncle.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+# Contact
+I am still debating adding my email address here. For now you can find me here:
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+- [Codeberg](https://codeberg.org/jorisvandijk)
+- [Discord](https://discordapp.com/users/816816620541706271)
 
-To get started with creating a site, simply:
-
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+# License
+This website and all its content is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), with the exception of scripts, which are licensed under the [MIT License](https://opensource.org/license/mit).
