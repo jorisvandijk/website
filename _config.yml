@@ -5,7 +5,7 @@ color_scheme: everforest
 
 url: https://joris.codes
 
-logo: "/images/logo.png"
+# logo: "/images/logo.png"
 favicon_ico: "/images/favicon.ico"
 
 aux_links:
