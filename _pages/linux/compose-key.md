@@ -3,7 +3,7 @@ layout: default
 title: Compose key
 has_children: false
 parent: Linux
-last_modified_date: 2025-03-30
+last_modified_date: 2025-04-01
 ---
 
 # Compose key
@@ -21,10 +21,18 @@ I've added the following to my `bspwmrc` file, which will remap CapsLock to the 
 ```bash
 setxkbmap -option compose:caps &
 ```
-:::note
 I used my `bspwmrc` file to set this up, but you can do this in your `.bashrc` or `.zshrc` file as well.
-:::
 
+## Hyprland
+In Hyprland this is also possible by adding the following to your hyprland.conf:
+
+```bash
+input {
+    kb_options = compose:caps
+}
+```
+
+## Result
 Now I am able to add special characters without any hassle! And it's not just the e key with markings, there are loads of possible combinations to create a special character. Some of my favorites:
 
 | Char | Combination |
