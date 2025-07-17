@@ -1,23 +1,7 @@
-baseURL = 'https://jorisvandijk.github.io'
+baseURL = 'https://jorisvandijk.github.io/website'
 languageCode = 'en-us'
-title = 'Jorisvandijk.com'
-
-# Hugo Modules configuration
-[module]
-  [[module.imports]]
-    path = 'github.com/adityatelange/hugo-PaperMod'
-  
-  # Mount your custom CSS to override theme CSS
-  [[module.mounts]]
-    source = 'assets/css'
-    target = 'assets/css'
-    includeFiles = '**'
-  
-  # Mount your custom layouts to override theme layouts
-  [[module.mounts]]
-    source = 'layouts'
-    target = 'layouts'
-    includeFiles = '**'
+title = 'My Blog'
+theme = 'PaperMod'
 
 # PaperMod configuration
 [params]
