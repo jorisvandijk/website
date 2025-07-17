@@ -72,7 +72,7 @@ You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
 
 ## Blocks of code
 
-```
+```bash
 let message = 'Hello world';
 alert(message);
 ```
