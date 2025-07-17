@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Caskaydia";
+  src: url("/website/fonts/Caskaydia.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Caskaydia";
+  src: url("/website/fonts/Caskaydia-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Caskaydia";
+  src: url("/website/fonts/Caskaydia-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Caskaydia";
+  src: url("/website/fonts/Caskaydia-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Apply font globally */
+html, body {
+  font-family: "Caskaydia", sans-serif !important;
+}

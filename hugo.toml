@@ -8,12 +8,33 @@ theme = 'PaperMod'
   ShowSearchPage = true
   ShowCodeCopyButtons = true
   ShowReadingTime = true
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
+  ShowToc = true
   
   # Custom CSS will be automatically included
   assets.customCSS = ['css/custom.css']
+
+  [params.homeInfoParams]
+  Title = "Welcome"
+  Content = "Can be Info, links, about..."
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/jorisvandijk"
+
+  [[params.socialIcons]]
+  name = "gitlab"
+  url = "https://gitlab.com/jorisvandijk"
+
+  [[params.socialIcons]]
+  name = "codeberg"
+  url = "https://codeberg.org/jorisvandijk"
+
+  [[params.socialIcons]]
+  name = "rss"
+  url = "index.xml"
   
 # Pagination
 paginate = 10
@@ -26,21 +47,21 @@ paginatePath = "page"
     name = "Home"
     url = "/"
     weight = 10
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 20
+  # [[menu.main]]
+  #   identifier = "posts"
+  #   name = "Posts"
+  #   url = "/posts/"
+  #   weight = 20
   [[menu.main]]
     identifier = "search"
     name = "Search"
     url = "/search/"
     weight = 30
-  [[menu.main]]
-    name = "RSS"
-    url = "/index.xml"
-    weight = 40
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  
 # Enable search index
 [outputs]
   home = ["HTML", "RSS", "JSON"]
