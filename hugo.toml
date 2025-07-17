@@ -1,6 +1,6 @@
-baseURL = 'https://yourusername.github.io'
+baseURL = 'https://jorisvandijk.github.io'
 languageCode = 'en-us'
-title = 'My Blog'
+title = 'Jorisvandijk.com'
 
 # Hugo Modules configuration
 [module]
