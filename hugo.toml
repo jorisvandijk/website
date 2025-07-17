@@ -72,4 +72,4 @@ paginatePath = "page"
     lineNos = true
     codeFences = true
     guessSyntax = true
-    noClasses = false
+    noClasses = true
