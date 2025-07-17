@@ -47,11 +47,11 @@ paginatePath = "page"
     name = "Home"
     url = "/"
     weight = 10
-  # [[menu.main]]
-  #   identifier = "posts"
-  #   name = "Posts"
-  #   url = "/posts/"
-  #   weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
   [[menu.main]]
     identifier = "search"
     name = "Search"
@@ -60,7 +60,6 @@ paginatePath = "page"
 
 [taxonomies]
   tag = "tags"
-  category = "categories"
   
 # Enable search index
 [outputs]

@@ -52,41 +52,41 @@
 .toc a {
 	color: #dbbc7f;
 }
-
-/* Fix code block styling */
-.highlight {
-    background: var(--code-bg);
-    border-radius: 8px;
-    padding: 1rem;
-    overflow-x: auto;
-    position: relative;
-}
-
-.highlight pre {
-    margin: 0;
-    background: transparent;
-}
-
-/* Hide the weird corner arrows */
-.highlight .lnt {
-    margin-right: 0.4em;
-    padding: 0 0.4em 0 0.4em;
-    color: #7f7f7f;
-}
-
-/* Copy button styling */
-.highlight .copy-to-clipboard {
-    background: var(--theme);
-    color: var(--primary);
-    border: none;
-    padding: 4px 8px;
-    border-radius: 4px;
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    font-size: 12px;
-    cursor: pointer;
-}
+/*  */
+/* /* Fix code block styling */ */
+/* .highlight { */
+/*     background: var(--code-bg); */
+/*     border-radius: 8px; */
+/*     padding: 1rem; */
+/*     overflow-x: auto; */
+/*     position: relative; */
+/* } */
+/*  */
+/* .highlight pre { */
+/*     margin: 0; */
+/*     background: transparent; */
+/* } */
+/*  */
+/* /* Hide the weird corner arrows */ */
+/* .highlight .lnt { */
+/*     margin-right: 0.4em; */
+/*     padding: 0 0.4em 0 0.4em; */
+/*     color: #7f7f7f; */
+/* } */
+/*  */
+/* /* Copy button styling */ */
+/* .highlight .copy-to-clipboard { */
+/*     background: var(--theme); */
+/*     color: var(--primary); */
+/*     border: none; */
+/*     padding: 4px 8px; */
+/*     border-radius: 4px; */
+/*     position: absolute; */
+/*     top: 8px; */
+/*     right: 8px; */
+/*     font-size: 12px; */
+/*     cursor: pointer; */
+/* } */
 
 
 /* .dark .logo a { */
