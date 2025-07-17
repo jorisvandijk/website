@@ -1,18 +1,39 @@
-/* Your custom styles here */
-:root {
-  --primary: #007acc;
-  --secondary: #6c757d;
+/* Override styles for theme toggle in menu */
+#menu li button#theme-toggle {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.post-title {
-  color: var(--primary);
+#menu li button#theme-toggle:hover {
+    opacity: 0.7;
 }
 
-.custom-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+#menu li button#theme-toggle svg {
+    width: 20px;
+    height: 20px;
 }
 
-/* Override any PaperMod styles */
-.main {
-  max-width: 900px; /* Wider content area */
+/* Ensure the button aligns properly in the flex menu */
+#menu li:has(button#theme-toggle) {
+    display: flex;
+    align-items: center;
+}
+
+/* Remove the previous theme toggle styles since it's no longer in logo-switches */
+.logo-switches button#theme-toggle {
+    display: none;
+}
+
+/* Adjust logo-switches if it becomes empty */
+.logo-switches:empty {
+    display: none;
 }

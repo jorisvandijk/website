@@ -1,6 +1,6 @@
 baseURL = 'https://jorisvandijk.github.io/website'
 languageCode = 'en-us'
-title = 'My Blog'
+title = 'Jorisvandijk.com'
 theme = 'PaperMod'
 
 # PaperMod configuration
@@ -36,6 +36,10 @@ paginatePath = "page"
     name = "Search"
     url = "/search/"
     weight = 30
+  [[menu.main]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 40
 
 # Enable search index
 [outputs]
