@@ -1,0 +1,18 @@
+/* Your custom styles here */
+:root {
+  --primary: #007acc;
+  --secondary: #6c757d;
+}
+
+.post-title {
+  color: var(--primary);
+}
+
+.custom-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Override any PaperMod styles */
+.main {
+  max-width: 900px; /* Wider content area */
+}

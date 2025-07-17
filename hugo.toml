@@ -1,3 +1,58 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://yourusername.github.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'My Blog'
+
+# Hugo Modules configuration
+[module]
+  [[module.imports]]
+    path = 'github.com/adityatelange/hugo-PaperMod'
+  
+  # Mount your custom CSS to override theme CSS
+  [[module.mounts]]
+    source = 'assets/css'
+    target = 'assets/css'
+    includeFiles = '**'
+  
+  # Mount your custom layouts to override theme layouts
+  [[module.mounts]]
+    source = 'layouts'
+    target = 'layouts'
+    includeFiles = '**'
+
+# PaperMod configuration
+[params]
+  ShowSearchPage = true
+  ShowCodeCopyButtons = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  
+  # Custom CSS will be automatically included
+  assets.customCSS = ['css/custom.css']
+  
+# Pagination
+paginate = 10
+paginatePath = "page"
+
+# Menu
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 30
+
+# Enable search index
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
