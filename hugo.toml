@@ -1,5 +1,4 @@
-baseURL = 'https://jorisvandijk.com'
-#baseURL = '/'
+baseURL = 'https://jorisvandijk.com/'
 languageCode = 'en-us'
 title = 'Jorisvandijk.com'
 theme = 'PaperMod'
