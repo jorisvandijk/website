@@ -74,42 +74,9 @@ paginatePath = "page"
   home = ["HTML", "RSS", "JSON"]
 
 # Styling of codeblocks
-# [markup]
-#   [markup.highlight]
-#     lineNos = true
-#     codeFences = true
-#     guessSyntax = false
-#     noClasses = false 
-# Fixed markup configuration for proper code highlighting
 [markup]
   [markup.highlight]
-    anchorLineNos = false
+    lineNos = true
     codeFences = true
     guessSyntax = true
-    hl_Lines = ""
-    lineAnchors = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = false
-    style = "github"
-    tabWidth = 4
-  
-  # Disable diagram renderers that might interfere
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      definitionList = true
-      footnote = true
-      linkify = true
-      strikethrough = true
-      table = true
-      taskList = true
-      typographer = true
-    [markup.goldmark.parser]
-      autoHeadingID = true
-      autoHeadingIDType = "github"
-      wrapStandAloneImageWithinParagraph = true
-    [markup.goldmark.renderer]
-      hardWraps = false
-      unsafe = false
-      xhtml = false
+    noClasses = false 
