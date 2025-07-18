@@ -84,3 +84,12 @@
     background-color: var(--code-bg) !important;
 }
 
+.post-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root {
+    --main-width: 900px; 
+}
