@@ -3,7 +3,7 @@ title: "Hello World"
 date: 2025-07-17T20:59:15+02:00
 author: "Joris"
 draft: false
-tags: ["personal"]
+tags: ["blog", "hugo", "personal"]
 cover:
   image: "/img/ohno.gif"
   alt: "Oh no!"
@@ -22,5 +22,3 @@ Working on the layout, looks and functionality of the Hugo site has been a blast
 So. Here we are. A new website which will need to be filled again. What's the plan? Well, I suppose I'll be bringing back old content to the site, as that still has value. I will be rewriting and updating it as I get through it, though. Apart from that, after 12+ years I've switched from *Arch Linux* to *NixOS*, which has forced me to learn and discover new things. I've gotten more into cybersecurity due to school and I've been improving my homelab. I'll probably also pepper in the occasional personal post, thought or babble — we'll see.
 
 For now, welcome to my new website.
-<img src="https://jorisvandijk.com/img/mrgreen.svg" alt="Smiley" width="32" height="32">
-
