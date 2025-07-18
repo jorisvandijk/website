@@ -10,15 +10,15 @@ theme = 'PaperMod'
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
-  ShowBreadCrumbs = true
+  ShowBreadCrumbs = false
   ShowToc = true
   
   # Custom CSS will be automatically included
   # assets.customCSS = ['css/custom.css']
 
   [params.homeInfoParams]
-  Title = "Welcome"
-  Content = "Can be Info, links, about..."
+  Title = "echo ${core_dump} > /www/blog"
+  Content = "Linux mishaps, things that actually worked, half-baked ideas, and whatever else seemed worth jotting down when I should have been doing something more productive. I'm Joris, this is my blog. Hi."
 
   [[params.socialIcons]]
   name = "github"
