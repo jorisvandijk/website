@@ -5,6 +5,6 @@ author: "Joris"
 draft: true
 tags: []
 cover:
-  image: "https://jorisvandijk.com/img/"
+  image: "/img/"
   alt: ""
 ---
