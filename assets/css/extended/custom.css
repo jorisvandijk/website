@@ -51,9 +51,10 @@
 .dark .toc a {
 	color: #dbbc7f;  
 }
-/* .dark .logo a { */
-/* 	color: #7fbbb3; */
-/* } */
+.entry-footer {
+	color: var(--primary);
+}
+
 .space-for-tags-on-index {
 	margin-top: 12px;	
 }
@@ -92,4 +93,9 @@
 
 :root {
     --main-width: 900px; 
+}
+.post-content p,
+.content p,
+article p {
+    text-align: justify;
 }
