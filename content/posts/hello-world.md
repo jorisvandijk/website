@@ -5,4 +5,4 @@ draft: false
 tags: ["personal"]
 ---
 
-![Oh no](website/img/ohno.gif)
+![Alt text](/website/img/ohno.gif)
