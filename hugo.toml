@@ -65,6 +65,7 @@ paginatePath = "page"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+# Styling of codeblocks
 [markup]
   [markup.highlight]
     lineNos = true
