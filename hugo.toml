@@ -78,5 +78,5 @@ paginatePath = "page"
   [markup.highlight]
     lineNos = true
     codeFences = true
-    guessSyntax = true
+    guessSyntax = false
     noClasses = false 
