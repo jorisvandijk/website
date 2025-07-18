@@ -16,9 +16,9 @@ theme = 'PaperMod'
   # Favicon configuration
   [params.assets]
     favicon = "https://jorisvandijk.com/favicon.ico"
-    favicon16x16 = "https://jorisvandijk.com//favicon-16x16.png"
-    favicon32x32 = "https://jorisvandijk.com//favicon-32x32.png"
-    apple_touch_icon = "https://jorisvandijk.com//apple-touch-icon.png"
+    favicon16x16 = "https://jorisvandijk.com/favicon-16x16.png"
+    favicon32x32 = "https://jorisvandijk.com/favicon-32x32.png"
+    apple_touch_icon = "https://jorisvandijk.com/apple-touch-icon.png"
   
   # Custom CSS will be automatically included
   # assets.customCSS = ['css/custom.css']

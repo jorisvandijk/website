@@ -5,7 +5,7 @@
         <span>{{ site.Copyright | markdownify }}</span>
         {{- else }}
         <!-- <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span> -->
-        <span>&copy; {{ now.Year }} Joris van Dijk {{- print " · "}} This website is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0</a>.</span>
+        <span>&copy; {{ now.Year }} <a href="/joris/">Joris van Dijk</a> {{- print " · "}} This website is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0</a> {{- print " · "}} <a href="/contributing/">Contributing</a></span>
         {{- end }}
     {{- end }}
 
