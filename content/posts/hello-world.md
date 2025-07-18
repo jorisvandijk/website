@@ -5,4 +5,4 @@ draft: false
 tags: ["personal"]
 ---
 
-![Alt text](/img/ohno.gif)
+![Alt text](https://jorisvandijk.com/img/ohno.gif)
