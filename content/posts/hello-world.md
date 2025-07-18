@@ -5,8 +5,8 @@ author: "Joris"
 draft: false
 tags: ["personal"]
 cover:
-  image: "https://jorisvandijk.com/img/ohno.gif"
-  alt: "Oh no..."
+  image: "/img/ohno.gif"
+  alt: "Oh no!"
 ---
 
 And once again a new *Hello World* post is born. This is the umpteenth iteration of this website, as I cannot seem to stop wanting to change things up. I like trying out new ideas. Sometimes they lead somewhere, mostly they don't. 
