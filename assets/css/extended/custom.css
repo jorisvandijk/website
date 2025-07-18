@@ -36,24 +36,29 @@
 .dark.list {
     background: var(--theme);
 }
-
 .main a {
     color: #e67e80;
 }
-
 .paginav a {
     color: #a7c080;
 }
-
 .post-tags a, .terms-tags a {
 	color: #d699b6;
 }
-
 .toc a {
-	color: #dbbc7f;
+	color: #8da101;  
+}
+.dark .toc a {
+	color: #dbbc7f;  
+}
+/* .dark .logo a { */
+/* 	color: #7fbbb3; */
+/* } */
+.space-for-tags-on-index {
+	margin-top: 12px;	
 }
 
-/* Fix code block styling */
+/* Code block styling */
 .highlight {
     background: var(--code-bg);
     border-radius: 8px;
@@ -62,35 +67,20 @@
     position: relative;
 }
 
+/* Fix styling of code blocks */
+.highlight > div {
+    background-color: var(--code-bg) !important;
+}
+
 .highlight pre {
-    margin: 0;
-    background: transparent;
+    background-color: var(--code-bg) !important;
 }
 
-/* Hide the weird corner arrows */
-.highlight .lnt {
-    margin-right: 0.4em;
-    padding: 0 0.4em 0 0.4em;
-    color: #7f7f7f;
+.post-content pre code {
+    background-color: var(--code-bg) !important;
 }
 
-/* Copy button styling */
-.highlight .copy-to-clipboard {
-    background: var(--theme);
-    color: var(--primary);
-    border: none;
-    padding: 4px 8px;
-    border-radius: 4px;
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    font-size: 12px;
-    cursor: pointer;
+.post-content .highlight:not(table) {
+    background-color: var(--code-bg) !important;
 }
-
-
-/* .dark .logo a { */
-/* 	color: #7fbbb3; */
-/* } */
-
 

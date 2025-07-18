@@ -67,8 +67,8 @@ paginatePath = "page"
 
 [markup]
   [markup.highlight]
-    style = "github"
+    style = "github"  # This becomes irrelevant
     lineNos = true
     codeFences = true
     guessSyntax = true
-    noClasses = true
+    noClasses = false  # Important: use classes instead of inline styles
