@@ -1,5 +1,5 @@
 ---
-title: "Contributing to This Website"
+title: "Contributing to this website"
 date: 2025-07-18
 draft: false
 type: "page"
