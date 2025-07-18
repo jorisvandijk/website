@@ -11,7 +11,7 @@ cover:
 
 According to the [Hugo Quick Start](https://gohugo.io/getting-started/quick-start/) documentation, the right way to start a new post is by issuing the following command in a terminal: `hugo new content content/posts/my-post-name.md`. This works fine and yields a new Hugo post with basic _frontmatter_. I've found issuing `hugo new posts/my-new-post.md` works fine as well. It's shorter, so I prefer it. This is not the point however. The point is the _frontmatter_. This is a few lines of text above the content of the Markdown file you've created by a `hugo new` command. The Quick Start shows the following as an example of front matter that it generates:
 
-```
+```yaml
 +++
 title = 'My First Post'
 date = 2024-01-14T07:07:07+01:00
@@ -25,19 +25,19 @@ Hell no. It is time to set up [Archetypes](https://gohugo.io/content-management/
 
 First a new directory is to be added to the root of the project directory.
  
-```
+```bash
 mkdir -p archetypes
 ```
 
 Next a file named `default.md` should be added in this directory.
 
-```
+```bash
 touch archetypes/default.md
 ```
 
 Then in this file the front matter can be set for any _post_.  The example front matter as shown in the Quick Start is in _toml_, I prefer _yaml_ so the following example is in _yaml_. This is just a personal preference. Feel free to use _toml_ if you'd like. Anyway, this is what my `default.md` currently looks like.
 
-```
+```yaml
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
