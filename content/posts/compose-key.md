@@ -51,7 +51,6 @@ Now I am able to add special characters without any fuss and there are loads of 
 | © | oc |
 | ² | ^2 |
 | ³ | ^3 |
-| è | `e |
 | é | 'e |
 | ë | "e |
 | ø | /o |
