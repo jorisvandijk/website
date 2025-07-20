@@ -40,6 +40,10 @@ theme = 'PaperMod'
   url = "https://codeberg.org/jorisvandijk"
 
   [[params.socialIcons]]
+  name = "email"
+  url = "/joris/"
+
+  [[params.socialIcons]]
   name = "rss"
   url = "index.xml"
   
