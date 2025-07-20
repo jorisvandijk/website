@@ -1,5 +1,5 @@
 ---
-title: "How to Use External Drive as Data Directory in a Proxmox LXC""
+title: "How to Use External Drive as Data Directory in a Proxmox LXC"
 date: 2025-07-19T10:55:57+02:00
 author: "Joris"
 draft: false
