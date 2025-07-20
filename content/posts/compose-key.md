@@ -2,7 +2,7 @@
 title: "Compose Key"
 date: 2025-07-20T14:10:38+02:00
 author: "Joris"
-draft: true
+draft: false
 tags: ["linux", "tutorial"]
 cover:
   image: "/img/compose-key.png"
