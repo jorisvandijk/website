@@ -58,4 +58,4 @@ pct start <container_id>
 
 And that's it. Without needing to adjust anything else in the UI, Frigate will now store all content on the dedicated external drive. 
  
-📷 _Cover photo by [Samuel Pais](https://unsplash.com/photos/black-and-white-outdoor-lamp-wC4keTn26dY)._
+📷 _Cover photo by [Samuel Pais](https://unsplash.com/photos/black-and-white-outdoor-lamp-wC4keTn26dY) on [Unsplash](https://unsplash.com)._
