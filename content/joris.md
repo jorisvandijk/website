@@ -11,7 +11,7 @@ Hi again. My name is Joris van Dijk, this is my website. I am interested in Linu
 
 At any rate, if you'd like to contact me you can do so via email or on Discord.
 
-- Email: `joris AT jorisvandijk DOT com`
+- Email: `joris` at this domain
 - Discord username: `jorisvandijk`
 
 You can find my personal stuff stored on git here:
