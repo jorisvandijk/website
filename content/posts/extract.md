@@ -33,10 +33,10 @@ Considering I don't actually extract archives _that_ often, I'll never memorize 
       *.7z)        7z x $1        ;;
       *.xz)        unxz $1        ;;
       *.exe)       cabextract $1  ;;
-      *)           echo "\`$1': unrecognized file compression" ;;
+      *)           echo "$1': unrecognized file compression" ;;
     esac
   else
-    echo "\`$1' is not a valid file"
+    echo "$1' is not a valid file"
   fi
 }
 ```
