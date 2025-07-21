@@ -1,0 +1,14 @@
+# Simple GitLab Pages configuration for Hugo
+image: hugomods/hugo:exts
+
+variables:
+  HUGO_ENV: production
+
+pages:
+  script:
+    - hugo --minify
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
