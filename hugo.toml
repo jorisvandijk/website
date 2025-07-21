@@ -69,6 +69,11 @@ paginatePath = "page"
     name = "Search"
     url = "/search/"
     weight = 30
+  [[menu.main]]
+    identifier = "blogroll"
+    name = "Blogroll"
+    url = "/blogroll/"
+    weight = 40
 
 [taxonomies]
   tag = "tags"
