@@ -1,4 +1,6 @@
-baseURL = 'https://jorisvandijk.com/'
+# baseURL = 'https://jorisvandijk.com/'
+baseURL = 'https://jorisvandijk.gitlab.io/website/''
+
 languageCode = 'en-us'
 title = 'Jorisvandijk.com'
 theme = 'PaperMod'
