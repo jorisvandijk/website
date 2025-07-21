@@ -1,5 +1,4 @@
-# baseURL = 'https://jorisvandijk.com/'
-baseURL = 'https://website-fdcf3e.gitlab.io/'
+baseURL = 'https://jorisvandijk.com/'
 
 languageCode = 'en-us'
 title = 'Jorisvandijk.com'
