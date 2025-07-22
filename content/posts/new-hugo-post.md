@@ -52,4 +52,4 @@ cover:
 
 The `title` and `date` will be autofilled if left like this, that is probably what you'd want. Added are the `tags` and `cover` options. Many more options are available to you as can be found in the Hugo Quick Start, under [Frontmatter](https://gohugo.io/content-management/front-matter/). After the `default.md` file is saved, starting a new post with `hugo new posts/my-new-post.md` will give you a brand new post, which includes all the frontmatter you added.
 
-📷 _Cover photo by [Kelly Sikkema](https://unsplash.com/photos/a-woman-holding-a-cup-of-coffee-next-to-a-notepad--YP-I0r2mk0) on [Unsplash](https://unsplash.com)._
+📷 _Original cover photo by [Kelly Sikkema](https://unsplash.com/photos/a-woman-holding-a-cup-of-coffee-next-to-a-notepad--YP-I0r2mk0) on [Unsplash](https://unsplash.com)._

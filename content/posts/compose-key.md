@@ -58,4 +58,4 @@ Now I am able to add special characters without any fuss and there are loads of 
 
 And more can be found [here](https://math.dartmouth.edu/~sarunas/Linux_Compose_Key_Sequences.html).
 
-📷 _Cover photo by [Felix the Cassowary](https://en.wikipedia.org/wiki/Compose_key#/media/File:Compose_key_on_Sun_Type_5c_keyboard.jpg) on [Wikipedia](https://en.wikipedia.org)._
+📷 _Original cover photo by [Felix the Cassowary](https://en.wikipedia.org/wiki/Compose_key#/media/File:Compose_key_on_Sun_Type_5c_keyboard.jpg) on [Wikipedia](https://en.wikipedia.org)._
