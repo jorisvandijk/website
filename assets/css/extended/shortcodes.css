@@ -1,0 +1,138 @@
+/* Note Banner */
+.note-banner {
+  border: 2px solid #a7c080;
+  border-radius: var(--radius);
+  background-color: var(--entry);
+  margin: 1.5rem 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+.note-header {
+  background-color: #a7c080;
+  color: var(--theme);
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: calc(var(--radius) - 2px) calc(var(--radius) - 2px) 0 0;
+}
+
+.note-icon {
+  font-size: 1.1em;
+}
+
+.note-title {
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+.note-content {
+  padding: 1rem;
+  color: var(--content);
+}
+
+.note-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Warning Banner */
+.warning-banner {
+  border: 2px solid #e67e80;
+  border-radius: var(--radius);
+  background-color: var(--entry);
+  margin: 1.5rem 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+.warning-header {
+  background-color: #e67e80;
+  color: var(--theme);
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: calc(var(--radius) - 2px) calc(var(--radius) - 2px) 0 0;
+}
+
+.warning-icon {
+  font-size: 1.1em;
+}
+
+.warning-title {
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+.warning-content {
+  padding: 1rem;
+  color: var(--content);
+}
+
+.warning-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Info Banner */
+.info-banner {
+  border: 2px solid #7fbbb3;
+  border-radius: var(--radius);
+  background-color: var(--entry);
+  margin: 1.5rem 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+.info-header {
+  background-color: #7fbbb3;
+  color: var(--theme);
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: calc(var(--radius) - 2px) calc(var(--radius) - 2px) 0 0;
+}
+
+.info-icon {
+  font-size: 1.1em;
+}
+
+.info-title {
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+.info-content {
+  padding: 1rem;
+  color: var(--content);
+}
+
+.info-content p:last-child {
+  margin-bottom: 0;
+}
+
+.dark .info-header {
+  color: var(--theme);
+}
+
+.dark .info-content {
+  color: var(--content);
+}
+
+/* Dark theme adjustments */
+.dark .note-header,
+.dark .warning-header {
+  color: var(--theme);
+}
+
+.dark .note-content,
+.dark .warning-content {
+  color: var(--content);
+}

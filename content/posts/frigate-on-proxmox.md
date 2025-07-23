@@ -41,7 +41,10 @@ nano /etc/pve/lxc/<container_id>.conf
 ```bash
 mp0: /<location>/<of>/<mount>,mp=/media/frigate
 ```
-**Note that the path /media/frigate is mandatory for Frigate to use the external drive!** This is because it's the hard-coded location Frigate uses to store its content to. The _mp0_ stands for _Mount Point 0_, this can be any number, but let's start at the top. 
+
+{{< info >}}
+Note that the path `/media/frigate` is mandatory for Frigate to use the external drive! This is because it's the hard-coded location Frigate uses to store its content to. The _mp0_ stands for _Mount Point 0_, this can be any number, but let's start at the top. 
+{{< /info >}}
 
 6. Set the permissions for the drive. 
 

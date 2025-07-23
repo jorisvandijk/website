@@ -1,0 +1,10 @@
+<!-- layouts/shortcodes/note.html -->
+<div class="note-banner">
+  <div class="note-header">
+    <span class="note-icon">📝</span>
+    <span class="note-title">NOTE</span>
+  </div>
+  <div class="note-content">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

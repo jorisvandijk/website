@@ -72,4 +72,4 @@ So - no more remembering which program name goes with which archive, or which fl
 
 📷 _Original cover photo by [ubahnverleih](https://unsplash.com/photos/books-in-shelves-in-room-X_j3b4rqnlk) on [Unsplash](https://unsplash.com)._
 
-📄 _Original function by [sausageandeggs](https://bbs.archlinux.org/viewtopic.php?pid=692072#p692072) on the [Arch Linux Forums](https://bbs.archlinux.org)._
+📄 _Original code by [sausageandeggs](https://bbs.archlinux.org/viewtopic.php?pid=692072#p692072) on the [Arch Linux Forums](https://bbs.archlinux.org)._

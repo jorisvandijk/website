@@ -48,7 +48,9 @@ This time I didn't just go with what I knew, I did actual research into where to
 
 A custom domain can be added as well, and in a superior manner compared to GitHub or GitLab _Pages_, because Cloudflare also functions as a full DNS provider, allowing complete control over DNS records. This meant switching over the DNS for Jorisvandijk.com on my domain name host to the DNS from Cloudflare. Doing so comes with additional perks, like performance optimizations, security features and analytics. I can now also have bot protection that _I_ control. And I can see the visitor numbers, without having to host an external solution like _Umami_ or _Google Analytics_.
 
-**NOTE: This site does not track individual visitors, it just creates an overview of which country a visit came from and which pages got visited. No personal data is collected!**
+{{< info >}}
+This site does not track individual visitors, it just creates an overview of which country a visit came from and which pages got visited. No personal data is collected!
+{{< /info >}}
 
 One more thing to note is that websites hosted on Cloudflare are fast. Very fast. Load times blow both git providers out of the water. The build process is also really snappy.
 
