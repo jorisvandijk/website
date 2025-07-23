@@ -10,7 +10,7 @@ cover:
 ---
 
 # Hugo
-As I wrote in my [Hello World](/hello-world) post, I have switched to Hugo. And so far, I am loving it. It's fast, it works great and I have not had to hack together solutions for things I wanted the site to do, but that were not included in the platform _(looking at you, Eleventy!)_. I like how the backend of it works and I like the way you make new posts or run the site locally for testing. I like how you can use a pre-built theme, but then override it so you can make it your own, without having to touch the actual theme files - this also makes updating the theme later possible.
+As I wrote in my [Hello World](/posts/hello-world/) post, I have switched to Hugo. And so far, I am loving it. It's fast, it works great and I have not had to hack together solutions for things I wanted the site to do, but that were not included in the platform _(looking at you, Eleventy!)_. I like how the backend of it works and I like the way you make new posts or run the site locally for testing. I like how you can use a pre-built theme, but then override it so you can make it your own, without having to touch the actual theme files - this also makes updating the theme later possible.
 
 Hugo is awesome.
 
