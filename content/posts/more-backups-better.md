@@ -3,7 +3,7 @@ title: "More backups are always better"
 date: 2025-07-23T10:15:22+02:00
 author: "Joris"
 draft: false
-tags: []
+tags: ["git", "tutorial"]
 cover:
   image: "/img/mirrors.png"
   alt: "Mirrors"
