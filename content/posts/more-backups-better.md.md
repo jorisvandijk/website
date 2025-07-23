@@ -2,7 +2,7 @@
 title: "More backups are always better"
 date: 2025-07-23T10:15:22+02:00
 author: "Joris"
-draft: true
+draft: false
 tags: []
 cover:
   image: "/img/mirrors.png"
