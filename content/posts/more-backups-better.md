@@ -40,7 +40,9 @@ git init
 
 Next up is adding a remote. Now you'll have to pick which of the Git hosts you want to name as your primary one. I went with Bitbucket for mine as I really like the user interface they have. Bitbucket does not have a public facing overview like GitLab or any of the others do, but I don't think that matters all that much, as the content will be availible to the public on all other platforms anyway. 
 
-**NOTE: This process assumes you've set up SSH for all your Git repositories. If you have not, you'll need to substitute `git@bitbucket.org:` (note the colon there), for `https://bitbucket.org/` (note the forward slash here) in all the commands below. Obviously, change it to _your_ Git host's address. I would however suggest setting up SSH, as it's, in my opinion, far more pleasant to work with than HTTPS.**
+{{< info >}}
+This process assumes you've set up SSH for all your Git repositories. If you have not, you'll need to substitute `git@bitbucket.org:` (note the colon there), for `https://bitbucket.org/` (note the forward slash here) in all the commands below. Obviously, change it to _your_ Git host's address. I would however suggest setting up SSH, as it's, in my opinion, far more pleasant to work with than HTTPS.
+{{< /info >}}
 
 ```bash
 git remote add origin git@bitbucket.org:jorisvdijk/website.git
