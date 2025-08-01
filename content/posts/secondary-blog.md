@@ -2,8 +2,8 @@
 title: "Secondary Blog"
 date: 2025-08-01T19:57:45+02:00
 author: "Joris"
-draft: true
-tags: []
+draft: false
+tags: ["personal"]
 cover:
   image: ""
   alt: ""
