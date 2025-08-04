@@ -14,6 +14,7 @@ The following are blogs I like to read. Adding them here feels like having a _Li
 - [Mijndert Stuij](https://mijndertstuij.nl/) [[RSS](https://mijndertstuij.nl/feed.xml)]
 - [Open Source Musings](https://opensourcemusings.com/) [[RSS](https://opensourcemusings.com/feed.xml)]
 - [TechHut](https://techhut.tv/) [[RSS](https://techhut.tv/index.xml)]
+- [Rizz Forge](https://www.rizzforge.org/) [[RSS](https://rizzforge.org/index.xml)]
 - [The Linux Cast](https://thelinuxcast.org/) [[RSS](https://thelinuxcast.org/index.xml)]
 
 Do you have a great blog? Please [let me know](/joris/), I'll gladly add interesting blogs here (and to my RSS reader)!
