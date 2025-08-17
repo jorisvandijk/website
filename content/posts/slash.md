@@ -23,6 +23,6 @@ When I learned about the blogroll, I didn't yet know of the concept of slash pag
 
 So, I already have two of these slash pages for sure. I might as well change the menu item to something like _more_ or _slash_ or even _/_, and have a `/slash` (slash-slash page), where I list all the slash pages I have. I could add to these over time whenever I either find or invent new ones. I think I want to go this route, but I am unsure how to label it in a way that makes sense to both bloggers and non-bloggers, and which pages I should have. I mean, I am not going to make a death page, nor a hat one. I know that much. Fine. I have a single black baseball cap and when I die, I have a will. 
 
-At any rate, do you have thoughts on this? Please feel free to email me your thoughts. The address is on my [/joris](/joris) page. :)
+At any rate, do you have thoughts on this? Please feel free to email me your thoughts. The address is on my [/about](/about) page. :)
 
  
