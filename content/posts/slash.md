@@ -4,9 +4,6 @@ date: 2025-08-17T21:57:54+02:00
 author: "Joris"
 draft: false
 tags: ["blog", "slashpages"]
-cover:
-  image: "/img/"
-  alt: ""
 ---
 
 I am debating _slash pages_. This website is a blog, or at least it aims to be. This time around, I didn't just start blogging. No. I also got into reading other people's blogs. I have a [blogroll](/blogroll) page where I list some of the ones I enjoy reading. This particular page, the _blogroll_, is located under my domain, `Jorisvandijk.com`, then a forward slash `/` and then the name `blogroll`. So `https://jorisvandijk.com/blogroll`. Pages like this, pages under the main domain name right after the slash, these are called _slash pages_. At least they are in the [blogosphere](https://en.wikipedia.org/wiki/Blogosphere) (what a word). 
