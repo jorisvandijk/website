@@ -1,13 +1,20 @@
 ---
 title: "Now"
-date: 2025-07-18
+date: 2025-08-20
 draft: false
 type: "page"
 layout: "single"
 ShowReadingTime: false
 ---
 
-This is a `/now` page. This is supposed to list the things that I am working on right now. Eventually I'll get this set up in a decent way, for now, this is all I have:
+This is a `/now` page. It list the things that I am working on right now, or that are just going on in my life.
 
-- Working on my IT bachelor
-- Deciding on buying a Mac
+- IT bachelor;
+- Still moving boxes around since moving;
+- Considering a Macbook;
+- 3D printing more;
+- 3D designing;
+- "Decluttering" - I have too much stuff;
+- Getting into the Indieweb and following more interesting blogs.
+
+[More slash pages](/slash)

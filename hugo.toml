@@ -70,9 +70,9 @@ paginatePath = "page"
     url = "/search/"
     weight = 30
   [[menu.main]]
-    identifier = "blogroll"
-    name = "Blogroll"
-    url = "/blogroll/"
+    identifier = "slash"
+    name = "Slash"
+    url = "/slash/"
     weight = 40
 
 [taxonomies]
