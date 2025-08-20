@@ -11,7 +11,7 @@ This is a `/been` page. It lists all the countries I have visited.
 
 - Austria
 - Belgium
-- Czech
+- Czech Republic
 - England
 - France
 - Germany
@@ -22,11 +22,11 @@ This is a `/been` page. It lists all the countries I have visited.
 - Netherlands
 - Poland
 - Portugal
-- Schotland
+- Scotland
 - Slovenia
 - Spain
 - Sweden
-- Switserland
-- United States
+- Switzerland
+- United States of America
   
 [More slash pages](/slash)
