@@ -1,5 +1,8 @@
 ---
 title: "Joris"
+aliases:
+  - /about/
+  - /contact/
 date: 2025-07-18
 draft: false
 type: "page"
@@ -20,3 +23,4 @@ You can find my personal stuff stored on git here:
 - GitLab: https://gitlab.com/jorisvandijk/
 - Codeberg: https://codeberg.org/jorisvandijk/
 
+[More slash pages](/slash)
