@@ -100,3 +100,24 @@ article p {
     text-align: justify;
 }
 
+.pagination {
+    display: flex;
+}
+
+.pagination a {
+    color: #d699b6;
+    font-size: 13px;
+    line-height: 36px;
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: calc(36px / 2);
+    padding: 0 16px;
+}
+
+.pagination a:hover {
+    background: var(--border);
+}
+
+.pagination .next {
+    margin-inline-start: auto;
+}
