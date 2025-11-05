@@ -22,11 +22,13 @@ This is a `/been` page. It lists all the countries I have visited.
 - Netherlands
 - Poland
 - Portugal
+- San Marino
 - Scotland
 - Slovenia
 - Spain
 - Sweden
 - Switzerland
 - United States of America
+- Vatican City
   
 [More slash pages](/slash)
