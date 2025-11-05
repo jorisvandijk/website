@@ -6,7 +6,7 @@ draft: false
 tags: ["blog", "piracy"]
 cover:
   image: "/img/pirate.png"
-  alt: ""
+  alt: "Pirate flag"
 ---
 
 Now, this kinda sorta makes sense, but also it doesn’t. I’ve been seeing this quote more and more online and it irks me a little. It’s just, well, wrong.
