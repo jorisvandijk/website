@@ -4,9 +4,6 @@ date: 2025-07-20T14:10:38+02:00
 author: "Joris"
 draft: false
 tags: ["linux", "tutorial"]
-cover:
-  image: "/img/compose-key.png"
-  alt: "Compose key"
 ---
 
 In many languages there's a need to add decorations, or glyphs to characters, like for example `é` or `č`. These are called [diacritics](https://en.wikipedia.org/wiki/Diacritic). These characters don't exist on a US Standard _qwerty_ keyboard. There is the US International version with _dead keys_, which allow for crafting these special characters by pressing the desired diacritic key followed by the character to apply it to. So for example pressing `~` followed by `n` results in an `ñ`. 
@@ -57,5 +54,3 @@ Now I am able to add special characters without any fuss and there are loads of 
 | ≠ | =/ |
 
 And more can be found [here](https://math.dartmouth.edu/~sarunas/Linux_Compose_Key_Sequences.html).
-
-📷 _Original cover photo by [Felix the Cassowary](https://en.wikipedia.org/wiki/Compose_key#/media/File:Compose_key_on_Sun_Type_5c_keyboard.jpg) on [Wikipedia](https://en.wikipedia.org)._

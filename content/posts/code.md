@@ -4,9 +4,6 @@ date: 2025-08-13T18:43:50+02:00
 author: "Joris"
 draft: false
 tags: ["AI", "coding"]
-cover:
-  image: "/img/code.png"
-  alt: "Code"
 ---
 
 I see it everywhere now. AI code. Code that pretends to be written by a person, but isn’t. You can smell it if you’ve been around code long enough.
@@ -20,5 +17,3 @@ AI code doesn’t have any of that. It’s sterile. Polished. It’s code writte
 Want to spot it fast? Read the comments. If they sound like a grinning intern who just discovered Stack Overflow and thinks you need your hand held every step of the way, it’s probably machine-made. It's the kind of ‘helpful’ that makes you yell, "I can read the damned code!"
 
 Once you notice it, you’ll see it everywhere. And then you’ll realise something worse: one day, it might be all you see. Code with no scars. No fingerprints. Inhuman. Code written in human-readable syntax by a machine, for a machine.
-
-📷 _Original cover photo by [Chris Ried](https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-code-on-it-ieic5Tq8YMk) on [Unsplash](https://unsplash.com)._
