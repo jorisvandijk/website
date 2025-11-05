@@ -4,9 +4,6 @@ date: 2025-08-22
 author: "Joris"
 draft: false
 tags: ["blog", "piracy"]
-cover:
-  image: "/img/pirate.png"
-  alt: "Pirate flag"
 ---
 
 Now, this kinda sorta makes sense, but also it doesn’t. I’ve been seeing this quote more and more online and it irks me a little. It’s just, well, wrong.
@@ -28,6 +25,3 @@ No wonder people are once again considering the high seas.
 So, to get back to my point. You’re paying to use, not to own. If you don’t want to anymore, you’re doing legally questionable things regarding intellectual property. 
 
 “Leasing isn’t owning, and intellectual property infringement is still a debatable gray area.” Not as sexy, more true.
-
-📷 _Original cover photo by [chris robert](https://unsplash.com/photos/a-pirate-flag-with-a-skull-and-crossbones-on-it-bLwMc_S4uE8) on [Unsplash](https://unsplash.com)._
-

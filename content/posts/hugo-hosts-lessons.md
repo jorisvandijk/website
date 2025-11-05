@@ -4,9 +4,6 @@ date: 2025-07-22T16:13:47+02:00
 author: "Joris"
 draft: false
 tags: ["hugo", "git", "personal"]
-cover:
-  image: "/img/datacenter.png"
-  alt: "A datacenter"
 ---
 
 # Hugo
@@ -58,5 +55,3 @@ So, although time will tell, and I hesitate to say this given past experience, p
 
 # Conclusion
 Hugo - great. Pages - bad. Let's all hope Cloudflare will stick, as I really don't want to spend more time on hosting. I just want to play with my site and blog away. I look forward to many happy posts using Hugo.
-
-📷 _Original cover photo by [Taylor Vick](https://unsplash.com/photos/cable-network-M5tzZtFCOfs) on [Unsplash](https://unsplash.com)._

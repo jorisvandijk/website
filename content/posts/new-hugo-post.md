@@ -4,9 +4,6 @@ date: 2025-07-18T15:41:03+02:00
 author: "Joris"
 draft: false
 tags: ["hugo", "tutorial"]
-cover:
-  image: "/img/new-post.png"
-  alt: "New post"
 ---
 
 According to the [Hugo Quick Start](https://gohugo.io/getting-started/quick-start/) documentation, the right way to start a new post is by issuing the following command in a terminal: `hugo new content content/posts/my-post-name.md`. This works fine and yields a new Hugo post with basic _frontmatter_. I've found issuing `hugo new posts/my-new-post.md` works fine as well. It's shorter, so I prefer it. This is not the point however. The point is the _frontmatter_. This is a few lines of text above the content of the Markdown file you've created by a `hugo new` command. The Quick Start shows the following as an example of front matter that it generates:
@@ -52,4 +49,3 @@ cover:
 
 The `title` and `date` will be autofilled if left like this, that is probably what you'd want. Added are the `tags` and `cover` options. Many more options are available to you as can be found in the Hugo Quick Start, under [Frontmatter](https://gohugo.io/content-management/front-matter/). After the `default.md` file is saved, starting a new post with `hugo new posts/my-new-post.md` will give you a brand new post, which includes all the frontmatter you added.
 
-📷 _Original cover photo by [Kelly Sikkema](https://unsplash.com/photos/a-woman-holding-a-cup-of-coffee-next-to-a-notepad--YP-I0r2mk0) on [Unsplash](https://unsplash.com)._

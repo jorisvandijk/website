@@ -4,9 +4,6 @@ date: 2025-07-21T10:04:57+02:00
 author: "Joris"
 draft: false
 tags: ["linux", "bash"]
-cover:
-  image: "/img/archive.png"
-  alt: "An actual archive"
 ---
 
 Extracting archives is a pain on Linux. There are just so many types and so many programs to extract each type. A `.tar.gz` file is extracted using the program [GNU tar](https://www.gnu.org/software/tar/), but for a `.zip` file, you'd need [unzip](https://infozip.sourceforge.net/UnZip.html). What's that? You've got a `.7z` file? Yeah-no, can't use either of the before mentioned extractors, you need [7-zip](https://www.7-zip.org/). Got a `.rar`, you'd need... well, you get the point.
@@ -69,7 +66,5 @@ function ex () {
 ```
 
 So - no more remembering which program name goes with which archive, or which flags are needed to extract a specific type of archive. Just `ex <filename>` and you're done.
-
-📷 _Original cover photo by [ubahnverleih](https://unsplash.com/photos/books-in-shelves-in-room-X_j3b4rqnlk) on [Unsplash](https://unsplash.com)._
 
 📄 _Original code by [sausageandeggs](https://bbs.archlinux.org/viewtopic.php?pid=692072#p692072) on the [Arch Linux Forums](https://bbs.archlinux.org)._
