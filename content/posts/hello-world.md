@@ -3,7 +3,7 @@ title: "Hello World"
 date: 2025-07-17T20:59:15+02:00
 author: "Joris"
 draft: false
-tags: ["blog", "hugo", "personal"]
+tags: ["blog", "hugo"]
 cover:
   image: "/img/ohno.gif"
   alt: "Oh no!"

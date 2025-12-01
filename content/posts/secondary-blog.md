@@ -3,7 +3,7 @@ title: "Secondary blog"
 date: 2025-08-01T19:57:45+02:00
 author: "Joris"
 draft: false
-tags: ["personal"]
+tags: ["blog"]
 ---
 
 I love my new blog website. I like to share useful things I found or did. I prefer to post content that's educational, but not dry. A more personal take-you-by-the-hand-and-pull-you-along kind of educational. I like to think that's pretty much the style I have. There's an issue, though, I also want to yap about other things that may not have any educational value. Just thoughts or experiences or ideas. Straight from my head to this website. 

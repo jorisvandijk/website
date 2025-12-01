@@ -3,7 +3,7 @@ title: "Code"
 date: 2025-08-13T18:43:50+02:00
 author: "Joris"
 draft: false
-tags: ["AI", "coding"]
+tags: ["ai", "coding"]
 ---
 
 I see it everywhere now. AI code. Code that pretends to be written by a person, but isn’t. You can smell it if you’ve been around code long enough.

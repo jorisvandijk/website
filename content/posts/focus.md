@@ -3,7 +3,7 @@ title: "Focus"
 date: 2025-09-25T21:43:50+02:00
 author: "Joris"
 draft: false
-tags: ["Personal"]
+tags: ["blog"]
 ---
 
 I hate the fact that I cannot enjoy the moment anymore. I used to be able to sit down and watch a movie. A whole movie. Start to finish; watch it. No breaks. No peaking at my phone. No little distractions. I’d get up to take a piss, or grab a drink, sure, but I was into the movie. Not just movies though. Music! I used to be able to enjoy music on its own. Just having an album on I took the time to go out and buy and just enjoy it playing. Nothing else, just the music.
