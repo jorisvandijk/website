@@ -3,7 +3,7 @@ title: "Unable to Connect to Indexer"
 date: 2025-12-01T12:15:55+01:00
 author: "Joris"
 draft: false
-tags: []
+tags: ["fix", "arr", "nzb"]
 cover:
   image: "/img/"
   alt: ""
