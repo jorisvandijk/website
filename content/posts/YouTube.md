@@ -4,11 +4,7 @@ date: 2025-11-28T02:31:05+01:00
 author: "Joris"
 draft: false
 tags: ["YouTube"]
-cover:
-  image: "/img/"
-  alt: ""
 ---
-
 It sucks. No really, it does. It's a shame, but there's nearly nothing of value left. Nuke all your cookies and the likes and start in a fresh new browser. Wadda ya see? AI slop. Bullshit videos and nearly all thumbs seem AI generated. Lose your soul and drop into shorts... This place is even worse. 
 
 YouTube is doing full minute ads now too, I hear. I don't suffer from that shit as I have decent adblock. Still though, one minute of a single ad between "free" content? That's bonkers.
