@@ -3,7 +3,7 @@ title: "Proxmox Backup Server"
 date: 2025-12-03T19:48:47+01:00
 author: "Joris"
 draft: false
-tags: ["proxmox", "tutorial"] 
+tags: ["proxmox", "tutorial", "server"] 
 ---
 
 This is going to be a long one. I have spent countless hours setting up my Proxmox VE and the VM's and LXC containers on it. It occurred to me that it might be wise to have a decent backup solution for this, in case something goes catastrophically wrong. Luckily Proxmox provides a ready-made solution for this and it is called *Proxmox Backup Server* or PBS for short. This post will go through how I set this up on _my_ system.
