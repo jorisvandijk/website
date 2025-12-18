@@ -3,7 +3,7 @@ title: "Using external drive as data directory in a Proxmox LXC"
 date: 2025-07-19T10:55:57+02:00
 author: "Joris"
 draft: false
-tags: ["proxmox", "tutorial"]
+tags: ["proxmox", "tutorial", "server"]
 ---
 
 I have a _homelab_, or more simply a personal server I run at home. It's a small square black box that sits in my office, humming away. This server runs [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview), a _hypervisor_. This controls pretty much everything that goes on, on this server. It has the ability to spin up containers, which it calls _LXC_'s. These are somewhat akin to _Docker containers_. Anyway, the process of spinning one of these up is super simple. Click a few buttons, allocate some space and there's your 'container'.
