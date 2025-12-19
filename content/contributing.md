@@ -23,8 +23,3 @@ Don't worry about being too formal when reporting something - just tell me what 
 # Questions?
 If you have questions about any of the content on the site, want clarification on something I've written, or are curious about my thoughts on a particular topic, feel free to reach out via email or on Discord. Contact information can be found on the [here](/joris/).
 
-# Guest posts
-I'm always interested in guest posts from people who have something interesting to share. If you've got expertise in a topic that would fit well on the site, or if you've got a unique perspective on something I've written about, I'd love to hear from you.
-
-The topics should generally align with what I usually write about here, but I'm pretty open to related areas. To pitch a guest post or submit something you've already written, just email me or reach out on Discord. Contact information can be found [here](/joris/). I'd prefer to see at least a brief outline or summary of what you're thinking before you spend time writing a full piece, just so we can make sure it's a good fit.
-
