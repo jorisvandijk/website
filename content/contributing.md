@@ -5,6 +5,7 @@ draft: false
 type: "page"
 layout: "single"
 ShowReadingTime: false
+showtoc: false
 ---
 
 Thank you for taking an interest in helping make this site better, I really appreciate any feedback or contributions you might have.
