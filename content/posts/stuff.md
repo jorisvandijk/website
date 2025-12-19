@@ -12,7 +12,7 @@ To me this seems sparse and clean and I wish this was all I kept. Now let us mov
 
 I can’t. 
 
-This unknown junk may contain some unknown artifact, wondrous trinket or amazing tome too valuable, rare or important to discard. It may hold great monetary or emotional value. These white-yellow moving boxes simply cannot be tossed aside willy-nilly. One would have to open each and every one to discover the treasure within! They would have to pick through all the worthless gunk in order to unearth the gems underneath. One by one. Box by box. 
+This collection may contain some unknown artifact, wondrous trinket or amazing tome too valuable, rare or important to discard. It may hold great monetary or emotional value. These white-yellow moving boxes simply cannot be tossed aside willy-nilly. One would have to open each and every one to discover the treasure within! They would have to pick through all the worthless gunk in order to unearth the gems underneath. One by one. Box by box. 
 
 I do not have the willpower to actually tackle this task. I don’t want to dig through all this shit and discard everything piece by piece. I don’t want to discover it’s pretty much all junk to be tossed. I especially don’t want to go through all the boxes I know have books in them. How does one throw away a book? How does one store all of them? Which book is worth saving, which is ripe for burning? About half of these boxes contain books as my dad had many. I cannot bin a book. Books are, well books. I should donate them instead. Then again, which ones? If I donate all of them, will I grow to regret it? Should I read them all first? Can I? I grow tired just thinking about this.
 
