@@ -62,7 +62,7 @@ Then I opened `/etc/hosts` directly in a text editor:
 nano /etc/hosts
 ```
 
-I found the line with my node's hostname and updated the IP to match what `ip addr show` had reported. I saved with `Ctrl+O` and exited with `Ctrl+X`. 
+I found the line with my node's hostname and updated the IP to match what `ip addr show` had reported. Save and quit. 
 
 ### WARN: Less than 5 GB free on root
 
