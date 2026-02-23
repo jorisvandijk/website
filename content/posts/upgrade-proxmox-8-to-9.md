@@ -6,7 +6,7 @@ draft: false
 tags: ["proxmox","server"] 
 ---
 
-It's about that time. There's a [new]([Proxmox Virtual Environment 9.0 with Debian 13 released](https://www.proxmox.com/en/about/company-details/press-releases/proxmox-virtual-environment-9-0) version of Proxmox VE in town and it has had a couple of months to "stabilize". Now is the time to bump up the version of that homelab. 
+It's about that time. There's a [new](https://www.proxmox.com/en/about/company-details/press-releases/proxmox-virtual-environment-9-0) version of Proxmox VE in town and it has had a couple of months to "stabilize". Now is the time to bump up the version of that homelab. 
 
 I've pulled the trigger and did the upgrade. The following is _my_ experience with doing this update. I've run into some issues, which all got solved and I didn't break my server.
 
