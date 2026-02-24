@@ -3,7 +3,7 @@ title: "Permissions on shared ZFS dataset"
 date: 2026-02-24T17:30:41+01:00
 author: "Joris"
 draft: false
-tags: ["proxmox"] 
+tags: ["proxmox", "server"] 
 ---
 
 I have a ZFS dataset named _data_, mounted at _/data_, which I bind-mount into my LXC containers. The dataset is a three drive set with a lot of storage space. Basically, this huge pool of gigabytes is shared by all LXC containers that need to store serious amounts of data. Think _Immich_, for photo storage, or _Jellyfin_ and all the movies, series and music it has to be able to play. As you may imagine, having several different LXCs write to the same "drive" may cause permission issues. 
