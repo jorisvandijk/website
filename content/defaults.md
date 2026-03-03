@@ -9,17 +9,17 @@ ShowReadingTime: false
 
 This is a `/defaults` page. It lists my default software.
 
-- 📨 Mail Client: Geary
-- 📮 Mail Server: Vimexx
-- 📝 Notes: Markdown files
+- 📨 Mail Client: Apple Mail
+- 📮 Mail Server: Migadu
+- 📝 Notes: Apple Notes
 - ✅ To-Do: I-don't
 - 📷 Photo Shooting: Mobile phone camera
-- 🟦 Photo Management: Memories
-- 📆 Calendar: Baïkal
+- 🟦 Photo Management: Immich
+- 📆 Calendar: Apple Calendar
 - 📁 Cloud File Storage: Personal server
 - 📖 RSS: Newsboat, NetNewsWire
-- 🙍🏻‍♂️ Contacts: Contacts
-- 🌐 Browser: Firefox
+- 🙍 Contacts: Contacts
+- 🌐 Browser: Orion
 - 💬 Chat: Discord
 - 🔖 Bookmarks: Markdown file
 - 📑 Read It Later: Markdown file
@@ -33,5 +33,7 @@ This is a `/defaults` page. It lists my default software.
 - 🎵 Music: Huge directory on my server
 - 🎤 Podcasts: None
 - 🔐 Password Management: Bitwarden
+
+The content of this list changes from time to time. To see historic data, have a look at the [changes](https://github.com/jorisvandijk/website/commits/main/content/defaults.md) made to this page.
 
 [More slash pages](/slash)
