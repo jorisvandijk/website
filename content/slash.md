@@ -13,7 +13,7 @@ showtoc: false
 -- [SlashPages.net](https://slashpages.net/)
 
 ## My slashpages
-- [About](/about)
+- [About](/joris)
 - [Been](/been/)
 - [Blogroll](/blogroll)
 - [Contact](/contact/)
