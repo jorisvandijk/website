@@ -22,7 +22,7 @@ Instead of:
 rsync -a --no-owner --partial --info=progress2 -e ssh . username@192.168.1.5:/
 ```
 
-And remember, it's interactive, meaning that after you typed `copy` and pressed space, it visibly changes to the _rsync_ command. Same for the _srv_ abbreviation, meaning you see the entire command before you press enter!
+And remember, it's interactive, meaning that after you typed `copy` and pressed space, it visibly changes to the _rsync_ command. Same for the `srv` abbreviation, meaning you see the entire command before you press enter!
 
 ## Adding Abbreviations
 First [install the program](https://zsh-abbr.olets.dev/installation.html). Then add an abbreviation in terminal:
