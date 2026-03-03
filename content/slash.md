@@ -13,10 +13,9 @@ showtoc: false
 -- [SlashPages.net](https://slashpages.net/)
 
 ## My slashpages
-- [About](/joris)
 - [Been](/been/)
 - [Blogroll](/blogroll)
-- [Contact](/contact/)
 - [Defaults](/defaults/)
+- [Joris](/joris/) 
 - [Now](/now/)
 
