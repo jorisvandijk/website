@@ -45,7 +45,7 @@ theme = 'PaperMod'
   url = "https://codeberg.org/jorisvandijk"
 
   [[params.socialIcons]]
-  name = "email"
+  name = "contact"
   url = "/joris/"
 
   [[params.socialIcons]]
@@ -73,11 +73,6 @@ paginatePath = "page"
     name = "Search"
     url = "/search/"
     weight = 30
-  [[menu.main]]
-    identifier = "slash"
-    name = "Slash"
-    url = "/slash/"
-    weight = 40
 
 [taxonomies]
   tag = "tags"

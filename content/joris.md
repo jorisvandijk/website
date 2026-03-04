@@ -22,5 +22,3 @@ You can find my personal stuff stored on git here:
 - GitHub: https://github.com/jorisvandijk/
 - GitLab: https://gitlab.com/jorisvandijk/
 - Codeberg: https://codeberg.org/jorisvandijk/
-
-[More slash pages](/slash)
