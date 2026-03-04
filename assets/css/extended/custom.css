@@ -30,6 +30,9 @@
     --code-bg: rgb(61, 72, 77);         /* #3d484d - bg2 medium */
     --border: rgb(71, 82, 88);          /* #475258 - bg3 medium */
 }
+body {
+	font-size: 16px;
+}
 .list {
     background: var(--code-bg);
 }
@@ -121,3 +124,4 @@ article p {
 .pagination .next {
     margin-inline-start: auto;
 }
+
