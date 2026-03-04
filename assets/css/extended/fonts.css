@@ -1,4 +1,4 @@
-@font-face {
+99;9u@font-face {
   font-family: "Caskaydia";
   src: url("/fonts/Caskaydia.ttf") format("truetype");
   font-weight: normal;
@@ -26,7 +26,20 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "FiraCode";
+  src: url("/fonts/FiraCode-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FiraCode";
+  src: url("/fonts/FiraCode-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 /* Apply font globally */
 html, body {
-  font-family: "Caskaydia", sans-serif !important;
+  font-family: "FiraCode", sans-serif !important;
 }

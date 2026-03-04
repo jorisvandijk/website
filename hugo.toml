@@ -7,6 +7,10 @@ theme = 'PaperMod'
 # PaperMod configuration
 [params]
   ShowSearchPage = true
+
+  [params.author]
+  name = "Joris"
+  email = "contact@jorisvandijk.com"
   ShowCodeCopyButtons = true
   ShowReadingTime = true
   ShowShareButtons = false
