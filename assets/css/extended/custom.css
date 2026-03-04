@@ -100,7 +100,7 @@ body {
 .post-content p,
 .content p,
 article p {
-    text-align: justify;
+    text-align: left;
 }
 
 .pagination {
