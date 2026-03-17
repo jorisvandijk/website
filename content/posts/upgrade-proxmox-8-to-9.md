@@ -1,5 +1,5 @@
 ---
-title: "Upgrading Proxmox VE from 8 to 9"
+title: "Upgrading Proxmox VE From 8 to 9"
 date: 2026-02-23T12:04:12+01:00
 author: "Joris"
 draft: false
