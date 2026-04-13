@@ -7,16 +7,16 @@ theme = 'PaperMod'
 # PaperMod configuration
 [params]
   ShowSearchPage = true
-
-  [params.author]
-  name = "Joris"
-  email = "contact@jorisvandijk.com"
   ShowCodeCopyButtons = true
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = false
   ShowToc = true
+
+  [params.author]
+  name = "Joris"
+  email = "contact@jorisvandijk.com"
 
   # Favicon configuration
   [params.assets]
