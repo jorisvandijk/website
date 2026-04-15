@@ -1,5 +1,5 @@
 ---
-title: "Luks"
+title: "LUKS"
 date: 2026-04-15T14:28:45+02:00
 author: "Joris"
 draft: false
