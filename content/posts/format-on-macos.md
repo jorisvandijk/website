@@ -18,7 +18,7 @@ To list the drives on your system and find the name of the one you want to forma
 diskutil eraseDisk ExFAT DRIVENAME diskX
 ```
 
-Where `DRIVENAME` is the name you want to give to the drive, say "MyThumbDrive". The X in `diskX` needs to be the number of the drive to be formatted. That's it.
+Where `ExFAT` is one of the possible formats, `DRIVENAME` is the name you want to give to the drive, say "MyThumbDrive". The X in `diskX` needs to be the number of the drive to be formatted. That's it.
 
  *Be aware this will nuke your entire drive! All data on it will be lost.*
 
