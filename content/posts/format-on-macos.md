@@ -20,5 +20,6 @@ diskutil eraseDisk ExFAT DRIVENAME diskX
 
 Where `ExFAT` is one of the possible formats, `DRIVENAME` is the name you want to give to the drive, say "MyThumbDrive". The X in `diskX` needs to be the number of the drive to be formatted. That's it.
 
- *Be aware this will nuke your entire drive! All data on it will be lost.*
-
+{{< warning >}}
+Be aware this will nuke your entire drive! All data on it will be lost.
+{{< /warning >}}
