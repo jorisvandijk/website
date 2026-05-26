@@ -1,17 +1,30 @@
 ---
 title: "Firefox"
-date: 2026-03-03T18:50:25+01:00
+date: 2026-05-26T23:13:21+02:00
 author: "Joris"
-draft: true
-tags: [] 
+draft: false
+tags: ["macOS", "firefox"] 
 ---
 
-Firefox has been my browser of choice for nearly 20 years. I've used it on Windows, Linux, MacOS, Android and iOS. It's been my go to and I've never used anything else as my main browser. It's been there for me and I've loved it all this time. I don't mind that it's slow. I don't mind it hogging memory. I don't mind having to find workarounds for when features get removed or added. I don't even mind the stupid things Mozilla, the parent company, does.
+I have been switching browsers a lot these last few months. The new CEO of Mozilla, Anthony Enzor-DeMeo, stated in [his post](https://blog.mozilla.org/en/mozilla/leadership/mozillas-next-chapter-anthony-enzor-demeo-new-ceo/) that _"It [Firefox] will evolve into a modern AI browser"_. This rubbed me the wrong way. Granted, Mozilla has been adding junk to their browser for a while now and none of it is good. He floated the idea of blocking ad-blockers in an interview. [The Verge](https://archive.is/75FjT) wrote: _"He says he could begin to block ad blockers in Firefox and estimates that’d bring in another $150 million, but he doesn’t want to do that. It feels off-mission"_.
 
-That is, until Anthony Enzor-DeMeo, their new CEO stated _"It will evolve into a modern AI browser"_, in this [post](https://blog.mozilla.org/en/mozilla/leadership/mozillas-next-chapter-anthony-enzor-demeo-new-ceo/). This is a hard pass for me. Yes, I noticed they started adding AI features into the browser some time ago. I saw. I ignored it. This though, this feels different. This feels like a new direction. Mozilla has gotten a lot of backlash on this post by their new head honcho. They've also tried to put out the fires by [stating](https://archive.is/75FjT) it's totally optional by offering an opt-out. This is backwards. Stupid shit should be opt-in. Now I have nothing against AI, I just do not need it _in_ my browser or _be_ my browser.
+This prompted me to find a new browser after more than 20 years of using Firefox. I tried many different ones, all with the same end result. I hate them all. 
 
-There's also been an interview The Verge had with Enzor-DeMeo, where he's floated the idea of blocking ad-blockers. _"He says he could begin to block ad blockers in Firefox and estimates that’d bring in another $150 million, but he doesn’t want to do that. It feels off-mission"_, according to the [article](https://archive.is/75FjT). Blocking ads is a hard requirement to use the internet. I've seen others use it bareback. I can't. And I know he's stated he does not want to do that, but he's considered it. Hell. he's put a number on it even.
+I was going to do a full writeup of all of the ones I tried and exactly what it was that rubbed me the wrong way, but really- who cares? They're just worse than Firefox in some way or another **to me**. So where does that leave me? Back on Firefox... well, a port of it. I've landed on [LibreWolf](https://librewolf.net/), _"A custom version of Firefox, focused on privacy, security and freedom"_. It's basically Firefox with the shit ripped out. So far I'm really enjoying it. It's Firefox from before Pocket and the deluge of crap that followed. 
 
-Then there's the _Never have, never will_ debacle from februari, where Mozilla pulled the question if they sold user data from their FAQ, in [this](https://github.com/mozilla/bedrock/commit/d459addab846d8144b61939b7f4310eb80c5470e) git commit. They tried to [explain](https://blog.mozilla.org/en/firefox/update-on-terms-of-use/) this away, stating: _"The reason we’ve stepped away from making blanket claims that “We never sell your data” is because, in some places, the LEGAL definition of “sale of data” is broad and evolving."_ So what do they mean? Are they not going to sell my data? Well, they continue: _"As an example, the California Consumer Privacy Act (CCPA) defines “sale” as the “selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a consumer’s personal information by [a] business to another business or a third party” in exchange for “monetary” or “other valuable consideration.”_. That sure as shit is my definition of selling my data.
+There are a few things I did want to write down though, in case I have to reinstall.
 
-Like I said, in the past I dealt with stuff I didn't agree with. This time though, I won't. 
+## Dark mode
+By default "Enable ResistFingerprinting" is on (in **Settings** > **LibreWolf** > _Fingerprinting_). This breaks websites' ability to detect that I like dark mode by default. Most users use the DarkReader extension to fix this. I hate the way that extension colors things, so I disable this option. And I know, I know, this is not a good idea and against the idea behind this browser, but their core values are not the reason I use their browser. 
+
+## Backspace
+I like to be able to press backspace to go back a page. Firefox disabled this behavior years ago, so users didn't lose their filled in forms by accident. I like to live dangerously, so I reenable it. In `about:config` search for `browser.backspace_action` and set that to `0`.
+
+## Extensions
+I have a small list of must have extensions I use:
+1. [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/). This is the non-negotiable one. It's the best ad blocker out there. Period.
+2. [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/). I am trying to curb my YouTube addiction. Meanwhile though, blocking in-video sponsor segments is a huge quality of life improvement. If you get this one, make sure you go into the settings and also check skipping of intros, outros and self-promotion segments.
+3. [I Still Don't Care About Cookies](https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/). Clicking agree on all those GDPR consent things is a pain in the rear, especially as on browser close those cookies get nuked anyway. This extension auto accepts all of them. 
+
+## Install
+As I am on a Mac now, I needed to pick how to install this. Homebrew has an annoying issue with LibreWolf: _"Warning: librewolf has been deprecated because it does not pass the macOS Gatekeeper check! It will be disabled on 2026-09-01."_. Apparently this is due to the developers not wanting to shell out 99 bucks a year for an Apple Developer certificate, which I agree- they shouldn't. So best bet is installing straight from their website. Do note that this means you'll have to manually update the browser. 
