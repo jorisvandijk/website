@@ -1,0 +1,72 @@
+<!-- {{- $statuses := where site.RegularPages "Section" "status" -}} -->
+<!-- {{- $latest := $statuses.ByDate.Reverse | first 1 -}} -->
+<!-- {{- if $latest -}} -->
+<!--     {{- range $latest -}} -->
+<!--         <div class="pinned-status"> -->
+<!--             <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"> -->
+<!--                 {{ .Date.Format "January 2, 2006 at 15:04" }} -->
+<!--             </time> -->
+<!--             {{ .Content }} -->
+<!--         </div> -->
+<!--     {{- end -}} -->
+<!-- {{- else -}} -->
+<!--     <div class="pinned-status pinned-status--empty"> -->
+<!--         <p>No status yet.</p> -->
+<!--     </div> -->
+<!-- {{- end -}} -->
+
+
+{{- $statuses := where site.RegularPages "Section" "status" -}}
+{{- $latest := $statuses.ByDate.Reverse | first 1 -}}
+
+{{- if $latest -}}
+    {{- range $latest -}}
+
+<article class="post-entry status-entry">
+
+    <!-- <header class="entry-header"> -->
+    <!--     <h2>Status</h2> -->
+    <!-- </header> -->
+
+    <div class="entry-content">
+        <p>{{ .Content | plainify }}</p>
+    </div>
+
+    <!-- <footer class="entry-footer"> -->
+    <!--     <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"> -->
+    <!--         {{ .Date.Format "January 2, 2006 at 15:04" }} -->
+    <!--     </time> -->
+    <!-- </footer> -->
+
+    <footer class="entry-footer status-footer">
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+            Microblogged on {{ .Date.Format "January 2, 2006 at 15:04" }}
+        </time>
+    
+        <a href="/status/" class="status-archive-link">
+            Microblog archive
+        </a>
+    </footer>
+
+    <!-- <a class="entry-link" -->
+    <!--    aria-label="status link" -->
+    <!--    href="{{ .RelPermalink }}"> -->
+    <!-- </a> -->
+
+</article>
+
+    {{- end -}}
+
+{{- else -}}
+
+<article class="post-entry">
+    <header class="entry-header">
+        <h2>Status</h2>
+    </header>
+
+    <div class="entry-content">
+        <p>No status yet.</p>
+    </div>
+</article>
+
+{{- end -}}

@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+
+    <h1 class="post-title entry-hint-parent">
+      Microblog
+    </h1>
+
+  </header>
+
+  <div class="post-content">
+
+    <ul class="status-list">
+      {{ range .Pages.ByDate.Reverse }}
+        <li class="status-item">
+          <div class="status-content">
+            {{ .Content }}
+          </div>
+          <div class="post-meta">
+          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+            {{ .Date.Format "January 2, 2006 at 15:04" }}
+          </time>
+          </div>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</article>
+
+{{ end }}

@@ -1,6 +1,6 @@
 baseURL = 'https://jorisvandijk.com/'
 
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Jorisvandijk.com'
 theme = 'PaperMod'
 
@@ -13,6 +13,7 @@ theme = 'PaperMod'
   ShowPostNavLinks = true
   ShowBreadCrumbs = false
   ShowToc = true
+  mainSections = ['posts']
 
   [params.author]
   name = "Joris"

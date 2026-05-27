@@ -134,3 +134,62 @@ article p {
   border-bottom: none !important;
   box-shadow: none !important;
 }
+
+/* Status */
+.status-entry {
+    background: var(--theme);
+    border-left: 4px solid var(--border);
+    border-right: 4px solid var(--border);
+}
+
+.status-entry .entry-content {
+    color: var(--primary);
+}
+
+/* remove PaperMod hover animation */
+.status-entry:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+/* disable click animation */
+.status-entry:active {
+    transform: none;
+}
+
+/* custom title color */
+/* .status-entry .entry-header h2 { */
+/*     color: #4ade80; */
+/* } */
+
+/* dim footer/meta */
+.status-entry .entry-footer {
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+.status-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-archive-link {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.status-archive-link:hover {
+    color: var(--primary);
+}
+
+/* Status list */
+.status-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.status-item {
+  margin-bottom: 1.25rem;
+}
