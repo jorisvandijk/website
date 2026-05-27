@@ -19,7 +19,9 @@ You can report issues through whichever Git platform you prefer:
 - GitLab: https://gitlab.com/jorisvandijk/website/-/issues/new
 - Codeberg: https://codeberg.org/jorisvandijk/website/issues/new
 
-Don't worry about being too formal when reporting something - just tell me what you found and where you found it. Even a quick "hey, there's a typo in paragraph 3 of your post about X" is incredibly helpful.
+If you prefer, you can also shoot me an email instead at `joris` at this domain.
+
+Don't worry about being too formal when reporting something, just tell me what you found and where you found it. Even a quick "hey, there's a typo in paragraph 3 of your post about X" is incredibly helpful. 
 
 # Questions?
 If you have questions about any of the content on the site, want clarification on something I've written, or are curious about my thoughts on a particular topic, feel free to reach out via email or on Discord. Contact information can be found on the [here](/joris/).
