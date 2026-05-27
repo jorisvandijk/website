@@ -1,5 +1,5 @@
 ---
-title: "Permissions on Shared ZFS Dataset"
+title: "Permissions On Shared ZFS Dataset"
 date: 2026-02-24T17:30:41+01:00
 author: "Joris"
 draft: false
