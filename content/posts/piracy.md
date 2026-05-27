@@ -1,8 +1,8 @@
 ---
-title: "If buying isn’t owning, piracy isn’t stealing"
+title: "If Buying Isn’t Owning, Piracy Isn’t Stealing"
 date: 2025-08-22
 author: "Joris"
-draft: false
+draft: true
 tags: ["blog", "piracy"]
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "More backups are always better"
+title: "More Backups Are Always Better"
 date: 2025-07-23T10:15:22+02:00
 author: "Joris"
 draft: false

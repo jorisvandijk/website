@@ -1,5 +1,5 @@
 ---
-title: "Hugo, hosts, and hard lessons"
+title: "Hugo, Hosts, And Hard Lessons"
 date: 2025-07-22T16:13:47+02:00
 author: "Joris"
 draft: false

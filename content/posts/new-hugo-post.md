@@ -1,5 +1,5 @@
 ---
-title: "Making a new post in Hugo"
+title: "Making A New Post In Hugo"
 date: 2025-07-18T15:41:03+02:00
 author: "Joris"
 draft: false

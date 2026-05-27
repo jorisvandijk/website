@@ -1,5 +1,5 @@
 ---
-title: "The best function I ever stole"
+title: "The Best Function I Ever Stole"
 date: 2025-07-21T10:04:57+02:00
 author: "Joris"
 draft: false
