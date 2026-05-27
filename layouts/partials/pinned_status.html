@@ -40,11 +40,11 @@
 
     <footer class="entry-footer status-footer">
         <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-            Microblogged on {{ .Date.Format "January 2, 2006 at 15:04" }}
+            {{ .Date.Format "January 2, 2006 at 15:04" }}
         </time>
     
         <a href="/status/" class="status-archive-link">
-            Microblog archive
+            All Microblogs
         </a>
     </footer>
 
@@ -59,7 +59,7 @@
 
 {{- else -}}
 
-<article class="post-entry status-entry">
+<article class="post-entry">
     <header class="entry-header">
         <h2>Status</h2>
     </header>
