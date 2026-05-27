@@ -125,3 +125,12 @@ article p {
     margin-inline-start: auto;
 }
 
+.no-underline,
+.no-underline:hover,
+.no-underline:focus,
+.no-underline:visited,
+.no-underline:active {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
