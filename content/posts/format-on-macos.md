@@ -1,5 +1,5 @@
 ---
-title: "Format on MacOS"
+title: "Format On MacOS"
 date: 2026-04-12T14:04:50+02:00
 author: "Joris"
 draft: false
