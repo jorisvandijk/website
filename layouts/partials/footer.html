@@ -11,9 +11,13 @@
     <span>{{ site.Copyright | markdownify }}</span>
     {{- else }}
     <!-- <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span> -->
-    <span>&copy; {{ now.Year }} <a href="/joris/">Joris van Dijk</a></span><span> {{- print " · "}} This website is
-        licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0</a></span><span> {{-
-        print " · "}} <a href="/contributing/">Contributing</a></span>
+    <span>&copy; {{ now.Year }} <a href="/joris/">Joris van Dijk</a></span>
+    {{- print " · "}}
+    <span>Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0</a></span>
+    {{- print " · "}}
+    <span>{{ partial "site-stats.html" $ }}</span>
+    {{- print " · "}}
+    <span><a href="/contributing/">Contributing</a></span>
         
     {{- end }}
     {{- end }}

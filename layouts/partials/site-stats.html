@@ -1,0 +1,16 @@
+{{- $words := 0 }}
+{{- $minutes := 0 }}
+{{- $pages := where $.Site.RegularPages "Type" "in" $.Site.Params.mainSections }}
+{{- range $pages }}
+  {{- $words = add $words .WordCount }}
+  {{- $minutes = add $minutes .ReadingTime }}
+{{- end }}
+{{- $hours := div $minutes 60 }}
+{{- $mins := mod $minutes 60 }}
+{{- $readingTimeStr := "" }}
+{{- if gt $hours 0 }}
+  {{- $readingTimeStr = printf "%dh %dm" $hours $mins }}
+{{- else }}
+  {{- $readingTimeStr = printf "%d min" $minutes }}
+{{- end }}
+{{ lang.FormatNumber 0 $words }} words {{ $readingTimeStr }} to read
