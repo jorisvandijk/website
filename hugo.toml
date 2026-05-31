@@ -17,7 +17,7 @@ theme = 'PaperMod'
 
   [params.author]
   name = "Joris"
-  email = "contact@jorisvandijk.com"
+  email = "joris@jorisvandijk.com"
 
   # Favicon configuration
   [params.assets]

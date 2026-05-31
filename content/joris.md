@@ -19,9 +19,9 @@ If you'd like to contact me you can do so via email or on Discord.
 
 You can find my personal stuff stored on git here:
 
-- GitHub: https://github.com/jorisvandijk/
-- GitLab: https://gitlab.com/jorisvandijk/
-- Codeberg: https://codeberg.org/jorisvandijk/
+- [GitHub](https://github.com/jorisvandijk/)
+- [GitLab](https://gitlab.com/jorisvandijk/)
+- [Codeberg](https://codeberg.org/jorisvandijk/)
 
 I am part of a number of webrings:
 
