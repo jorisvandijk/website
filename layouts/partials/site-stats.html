@@ -1,6 +1,7 @@
 {{- $words := 0 }}
 {{- $minutes := 0 }}
 {{- $pages := where $.Site.RegularPages "Type" "in" $.Site.Params.mainSections }}
+{{- $pages = where $pages "Draft" false }}
 {{- range $pages }}
   {{- $words = add $words .WordCount }}
   {{- $minutes = add $minutes .ReadingTime }}
@@ -13,4 +14,4 @@
 {{- else }}
   {{- $readingTimeStr = printf "%d min" $minutes }}
 {{- end }}
-{{ lang.FormatNumber 0 $words }} words {{ $readingTimeStr }} to read
+{{ len $pages }} posts {{ lang.FormatNumber 0 $words }} words {{ $readingTimeStr }} to read
