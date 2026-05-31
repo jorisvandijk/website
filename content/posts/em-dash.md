@@ -3,7 +3,7 @@ title: "Em Dash"
 date: 2026-05-29T23:03:02+02:00
 author: "Joris"
 draft: false
-tags: ["blog"] 
+tags: ["blog", "ai"] 
 ---
 
 When you see one, it's AI. In any text, if there's a dash anywhere, AI wrote it. It's a guarantee. Except, it is not. I recently dove into my old websites in my [This Domain](/posts/this-domain/) post. I noticed something. All the way back in [2004](/img/website-2004-04-14.png) I used dashes in my writing. They show up in the screenshot I took of my site in [2012](/img/website-2012-06-02.png) as well. Twice even! Both the first and the second post have one. There's three of them in the [first](/posts/hello-world/) post of this website even. 
