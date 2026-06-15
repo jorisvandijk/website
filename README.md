@@ -1,5 +1,36 @@
 # Jorisvandijk.com
-This repository contains the complete source code for the [Jorisvandijk.com](https://jorisvandijk.com) website.
 
-## License 
-This repository, and thus website and everything on it is licensed under the CC BY-SA 4.0, unless otherwise stipulated.
+Source code for [jorisvandijk.com](https://jorisvandijk.com). Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), unless otherwise stipulated.
+
+---
+
+## Notes
+
+*Things I keep forgetting.*
+
+### Attribution
+
+| Type | Template |
+|------|----------|
+| Photo | `📷 _Original cover photo by []() on []()._` |
+| Code | `📄 _Original code by []() on []()._` |
+
+### Callouts
+
+```
+{{< note >}}
+
+{{< /note >}}
+```
+
+```
+{{< info >}}
+
+{{< /info >}}
+```
+
+```
+{{< warning >}}
+
+{{< /warning >}}
+```
