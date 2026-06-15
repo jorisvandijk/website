@@ -51,7 +51,7 @@ theme = 'PaperMod'
 
   [[params.socialIcons]]
   name = "rss"
-  url = "index.xml"
+  url = "/feeds/"
   
 # Pagination
 paginate = 10
