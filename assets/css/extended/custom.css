@@ -34,6 +34,65 @@
 body {
 	font-size: 16px;
 }
+
+/* Nav */
+.logo a {
+    color: transparent;
+    background: linear-gradient(to left, var(--primary) 50%, var(--link) 50%);
+    background-size: 200% 100%;
+    background-position: left center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: background-position 0.4s ease;
+}
+
+.logo a:hover {
+    background-position: right center;
+}
+
+#menu .active {
+    border-bottom: none;
+}
+
+#menu .active,
+#menu a span {
+    position: relative;
+}
+
+#menu .active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--primary);
+}
+
+#menu a:not(:has(.active)) span::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; left: 0;
+    width: 0; height: 2px;
+    background: var(--link);
+    transition: width 0.3s ease;
+}
+
+#menu a:not(:has(.active)):hover span::after {
+    width: 100%;
+}
+
+#menu a:not(:has(.active)) {
+    transition: color 0.3s ease;
+}
+
+#menu a:not(:has(.active)):hover {
+    color: var(--link);
+}
+
+#menu li:has(.active) > a {
+    pointer-events: none;
+    cursor: default;
+}
 .list {
     background: var(--code-bg);
 }
