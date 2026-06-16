@@ -1,0 +1,13 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    if (toggle) {
+        toggle.addEventListener('click', function () {
+            document.body.classList.add('theme-switching');
+            setTimeout(function () {
+                document.body.classList.remove('theme-switching');
+            }, 400);
+        });
+    }
+});
+</script>
