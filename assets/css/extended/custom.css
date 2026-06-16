@@ -199,8 +199,11 @@ article p {
 
 /* dim footer/meta */
 .microblog-entry .entry-footer {
-    opacity: 0.7;
     font-size: 0.9rem;
+}
+
+.microblog-time {
+    opacity: 0.7;
 }
 
 .microblog-footer {
@@ -213,7 +216,6 @@ article p {
 .microblog-permalink {
     color: var(--link);
     text-decoration: none;
-    opacity: 1;
 }
 
 .microblog-archive-link:hover,
