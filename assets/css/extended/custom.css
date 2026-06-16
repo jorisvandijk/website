@@ -50,6 +50,10 @@ button#theme-toggle:hover {
     filter: drop-shadow(0 0 3px var(--link));
 }
 
+button#theme-toggle:active {
+    opacity: 0.6;
+}
+
 .logo a {
     display: inline-block;
     transition: color 0.3s ease, transform 0.3s ease;
@@ -103,6 +107,10 @@ button#theme-toggle:hover {
 
 #menu a:not(:has(.active)):hover {
     color: var(--link);
+}
+
+#menu a:not(:has(.active)):active {
+    opacity: 0.6;
 }
 
 #menu li:has(.active) > a {
