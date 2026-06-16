@@ -145,19 +145,32 @@ button#theme-toggle:hover {
 .pagination a {
     color: #d699b6;
     animation: none;
+    display: inline-block;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
 .pagination a:hover {
     animation: none;
     background: var(--border);
 }
+
+.pagination a:active {
+    transform: scale(0.93);
+    transition: transform 0.1s ease;
+}
 .paginav a {
     color: #a7c080;
     animation: none;
+    transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .paginav a:hover {
     animation: none;
+}
+
+.paginav a:active {
+    transform: scale(0.98);
+    transition: transform 0.1s ease;
 }
 
 .paginav span:hover:not(.title) {
