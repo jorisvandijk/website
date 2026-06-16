@@ -178,7 +178,7 @@ button#theme-toggle:hover {
     animation: none;
 }
 
-.paginav .prev a::after {
+.paginav a.prev::after {
     content: '';
     position: absolute;
     bottom: 0; left: 0;
@@ -187,7 +187,7 @@ button#theme-toggle:hover {
     transition: width 0.3s ease;
 }
 
-.paginav .next a::after {
+.paginav a.next::after {
     content: '';
     position: absolute;
     bottom: 0; right: 0;
