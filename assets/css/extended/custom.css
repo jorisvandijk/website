@@ -38,7 +38,7 @@ body {
 /* Nav */
 .logo a {
     color: transparent;
-    background: linear-gradient(to left, var(--primary) 50%, var(--link) 50%);
+    background: linear-gradient(to left, white 50%, var(--link) 50%);
     background-size: 200% 100%;
     background-position: left center;
     -webkit-background-clip: text;
