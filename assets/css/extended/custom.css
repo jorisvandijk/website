@@ -72,6 +72,15 @@ body {
 }
 .paginav a {
     color: #a7c080;
+    animation: none;
+}
+
+.paginav a:hover {
+    animation: none;
+}
+
+.paginav span:hover:not(.title) {
+    box-shadow: none;
 }
 .post-tags a, .terms-tags a {
 	color: #d699b6;
