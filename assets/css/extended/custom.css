@@ -161,7 +161,7 @@ button#theme-toggle:hover {
 .paginav a {
     color: #a7c080;
     animation: none;
-    transition: background 0.3s ease, transform 0.3s ease;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
 .paginav a:hover {
@@ -169,8 +169,8 @@ button#theme-toggle:hover {
 }
 
 .paginav a:active {
-    transform: scale(0.98);
-    transition: transform 0.1s ease;
+    box-shadow: inset 0 0 0 3px var(--border);
+    transition: box-shadow 0.1s ease;
 }
 
 .paginav span:hover:not(.title) {
