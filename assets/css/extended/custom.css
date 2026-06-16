@@ -143,20 +143,49 @@ button#theme-toggle:hover {
 }
 
 .pagination a {
-    color: #d699b6;
+    display: block;
+    color: var(--primary);
+    padding: 0.6rem 0;
+    position: relative;
     animation: none;
-    display: inline-block;
-    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    font-size: inherit;
+    line-height: inherit;
+    background: none;
+    border: none;
+    border-radius: 0;
+    transition: color 0.3s ease;
 }
 
 .pagination a:hover {
+    background: none;
+    color: var(--link);
     animation: none;
-    background: var(--border);
+}
+
+.pagination a.prev::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 0; height: 2px;
+    background: var(--link);
+    transition: width 0.3s ease;
+}
+
+.pagination a.next::after {
+    content: '';
+    position: absolute;
+    bottom: 0; right: 0;
+    width: 0; height: 2px;
+    background: var(--link);
+    transition: width 0.3s ease;
+}
+
+.pagination a:hover::after {
+    width: 100%;
 }
 
 .pagination a:active {
-    transform: scale(0.93);
-    transition: transform 0.1s ease;
+    opacity: 0.6;
 }
 .paginav {
     background: none;
@@ -270,15 +299,6 @@ article p {
 
 .pagination {
     display: flex;
-}
-
-.pagination a {
-    font-size: 13px;
-    line-height: 36px;
-    background: var(--code-bg);
-    border: 1px solid var(--border);
-    border-radius: calc(36px / 2);
-    padding: 0 16px;
 }
 
 .pagination .next {
