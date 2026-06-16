@@ -289,12 +289,12 @@ article p {
     text-decoration: none;
 }
 
-.microblog-permalink {
+a.microblog-permalink {
     color: var(--secondary);
     text-decoration: none;
 }
 
-.microblog-permalink:hover {
+a.microblog-permalink:hover {
     animation: permalink-hover 0.5s ease forwards;
     text-decoration: none;
 }
