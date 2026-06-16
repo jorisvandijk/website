@@ -539,6 +539,7 @@ article p {
     font-style: italic;
 }
 
+
 .microblog-meta {
     display: flex;
     align-items: center;
@@ -556,8 +557,8 @@ article p {
     font-size: 0.85rem;
     color: var(--secondary);
     opacity: 1;
-    filter: blur(0);
-    transition: opacity 0.35s ease, filter 0.35s ease;
+    transform: translateX(0);
+    transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
 .microblog-time-wrap {
@@ -570,32 +571,16 @@ article p {
 
 .microblog-all-link {
     font-size: 0.85rem;
-    opacity: 0;
-    filter: blur(4px);
-    pointer-events: none;
-    transition: opacity 0.35s ease, filter 0.35s ease;
-}
-
-.microblog-quote:hover .microblog-time {
-    opacity: 0;
-    filter: blur(4px);
-    pointer-events: none;
-}
-
-.microblog-quote:hover .microblog-all-link {
-    opacity: 1;
-    filter: blur(0);
-    pointer-events: auto;
-}
-
-.microblog-quote a {
-    color: var(--link);
+    color: var(--primary);
     text-decoration: none;
     position: relative;
-    transition: color 0.3s ease;
+    opacity: 0;
+    transform: translateX(10px);
+    pointer-events: none;
+    transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
-.microblog-quote a::after {
+.microblog-all-link::after {
     content: '';
     position: absolute;
     bottom: -1px; left: 0;
@@ -604,9 +589,45 @@ article p {
     transition: width 0.3s ease;
 }
 
-.microblog-quote a:hover { color: var(--primary); }
-.microblog-quote a:hover::after { width: 100%; }
-.microblog-quote a:active { opacity: 0.6; transform: scale(0.96); }
+.microblog-quote:hover .microblog-time {
+    opacity: 0;
+    transform: translateX(-10px);
+    pointer-events: none;
+}
+
+.microblog-quote:hover .microblog-all-link {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+
+.microblog-all-link:hover {
+    color: var(--link);
+}
+
+.microblog-all-link:hover::after {
+    width: 100%;
+}
+
+.microblog-quote a:not(.microblog-all-link) {
+    color: var(--link);
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.microblog-quote a:not(.microblog-all-link)::after {
+    content: '';
+    position: absolute;
+    bottom: -1px; left: 0;
+    width: 0; height: 1.5px;
+    background: var(--link);
+    transition: width 0.3s ease;
+}
+
+.microblog-quote a:not(.microblog-all-link):hover { color: var(--primary); }
+.microblog-quote a:not(.microblog-all-link):hover::after { width: 100%; }
+.microblog-quote a:not(.microblog-all-link):active { opacity: 0.6; transform: scale(0.96); }
 
 .social-icons a {
     color: var(--link);
