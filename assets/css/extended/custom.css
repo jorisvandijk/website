@@ -55,6 +55,21 @@ body {
     animation: link-hover 0.5s ease forwards;
     text-decoration: none;
 }
+
+.post-content a,
+.toc a:hover {
+    box-shadow: none;
+}
+
+.pagination a {
+    color: #d699b6;
+    animation: none;
+}
+
+.pagination a:hover {
+    animation: none;
+    background: var(--border);
+}
 .paginav a {
     color: #a7c080;
 }
@@ -124,17 +139,12 @@ article p {
 }
 
 .pagination a {
-    color: #d699b6;
     font-size: 13px;
     line-height: 36px;
     background: var(--code-bg);
     border: 1px solid var(--border);
     border-radius: calc(36px / 2);
     padding: 0 16px;
-}
-
-.pagination a:hover {
-    background: var(--border);
 }
 
 .pagination .next {
