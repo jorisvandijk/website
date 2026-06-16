@@ -169,8 +169,7 @@ button#theme-toggle:hover {
 }
 
 .paginav a:active {
-    box-shadow: inset 0 0 0 3px var(--border);
-    transition: box-shadow 0.1s ease;
+    box-shadow: inset 0 0 0 3px var(--primary);
 }
 
 .paginav span:hover:not(.title) {
