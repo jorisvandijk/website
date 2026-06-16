@@ -46,6 +46,12 @@ body {
     transform: scale(1.08);
 }
 
+.logo a:active {
+    color: var(--primary);
+    transform: scale(1);
+    transition: none;
+}
+
 #menu .active {
     border-bottom: none;
 }
