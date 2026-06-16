@@ -51,9 +51,9 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
-{{- /* pinned status, only on homepage page 1 */ -}}
+{{- /* pinned microblog, only on homepage page 1 */ -}}
 {{- if and .IsHome (eq $paginator.PageNumber 1) }}
-{{- partial "pinned_status.html" . }}
+{{- partial "pinned_microblog.html" . }}
 {{- end }}
 
 {{- $term := .Data.Term }}

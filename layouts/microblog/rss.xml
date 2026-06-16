@@ -24,7 +24,7 @@
   <channel>
     <title>Microblog on {{ site.Title }}</title>
     <link>{{ .Permalink }}</link>
-    <description>Short notes and status updates from {{ site.Title }}</description>
+    <description>Short notes and microblog posts from {{ site.Title }}</description>
     <generator>Hugo -- {{ hugo.Version }}</generator>
     <language>{{ site.Language.LanguageCode }}</language>{{ with $authorEmail }}
     <managingEditor>{{.}}{{ with $authorName }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
@@ -37,7 +37,7 @@
       <title>{{ .Plain | htmlUnescape | truncate 80 "…" }}</title>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <link>{{ site.BaseURL }}</link>
-      <guid isPermaLink="false">status-{{ .Date.Format "2006-01-02T15:04:05" }}</guid>
+      <guid isPermaLink="false">microblog-{{ .Date.Format "2006-01-02T15:04:05" }}</guid>
       <description>{{ .Content | html }}</description>
     </item>
     {{- end }}

@@ -1,8 +1,8 @@
-<!-- {{- $statuses := where site.RegularPages "Section" "status" -}} -->
-<!-- {{- $latest := $statuses.ByDate.Reverse | first 1 -}} -->
+<!-- {{- $microblogs := where site.RegularPages "Section" "microblog" -}} -->
+<!-- {{- $latest := $microblogs.ByDate.Reverse | first 1 -}} -->
 <!-- {{- if $latest -}} -->
 <!--     {{- range $latest -}} -->
-<!--         <div class="pinned-status"> -->
+<!--         <div class="pinned-microblog"> -->
 <!--             <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"> -->
 <!--                 {{ .Date.Format "January 2, 2006 at 15:04" }} -->
 <!--             </time> -->
@@ -10,22 +10,22 @@
 <!--         </div> -->
 <!--     {{- end -}} -->
 <!-- {{- else -}} -->
-<!--     <div class="pinned-status pinned-status--empty"> -->
-<!--         <p>No status yet.</p> -->
+<!--     <div class="pinned-microblog pinned-microblog--empty"> -->
+<!--         <p>No microblog yet.</p> -->
 <!--     </div> -->
 <!-- {{- end -}} -->
 
 
-{{- $statuses := where site.RegularPages "Section" "status" -}}
-{{- $latest := $statuses.ByDate.Reverse | first 1 -}}
+{{- $microblogs := where site.RegularPages "Section" "microblog" -}}
+{{- $latest := $microblogs.ByDate.Reverse | first 1 -}}
 
 {{- if $latest -}}
     {{- range $latest -}}
 
-<article class="post-entry status-entry">
+<article class="post-entry microblog-entry">
 
     <!-- <header class="entry-header"> -->
-    <!--     <h2>Status</h2> -->
+    <!--     <h2>Microblog</h2> -->
     <!-- </header> -->
 
     <div class="entry-content">
@@ -38,18 +38,18 @@
     <!--     </time> -->
     <!-- </footer> -->
 
-    <footer class="entry-footer status-footer">
+    <footer class="entry-footer microblog-footer">
         <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
             {{ .Date.Format "January 2, 2006 at 15:04" }}
         </time>
-    
-        <a href="/status/" class="status-archive-link">
+
+        <a href="/microblog/" class="microblog-archive-link">
             All Microblogs
         </a>
     </footer>
 
     <!-- <a class="entry-link" -->
-    <!--    aria-label="status link" -->
+    <!--    aria-label="microblog link" -->
     <!--    href="{{ .RelPermalink }}"> -->
     <!-- </a> -->
 
@@ -61,11 +61,11 @@
 
 <article class="post-entry">
     <header class="entry-header">
-        <h2>Status</h2>
+        <h2>Microblog</h2>
     </header>
 
     <div class="entry-content">
-        <p>No status yet.</p>
+        <p>No microblog yet.</p>
     </div>
 </article>
 

@@ -12,16 +12,17 @@
 
   <div class="post-content">
 
-    <ul class="status-list">
+    <ul class="microblog-list">
       {{ range .Pages.ByDate.Reverse }}
-        <li class="status-item">
-          <div class="status-content">
+        <li class="microblog-item" id="{{ .File.BaseFileName }}">
+          <div class="microblog-content">
             {{ .Content }}
           </div>
           <div class="post-meta">
           <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
             {{ .Date.Format "January 2, 2006 at 15:04" }}
           </time>
+          <a href="/microblog/#{{ .File.BaseFileName }}" class="microblog-permalink" title="Permalink">¶</a>
           </div>
         </li>
       {{ end }}
