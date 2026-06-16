@@ -37,17 +37,13 @@ body {
 
 /* Nav */
 .logo a {
-    color: transparent;
-    background: linear-gradient(to right, var(--primary) 50%, var(--link) 50%);
-    background-size: 200% 100%;
-    background-position: left center;
-    -webkit-background-clip: text;
-    background-clip: text;
-    transition: background-position 0.4s ease;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .logo a:hover {
-    background-position: right center;
+    color: var(--link);
+    transform: scale(1.08);
 }
 
 #menu .active {
