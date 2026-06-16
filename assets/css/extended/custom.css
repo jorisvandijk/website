@@ -17,6 +17,7 @@
     --code-block-bg: rgb(221, 216, 190); /* #ddd8be - bg3 low */
     --code-bg: rgb(216, 211, 186);      /* #d8d3ba - bg4 low */
     --border: rgb(185, 192, 171);       /* #b9c0ab - bg5 low */
+    --link: #e67e80;                    /* Everforest red */
 }
 .dark {
     /* Everforest Dark */
@@ -39,8 +40,20 @@ body {
 .dark.list {
     background: var(--theme);
 }
+@keyframes link-hover {
+    0%   { color: var(--link); }
+    50%  { color: var(--primary); }
+    100% { color: var(--secondary); }
+}
+
 .main a {
-    color: #e67e80;
+    color: var(--link);
+    text-decoration: none;
+}
+
+.main a:hover {
+    animation: link-hover 0.5s ease forwards;
+    text-decoration: none;
 }
 .paginav a {
     color: #a7c080;
@@ -49,10 +62,13 @@ body {
 	color: #d699b6;
 }
 .toc a {
-	color: #8da101;  
+    color: var(--link);
+    text-decoration: none;
 }
-.dark .toc a {
-	color: #dbbc7f;  
+
+.toc a:hover {
+    animation: link-hover 0.5s ease forwards;
+    text-decoration: none;
 }
 .entry-footer {
 	color: var(--primary);
@@ -174,13 +190,16 @@ article p {
     align-items: center;
 }
 
-.microblog-archive-link {
-    color: var(--secondary);
+.microblog-archive-link,
+.microblog-permalink {
+    color: var(--link);
     text-decoration: none;
 }
 
-.microblog-archive-link:hover {
-    color: var(--primary);
+.microblog-archive-link:hover,
+.microblog-permalink:hover {
+    animation: link-hover 0.5s ease forwards;
+    text-decoration: none;
 }
 
 /* Microblog list */
@@ -195,11 +214,5 @@ article p {
 }
 
 .microblog-permalink {
-    color: var(--secondary);
-    text-decoration: none;
     margin-left: 0.4rem;
-}
-
-.microblog-permalink:hover {
-    color: var(--primary);
 }
