@@ -158,19 +158,49 @@ button#theme-toggle:hover {
     transform: scale(0.93);
     transition: transform 0.1s ease;
 }
+.paginav {
+    background: none;
+    border: none;
+}
+
 .paginav a {
-    color: #a7c080;
+    color: var(--primary);
+    padding: 0.6rem 0;
+    position: relative;
     animation: none;
-    transition: background 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 .paginav a:hover {
+    background: none;
+    color: var(--link);
     animation: none;
 }
 
+.paginav .prev a::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 0; height: 2px;
+    background: var(--link);
+    transition: width 0.3s ease;
+}
+
+.paginav .next a::after {
+    content: '';
+    position: absolute;
+    bottom: 0; right: 0;
+    width: 0; height: 2px;
+    background: var(--link);
+    transition: width 0.3s ease;
+}
+
+.paginav a:hover::after {
+    width: 100%;
+}
+
 .paginav a:active {
-    transform: translateY(2px);
-    filter: brightness(0.85);
+    opacity: 0.6;
 }
 
 .paginav span:hover:not(.title) {
