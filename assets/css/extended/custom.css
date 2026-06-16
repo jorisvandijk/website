@@ -137,6 +137,10 @@ button#theme-toggle:hover {
     text-decoration: none;
 }
 
+.main a:active {
+    opacity: 0.6;
+}
+
 .post-content a,
 .toc a:hover {
     box-shadow: none;
