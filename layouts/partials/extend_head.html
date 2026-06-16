@@ -1,4 +1,17 @@
 <script>
+  (function(){
+    var fx = [
+      'logo-fx-rainbow','logo-fx-barber-pole','logo-fx-vertical-blinds',
+      'logo-fx-soft-candy','logo-fx-ltr','logo-fx-rtl','logo-fx-oil-slick',
+      'logo-fx-thermal','logo-fx-sunrise','logo-fx-deep-sea',
+      'logo-fx-radioactive','logo-fx-northern-lights','logo-fx-sunset',
+      'logo-fx-flood-smooth'
+    ];
+    document.documentElement.classList.add(fx[Math.floor(Math.random() * fx.length)]);
+  })();
+</script>
+
+<script>
 document.addEventListener('DOMContentLoaded', function () {
     var toggle = document.getElementById('theme-toggle');
     if (toggle) {
@@ -9,5 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }, 400);
         });
     }
+
+
 });
 </script>

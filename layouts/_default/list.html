@@ -51,10 +51,6 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
-{{- /* pinned microblog, only on homepage page 1 */ -}}
-{{- if and .IsHome (eq $paginator.PageNumber 1) }}
-{{- partial "pinned_microblog.html" . }}
-{{- end }}
 
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}

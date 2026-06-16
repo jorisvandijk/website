@@ -22,51 +22,31 @@
 {{- if $latest -}}
     {{- range $latest -}}
 
-<article class="post-entry microblog-entry">
-
-    <!-- <header class="entry-header"> -->
-    <!--     <h2>Microblog</h2> -->
-    <!-- </header> -->
-
-    <div class="entry-content">
-        <p>{{ .Content }}</p>
-    </div>
-
-    <!-- <footer class="entry-footer"> -->
-    <!--     <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"> -->
-    <!--         {{ .Date.Format "January 2, 2006 at 15:04" }} -->
-    <!--     </time> -->
-    <!-- </footer> -->
-
-    <footer class="entry-footer microblog-footer">
-        <time class="microblog-time" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-            {{ .Date.Format "January 2, 2006 at 15:04" }}
-        </time>
-
-        <a href="/microblog/" class="microblog-archive-link">
-            All Microblogs
-        </a>
-    </footer>
-
-    <!-- <a class="entry-link" -->
-    <!--    aria-label="microblog link" -->
-    <!--    href="{{ .RelPermalink }}"> -->
-    <!-- </a> -->
-
-</article>
+<div class="microblog-quote">
+    {{ .Content }}
+    <span class="microblog-time-wrap">
+        <time class="microblog-time" id="microblog-time" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"></time>
+        <a class="microblog-all-link" href="/microblog/">All Microblogs</a>
+    </span>
+    <script>
+    (function () {
+        var el = document.getElementById('microblog-time');
+        var diff = Math.floor((Date.now() - new Date(el.getAttribute('datetime'))) / 1000);
+        var mins = Math.floor(diff / 60), hours = Math.floor(diff / 3600),
+            days = Math.floor(diff / 86400), weeks = Math.floor(diff / 604800),
+            months = Math.floor(diff / 2592000);
+        el.textContent =
+            diff < 60      ? 'just now' :
+            diff < 3600    ? mins   + (mins   === 1 ? ' minute ago'  : ' minutes ago') :
+            diff < 86400   ? hours  + (hours  === 1 ? ' hour ago'    : ' hours ago') :
+            diff < 172800  ? 'yesterday' :
+            diff < 604800  ? days   + (days   === 1 ? ' day ago'     : ' days ago') :
+            diff < 2592000 ? weeks  + (weeks  === 1 ? ' week ago'    : ' weeks ago') :
+                             months + (months === 1 ? ' month ago'   : ' months ago');
+    })();
+    </script>
+</div>
 
     {{- end -}}
-
-{{- else -}}
-
-<article class="post-entry">
-    <header class="entry-header">
-        <h2>Microblog</h2>
-    </header>
-
-    <div class="entry-content">
-        <p>No microblog yet.</p>
-    </div>
-</article>
 
 {{- end -}}

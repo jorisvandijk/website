@@ -22,7 +22,7 @@
           <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
             {{ .Date.Format "January 2, 2006 at 15:04" }}
           </time>
-          <a href="/microblog/#{{ .File.BaseFileName }}" class="microblog-permalink" title="Permalink">¶</a>
+          <a href="/microblog/#{{ .File.BaseFileName }}" class="microblog-permalink anchor" title="Permalink">#</a>
           </div>
         </li>
       {{ end }}

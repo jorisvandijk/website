@@ -7,6 +7,7 @@ theme = 'PaperMod'
 # PaperMod configuration
 [params]
   ShowSearchPage = true
+  hideAuthor = true
   ShowCodeCopyButtons = true
   ShowReadingTime = true
   ShowShareButtons = false
@@ -44,6 +45,11 @@ theme = 'PaperMod'
   [[params.socialIcons]]
   name = "codeberg"
   url = "https://codeberg.org/jorisvandijk"
+
+  [[params.socialIcons]]
+  name = "microblog-pen"
+  title = "Microblog"
+  url = "/microblog/"
 
   [[params.socialIcons]]
   name = "contact"

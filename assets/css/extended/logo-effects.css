@@ -1,0 +1,172 @@
+/* ── Logo hover effects — one picked at random per page load via extend_head.html ── */
+
+/* ── Shared @keyframes ── */
+@keyframes logo-rainbow    { from { filter: hue-rotate(0deg); } to { filter: hue-rotate(360deg); } }
+@keyframes logo-cc8        { from { background-position: 0 0; } to { background-position: 60px 0; } }
+@keyframes logo-cc7        { from { background-position: 0 0; } to { background-position: 0 40px; } }
+@keyframes logo-cc10       { from { background-position: 0 0; } to { background-position: 60px 0; } }
+@keyframes logo-ltr        { from { background-position: 0 0; } to { background-position: 80px 0; } }
+@keyframes logo-rtl        { from { background-position: 0 0; } to { background-position: -80px 0; } }
+@keyframes logo-oilslick   { 0% { filter: hue-rotate(0deg) saturate(1.5); } 100% { filter: hue-rotate(360deg) saturate(1.5); } }
+@keyframes logo-thermal    { 0%,100% { filter: hue-rotate(0deg) saturate(2) brightness(1); } 50% { filter: hue-rotate(-40deg) saturate(2) brightness(1.2); } }
+@keyframes logo-sunrise    { 0%,100% { background-position: center 200%; } 50% { background-position: center -50%; } }
+@keyframes logo-deepsea    { 0%,100% { background-position: 50% 0%; filter: brightness(1) saturate(1.2); } 50% { background-position: 50% 100%; filter: brightness(1.4) saturate(1.8); } }
+@keyframes logo-geiger     { 0%,100% { color: var(--ef-green); filter: brightness(1); } 8% { color: var(--ef-green); filter: brightness(3); } 9% { color: var(--ef-green); filter: brightness(0.5); } 35% { color: var(--ef-green); filter: brightness(1); } 36% { color: var(--ef-green); filter: brightness(3.5); } 37% { color: var(--ef-green); filter: brightness(1); } 60% { color: var(--ef-green); filter: brightness(1); } 61% { color: var(--ef-green); filter: brightness(2.5); } 62% { color: var(--ef-green); filter: brightness(0.7); } 63% { color: var(--ef-green); filter: brightness(2.5); } 64% { color: var(--ef-green); filter: brightness(1); } }
+@keyframes logo-northernlights { 0% { background-position: 0% center; } 100% { background-position: 200% center; } }
+@keyframes logo-sunset     { 0%,100% { background-position: center 0%; } 50% { background-position: center 100%; } }
+@keyframes logo-flood-smooth { 0% { background-position: 100% center; } 50% { background-position: 50% center; } 100% { background-position: 0% center; } }
+
+/* Everforest colours used by some effects */
+:root {
+  --ef-green:  #a7c080;
+  --ef-yellow: #dbbc7f;
+  --ef-blue:   #7fbbb3;
+  --ef-orange: #e69875;
+  --ef-purple: #d699b6;
+}
+
+/* ── 1. Rainbow cycle ── */
+html.logo-fx-rainbow .logo a:hover {
+  background-position: left center;
+  animation: logo-rainbow 2.5s linear infinite;
+}
+
+/* ── 2. Barber pole ── */
+html.logo-fx-barber-pole .logo a:hover {
+  color: transparent;
+  background: repeating-linear-gradient(-70deg, var(--link) 0px, var(--link) 15px, var(--primary) 15px, var(--primary) 30px);
+  background-size: 60px 60px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: logo-cc8 0.7s linear infinite;
+}
+
+/* ── 3. Vertical blinds ── */
+html.logo-fx-vertical-blinds .logo a:hover {
+  color: transparent;
+  background: repeating-linear-gradient(0deg, var(--link) 0px, var(--link) 10px, var(--primary) 10px, var(--primary) 20px);
+  background-size: 40px 40px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: logo-cc7 0.6s linear infinite;
+}
+
+/* ── 4. Soft candy ── */
+html.logo-fx-soft-candy .logo a:hover {
+  color: transparent;
+  background: repeating-linear-gradient(-45deg, var(--link) 0px, var(--link) 10px, var(--ef-purple) 10px, var(--ef-purple) 20px, var(--ef-yellow) 20px, var(--ef-yellow) 30px);
+  background-size: 60px 60px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: logo-cc10 0.9s linear infinite;
+}
+
+/* ── 5. Left-to-right march ── */
+html.logo-fx-ltr .logo a:hover {
+  color: transparent;
+  background: repeating-linear-gradient(90deg, var(--link) 0px, var(--link) 30px, var(--primary) 30px, var(--primary) 60px);
+  background-size: 80px 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: logo-ltr 1s linear infinite;
+}
+
+/* ── 6. Right-to-left march ── */
+html.logo-fx-rtl .logo a:hover {
+  color: transparent;
+  background: repeating-linear-gradient(90deg, var(--link) 0px, var(--link) 30px, var(--primary) 30px, var(--primary) 60px);
+  background-size: 80px 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: logo-rtl 1s linear infinite;
+}
+
+/* ── 7. Oil slick ── */
+html.logo-fx-oil-slick .logo a:hover {
+  color: transparent;
+  background: linear-gradient(90deg, var(--ef-purple), var(--link), var(--ef-orange), var(--ef-yellow), var(--ef-green), var(--ef-blue), var(--ef-purple));
+  background-size: 200% 100%;
+  background-position: left center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: logo-oilslick 3s linear infinite;
+}
+
+/* ── 8. Thermal ── */
+html.logo-fx-thermal .logo a:hover {
+  color: transparent;
+  background: linear-gradient(90deg, var(--ef-blue), var(--ef-green), var(--ef-yellow), var(--ef-orange), var(--link));
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: logo-thermal 3s ease-in-out infinite;
+}
+
+/* ── 9. Sunrise ── */
+html.logo-fx-sunrise .logo a:hover {
+  color: transparent;
+  background: linear-gradient(0deg, var(--ef-orange) 0%, var(--ef-yellow) 30%, var(--link) 60%, var(--primary) 100%);
+  background-size: 100% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: logo-sunrise 3s ease-in-out infinite;
+}
+
+/* ── 10. Deep sea ── */
+html.logo-fx-deep-sea .logo a:hover {
+  color: transparent;
+  background: linear-gradient(180deg, #c8e6f0 0%, var(--ef-blue) 40%, #2a6070 100%);
+  background-size: 100% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: logo-deepsea 3s ease-in-out infinite;
+}
+
+/* ── 11. Radioactive ── */
+html.logo-fx-radioactive .logo a:hover {
+  background: none;
+  -webkit-background-clip: unset;
+  background-clip: unset;
+  animation: logo-geiger 2s steps(1) infinite;
+}
+
+/* ── 12. Northern lights ── */
+html.logo-fx-northern-lights .logo a:hover {
+  color: transparent;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--ef-green)  0px,  var(--ef-green)  20px,
+    var(--ef-blue)   20px, var(--ef-blue)   40px,
+    var(--ef-purple) 40px, var(--ef-purple) 60px,
+    var(--ef-green)  60px, var(--ef-green)  80px
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: saturate(1.4) brightness(1.1);
+  animation: logo-northernlights 4s linear infinite;
+}
+
+/* ── 13. Sunset ── */
+html.logo-fx-sunset .logo a:hover {
+  color: transparent;
+  background: linear-gradient(0deg, var(--ef-orange) 0%, var(--link) 35%, var(--ef-purple) 70%, #8a6a9a 100%);
+  background-size: 100% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: logo-sunset 3s ease-in-out infinite;
+}
+
+/* ── 14. Smooth continuous (flood) ── */
+html.logo-fx-flood-smooth .logo a:hover {
+  color: transparent;
+  background: linear-gradient(90deg,
+    var(--primary) 0%,    var(--primary) 33.33%,
+    var(--link)    33.33%, var(--link)   66.67%,
+    var(--primary) 66.67%, var(--primary) 100%
+  );
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: logo-flood-smooth 2s ease-in-out infinite;
+}
