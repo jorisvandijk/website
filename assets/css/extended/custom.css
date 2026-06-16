@@ -65,18 +65,21 @@ button#theme-toggle:active {
 
 .logo a {
     display: inline-block;
-    transition: color 0.3s ease, transform 0.3s ease;
+    color: transparent;
+    background: linear-gradient(to right, var(--link) 50%, var(--primary) 50%);
+    background-size: 200% 100%;
+    background-position: right center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: background-position 0.4s ease;
 }
 
 .logo a:hover {
-    color: var(--link);
-    transform: scale(1.08);
+    background-position: left center;
 }
 
 .logo a:active {
-    color: var(--primary);
-    transform: scale(1);
-    transition: none;
+    opacity: 0.6;
 }
 
 #menu .active {
