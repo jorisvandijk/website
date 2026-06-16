@@ -179,6 +179,7 @@ button#theme-toggle:active {
 .anchor {
     color: var(--secondary) !important;
     transition: color 0.3s ease;
+    box-shadow: none !important;
 }
 
 .anchor:hover {
