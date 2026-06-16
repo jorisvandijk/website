@@ -35,6 +35,11 @@ body {
 	font-size: 16px;
 }
 
+/* Footer */
+.footer a {
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
 /* Nav */
 button#theme-toggle {
     transition: color 0.3s ease, filter 0.3s ease;
