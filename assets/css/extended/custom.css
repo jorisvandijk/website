@@ -164,6 +164,7 @@ button#theme-toggle:hover {
 }
 
 .paginav a {
+    display: block;
     color: var(--primary);
     padding: 0.6rem 0;
     position: relative;
