@@ -142,29 +142,32 @@ button#theme-toggle:hover {
     box-shadow: none;
 }
 
-.pagination a {
-    flex: 1;
+.pagination a.prev,
+.pagination a.next {
+    width: 50%;
     display: block;
     color: var(--primary);
     padding: 0.6rem 0;
     position: relative;
-    animation: none;
     font-size: inherit;
     line-height: inherit;
     background: none;
     border: none;
     border-radius: 0;
+    animation: none;
     transition: color 0.3s ease;
 }
 
-.pagination a.prev,
 .pagination a.next {
-    color: var(--primary);
+    margin-inline-start: auto;
+    text-align: right;
 }
 
 .pagination a.prev:hover,
 .pagination a.next:hover {
+    animation: none;
     color: var(--link);
+    background: none;
 }
 
 .pagination a.prev::after {
@@ -185,11 +188,13 @@ button#theme-toggle:hover {
     transition: width 0.3s ease;
 }
 
-.pagination a:hover::after {
+.pagination a.prev:hover::after,
+.pagination a.next:hover::after {
     width: 100%;
 }
 
-.pagination a:active {
+.pagination a.prev:active,
+.pagination a.next:active {
     opacity: 0.6;
 }
 .paginav {
@@ -304,10 +309,6 @@ article p {
 
 .pagination {
     display: flex;
-}
-
-.pagination .next {
-    margin-inline-start: auto;
 }
 
 .no-underline,
