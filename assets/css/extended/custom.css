@@ -143,6 +143,7 @@ button#theme-toggle:hover {
 }
 
 .pagination a {
+    flex: 1;
     display: block;
     color: var(--primary);
     padding: 0.6rem 0;
@@ -156,10 +157,14 @@ button#theme-toggle:hover {
     transition: color 0.3s ease;
 }
 
-.pagination a:hover {
-    background: none;
+.pagination a.prev,
+.pagination a.next {
+    color: var(--primary);
+}
+
+.pagination a.prev:hover,
+.pagination a.next:hover {
     color: var(--link);
-    animation: none;
 }
 
 .pagination a.prev::after {
