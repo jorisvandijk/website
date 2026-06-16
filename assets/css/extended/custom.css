@@ -107,6 +107,12 @@ body {
     100% { color: var(--secondary); }
 }
 
+@keyframes permalink-hover {
+    0%   { color: var(--secondary); }
+    50%  { color: var(--primary); }
+    100% { color: var(--link); }
+}
+
 .main a {
     color: var(--link);
     text-decoration: none;
@@ -273,15 +279,23 @@ article p {
     align-items: center;
 }
 
-.microblog-archive-link,
-.microblog-permalink {
+.microblog-archive-link {
     color: var(--link);
     text-decoration: none;
 }
 
-.microblog-archive-link:hover,
-.microblog-permalink:hover {
+.microblog-archive-link:hover {
     animation: link-hover 0.5s ease forwards;
+    text-decoration: none;
+}
+
+.microblog-permalink {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.microblog-permalink:hover {
+    animation: permalink-hover 0.5s ease forwards;
     text-decoration: none;
 }
 
