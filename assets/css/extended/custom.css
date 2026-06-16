@@ -45,6 +45,10 @@ body.theme-switching * {
     transition: color 0.3s ease, border-bottom-color 0.3s ease;
 }
 
+.footer a:active {
+    opacity: 0.6;
+}
+
 /* Nav */
 button#theme-toggle {
     transition: color 0.3s ease, filter 0.3s ease;
