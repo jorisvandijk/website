@@ -183,6 +183,7 @@ button#theme-toggle:active {
 
 .anchor:hover {
     color: var(--primary) !important;
+    text-decoration: none;
 }
 
 .pagination a.prev,
