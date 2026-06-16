@@ -42,7 +42,7 @@ button#theme-toggle {
 
 button#theme-toggle:hover {
     color: var(--link);
-    filter: drop-shadow(0 0 6px var(--link)) drop-shadow(0 0 16px var(--link));
+    filter: drop-shadow(0 0 3px var(--link));
 }
 
 .logo a {
