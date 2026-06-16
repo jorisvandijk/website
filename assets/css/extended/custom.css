@@ -148,6 +148,36 @@ button#theme-toggle:active {
     100% { color: var(--secondary); }
 }
 
+#searchResults .entry-header {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary);
+    transition: color 0.3s ease;
+}
+
+#searchResults .post-entry:hover .entry-header {
+    color: var(--link);
+}
+
+#searchResults .entry-header span {
+    position: relative;
+}
+
+#searchResults .entry-header span::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--link);
+    transition: width 0.3s ease;
+}
+
+#searchResults .post-entry:hover .entry-header span::after {
+    width: 100%;
+}
+
 @keyframes permalink-hover {
     0%   { color: var(--secondary); }
     50%  { color: var(--primary); }
