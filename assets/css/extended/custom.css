@@ -213,6 +213,7 @@ article p {
 .microblog-permalink {
     color: var(--link);
     text-decoration: none;
+    opacity: 1;
 }
 
 .microblog-archive-link:hover,
