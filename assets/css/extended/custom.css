@@ -569,6 +569,14 @@ article p {
     font-style: italic;
 }
 
+.microblog-quote p:first-of-type::before {
+    content: '\201C\2009';
+}
+
+.microblog-quote p:last-of-type::after {
+    content: '\201D';
+}
+
 
 .microblog-meta {
     display: flex;
