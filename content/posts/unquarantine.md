@@ -2,7 +2,7 @@
 title: "Unquarantine"
 date: 2026-06-20T12:12:53+02:00
 author: "Joris"
-draft: true
+draft: false
 tags: ["macOS", "terminal", "quickie"] 
 ---
 
