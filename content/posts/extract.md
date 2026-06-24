@@ -3,7 +3,7 @@ title: "The Best Function I Ever Stole"
 date: 2025-07-21T10:04:57+02:00
 author: "Joris"
 draft: false
-tags: ["linux", "bash"]
+tags: ["linux", "bash", "zsh"]
 ---
 
 Extracting archives is a pain on Linux. There are just so many types and so many programs to extract each type. A `.tar.gz` file is extracted using the program [GNU tar](https://www.gnu.org/software/tar/), but for a `.zip` file, you'd need [unzip](https://infozip.sourceforge.net/UnZip.html). What's that? You've got a `.7z` file? Yeah-no, can't use either of the before mentioned extractors, you need [7-zip](https://www.7-zip.org/). Got a `.rar`, you'd need... well, you get the point.
