@@ -337,6 +337,7 @@ button#theme-toggle:active {
 	font-size: 14px;
 	font-weight: 500;
 	text-decoration: none;
+	transition: opacity 0.3s ease;
 }
 
 .post-tags a::after,
@@ -809,4 +810,8 @@ a.microblog-permalink:hover {
 
 .post-entry:not(.microblog-entry):hover:not(:has(.space-for-tags-on-index:hover)) .entry-footer {
     color: var(--secondary);
+}
+
+.post-entry:not(.microblog-entry):hover:not(:has(.space-for-tags-on-index:hover)) .post-tags a {
+    opacity: 0.7;
 }
