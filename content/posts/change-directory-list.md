@@ -20,7 +20,7 @@ Type `cl <directory>` and it changes to that directory, then runs `ls` right aft
  
 A few small details in there are worth pointing out:
  
-- The semicolon before the closing brace matters. zsh is happy to accept the simpler `cl() { cd "$1" && ls }`, but bash reads that trailing `}` as an argument to `ls` and bails out with `syntax error: unexpected end of file`. The semicolon (or a newline) is what actually closes the function, and it does so in both shells.
+- The semicolon before the closing brace matters. zsh is happy to accept it without one, but bash reads that trailing `}` as an argument to `ls` and bails out with `syntax error: unexpected end of file`. The semicolon (or a newline) is what actually closes the function, and it does so in both shells.
 - `"$@"` forwards everything, including nothing. Passing `"$@"` hands `cd` *all* the arguments. This is important if you use zoxide (see below), as it allows more than one argument.
 
 ## Zoxide
