@@ -707,6 +707,40 @@ article p {
     font-size: 0.9rem;
 }
 
+/* copy button icons */
+.copy-code {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border-radius: 0;
+}
+
+div.highlight:hover .copy-code,
+pre:hover .copy-code {
+    display: flex;
+}
+
+.copy-code .copy-icon,
+.copy-code .check-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.copy-code .copy-icon  { opacity: 1; transform: scale(1);   color: var(--link); }
+.copy-code .check-icon { opacity: 0; transform: scale(0.5); color: var(--ef-green); }
+
+.copy-code.copied .copy-icon  { opacity: 0; transform: scale(0.5); }
+.copy-code.copied .check-icon { opacity: 1; transform: scale(1); }
+
 
 .microblog-quote .microblog-archive-link {
     display: inline;
