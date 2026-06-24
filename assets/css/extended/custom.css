@@ -738,6 +738,8 @@ pre:hover .copy-code {
 .copy-code .copy-icon  { opacity: 1; transform: scale(1);   color: var(--link); }
 .copy-code .check-icon { opacity: 0; transform: scale(0.5); color: var(--ef-green); }
 
+.copy-code:hover .copy-icon { color: var(--primary); }
+
 .copy-code.copied .copy-icon  { opacity: 0; transform: scale(0.5); }
 .copy-code.copied .check-icon { opacity: 1; transform: scale(1); }
 
