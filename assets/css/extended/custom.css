@@ -475,6 +475,7 @@ button#theme-toggle:active {
 }
 .entry-footer {
 	color: var(--primary);
+	transition: color 0.3s ease;
 }
 
 .space-for-tags-on-index {
@@ -804,4 +805,8 @@ a.microblog-permalink:hover {
 
 .post-entry:not(.microblog-entry):hover:not(:has(.space-for-tags-on-index:hover)) .entry-content {
     color: var(--primary);
+}
+
+.post-entry:not(.microblog-entry):hover:not(:has(.space-for-tags-on-index:hover)) .entry-footer {
+    color: var(--secondary);
 }
