@@ -18,6 +18,7 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
+    <a class="skip-nav" href="#main-content">Skip to content</a>
     {{- partialCached "header.html" . .Page -}}
     <main class="main">
         {{- block "main" . }}{{ end }}
