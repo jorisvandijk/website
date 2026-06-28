@@ -544,9 +544,6 @@ article p {
 }
 
 /* Microblog */
-.home-info.first-entry {
-    min-height: 420px;
-}
 
 .home-info .entry-header h1 {
     color: var(--primary);
@@ -555,6 +552,27 @@ article p {
 .home-info .entry-content {
     color: var(--secondary);
 }
+
+.home-info .entry-content a {
+    text-decoration: none;
+    box-shadow: none;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.1s ease, opacity 0.1s ease;
+}
+
+.home-info .entry-content a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; left: 0;
+    width: 0; height: 2px;
+    background: var(--link);
+    transition: width 0.3s ease;
+}
+
+.home-info .entry-content a:hover { color: var(--link); }
+.home-info .entry-content a:hover::after { width: 100%; }
+.home-info .entry-content a:active { opacity: 0.6; transform: scale(0.96); }
 
 .microblog-entry {
     background: transparent;

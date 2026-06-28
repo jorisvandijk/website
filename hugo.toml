@@ -32,32 +32,32 @@ theme = 'PaperMod'
 
   [params.homeInfoParams]
   Title = "echo ${core_dump} > /www/blog"
-  Content = "Linux, homelabbing, tech,  notes, thoughts, and things I found worth jotting down when I should have been doing something more productive. I'm Joris, this is my blog. Hi."
+  Content = "Self-hosting, the terminal, personal posts, and things I found worth jotting down when I should have been doing something more productive. I'm [Joris](/joris/), this is my blog. Hi."
 
-  [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/jorisvandijk"
-
-  [[params.socialIcons]]
-  name = "gitlab"
-  url = "https://gitlab.com/jorisvandijk"
-
-  [[params.socialIcons]]
-  name = "codeberg"
-  url = "https://codeberg.org/jorisvandijk"
-
-  [[params.socialIcons]]
-  name = "microblog-pen"
-  title = "Microblog"
-  url = "/microblog/"
-
-  [[params.socialIcons]]
-  name = "contact"
-  url = "/joris/"
-
-  [[params.socialIcons]]
-  name = "rss"
-  url = "/feeds/"
+#   [[params.socialIcons]]
+#   name = "github"
+#   url = "https://github.com/jorisvandijk"
+# 
+#   [[params.socialIcons]]
+#   name = "gitlab"
+#   url = "https://gitlab.com/jorisvandijk"
+# 
+#   [[params.socialIcons]]
+#   name = "codeberg"
+#   url = "https://codeberg.org/jorisvandijk"
+#
+#   [[params.socialIcons]]
+#   name = "microblog-pen"
+#   title = "Microblog"
+#   url = "/microblog/"
+# 
+#   [[params.socialIcons]]
+#   name = "contact"
+#   url = "/joris/"
+# 
+#   [[params.socialIcons]]
+#   name = "rss"
+#   url = "/feeds/"
   
 # Pagination
 paginate = 10
@@ -80,7 +80,13 @@ paginatePath = "page"
     name = "Search"
     url = "/search/"
     weight = 30
+  [[menu.main]]
+    identifier = "rss"
+    name = "RSS"
+    url = "/feeds/"
+    weight = 40
 
+    
 [taxonomies]
   tag = "tags"
   
