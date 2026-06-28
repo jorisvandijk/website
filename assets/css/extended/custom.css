@@ -958,3 +958,18 @@ body.glitch {
 .separator-asterism:hover {
     transform: rotate(360deg);
 }
+
+.post-end-asterism {
+    text-align: center;
+    margin-top: var(--gap);
+}
+
+.post-single .post-footer {
+    margin-top: var(--gap);
+}
+
+.post-asterism {
+    font-size: 1rem;
+    color: var(--link);
+    user-select: none;
+}
