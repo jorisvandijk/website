@@ -42,9 +42,11 @@
   </div>
   {{- end }}
 
+  {{- if not (.Param "hideAsterism") }}
   <div class="post-end-asterism">
     <span class="post-asterism">⁂</span>
   </div>
+  {{- end }}
 
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}

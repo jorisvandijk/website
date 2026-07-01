@@ -2,6 +2,7 @@
 title: Feeds
 layout: page
 hideMeta: true
+hideAsterism: true
 ---
 
 Subscribe via RSS:
