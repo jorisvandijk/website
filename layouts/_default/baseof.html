@@ -1,9 +1,5 @@
-{{- if lt hugo.Version "0.146.0" }}
-{{- errorf "=> hugo v0.146.0 or greater is required for hugo-PaperMod to build " }}
-{{- end -}}
-
 <!DOCTYPE html>
-<html lang="{{ site.Language }}" dir="{{ .Language.Direction | default "auto" }}">
+<html lang="{{ site.Language }}" dir="ltr">
 
 <head>
     {{- partial "head.html" . }}
