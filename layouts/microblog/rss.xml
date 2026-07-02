@@ -26,7 +26,7 @@
     <link>{{ .Permalink }}</link>
     <description>Short notes and microblog posts from {{ site.Title }}</description>
     <generator>Hugo -- {{ hugo.Version }}</generator>
-    <language>{{ site.Language.Locale }}</language>{{ with $authorEmail }}
+    <language>{{ site.Language }}</language>{{ with $authorEmail }}
     <managingEditor>{{.}}{{ with $authorName }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
     <webMaster>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</webMaster>{{ end }}
     {{- with .OutputFormats.Get "RSS" }}
