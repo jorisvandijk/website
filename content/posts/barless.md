@@ -2,7 +2,7 @@
 title: "Barless"
 date: 2026-07-17T23:53:12+02:00
 author: "Joris"
-draft: true
+draft: false
 tags: ["linux", "script"] 
 ---
 
