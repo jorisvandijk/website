@@ -1,2 +1,5 @@
-{{- $isBareURL := eq .Text .Destination -}}
-<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $isBareURL }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Text }}</a>
+{{- $isExternal := false -}}
+{{- if or (strings.HasPrefix .Destination "http://") (strings.HasPrefix .Destination "https://") -}}
+{{- $isExternal = ne (urls.Parse .Destination).Host (urls.Parse site.BaseURL).Host -}}
+{{- end -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Text }}</a>
