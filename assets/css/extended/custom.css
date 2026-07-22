@@ -973,3 +973,6 @@ body.glitch {
     color: var(--link);
     user-select: none;
 }
+
+sup[id^="fnref"]::before { content: "["; }
+sup[id^="fnref"]::after  { content: "]"; }
