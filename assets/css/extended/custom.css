@@ -1010,10 +1010,22 @@ sup[id^="fnref"] {
 .post-content .footnotes a:not(.footnote-backref) {
     display: inline;
     position: static;
+    color: var(--link);
+    text-decoration: none;
+    background-image: linear-gradient(var(--link), var(--link));
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 0% 1.5px;
+    transition: color 0.3s ease, background-size 0.3s ease;
 }
 
 .post-content .footnotes a:not(.footnote-backref)::after {
     content: none;
+}
+
+.post-content .footnotes a:not(.footnote-backref):hover {
+    color: var(--primary);
+    background-size: 100% 1.5px;
 }
 
 .post-content .footnotes ol {
