@@ -991,3 +991,55 @@ sup[id^="fnref"] {
     animation: footnote-flash 3s ease;
     border-radius: 4px;
 }
+
+.post-content .footnotes::after {
+    content: "";
+    display: block;
+    margin-top: 30px;
+    height: 2px;
+    background: var(--tertiary);
+}
+
+.post-content .footnotes {
+    font-size: 0.9rem;
+    color: var(--secondary);
+}
+
+.post-content .footnotes ol {
+    list-style: none;
+    counter-reset: footnote;
+    padding-inline-start: 2.4em;
+}
+
+.post-content .footnotes li {
+    counter-increment: footnote;
+    position: relative;
+    margin-top: 10px;
+    line-height: 1.55;
+}
+
+.post-content .footnotes li::before {
+    content: counter(footnote) ".";
+    position: absolute;
+    top: 0;
+    left: -2.4em;
+    width: 1.8em;
+    text-align: right;
+}
+
+.post-content .footnotes .footnote-backref {
+    display: inline;
+    margin-inline-start: 0.35em;
+    font-size: 0.85em;
+    opacity: 0.55;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.post-content .footnotes .footnote-backref::after {
+    display: none;
+}
+
+.post-content .footnotes .footnote-backref:hover {
+    opacity: 1;
+}

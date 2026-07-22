@@ -16,13 +16,13 @@ That history feeds a well-known myth: that banana candy is based on the taste of
 
 In closing, as in opening: bananas are amazing! I think I’ll have one now.
 
-[^1]: https://pubmed.ncbi.nlm.nih.gov/10594112/
-[^2]: https://www.sciencedirect.com/science/article/abs/pii/S0925521498000325
-[^3]: https://www.technology.org/how-and-why/do-monkeys-peel-bananas-monkey-way/
-[^4]: https://www.urbandictionary.com/define.php?term=bananus
-[^5]: https://www.mdpi.com/2073-4395/10/8/1199
-[^6]: https://www.actahort.org/books/986/986_23.htm
-[^7]: https://www.fao.org/4/y5102e/y5102e04.htm
-[^8]: https://en.wikipedia.org/wiki/Cavendish_banana#Diseases
-[^9]: https://en.wikipedia.org/wiki/Panama_disease
-[^10]: https://www.bbc.com/future/article/20140829-the-secrets-of-fake-flavours
+[^1]: [Characterization of ethylene biosynthesis associated with ripening in banana fruit](https://pubmed.ncbi.nlm.nih.gov/10594112/)
+[^2]: [Application of 1-MCP and propylene to identify ethylene-dependent ripening processes in mature banana fruit](https://www.sciencedirect.com/science/article/abs/pii/S0925521498000325)
+[^3]: [Do monkeys peel bananas? Is there a monkey way to peel a banana?](https://www.technology.org/how-and-why/do-monkeys-peel-bananas-monkey-way/)
+[^4]: [Bananus](https://www.urbandictionary.com/define.php?term=bananus)
+[^5]: [Effects of Morphological and Anatomical Characteristics of Banana Crown Vascular Bundles on Cutting Mechanical Properties Using Multiple Imaging Methods ](https://www.mdpi.com/2073-4395/10/8/1199)
+[^6]: [PLANET OF THE CAVENDISH - UNDERSTANDING THE DOMINATION](https://www.actahort.org/books/986/986_23.htm)
+[^7]: [The World Banana Economy 1985-2002](https://www.fao.org/4/y5102e/y5102e04.htm)
+[^8]: [Cavendish banana](https://en.wikipedia.org/wiki/Cavendish_banana#Diseases)
+[^9]: [Panama disease](https://en.wikipedia.org/wiki/Panama_disease)
+[^10]: [The secrets of fake flavours](https://www.bbc.com/future/article/20140829-the-secrets-of-fake-flavours)
