@@ -1003,6 +1003,17 @@ sup[id^="fnref"] {
 .post-content .footnotes {
     font-size: 0.9rem;
     color: var(--secondary);
+    word-break: normal;
+    overflow-wrap: anywhere;
+}
+
+.post-content .footnotes a:not(.footnote-backref) {
+    display: inline;
+    position: static;
+}
+
+.post-content .footnotes a:not(.footnote-backref)::after {
+    content: none;
 }
 
 .post-content .footnotes ol {
