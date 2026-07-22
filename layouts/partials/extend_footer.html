@@ -4,3 +4,15 @@
   <p class="p-note">
   echo ${core_dump} > /www/blog - Linux, homelabbing, tech, notes, thoughts, and things I found worth jotting down when I should have been doing something more productive. I’m Joris, this is my blog. Hi. </p>
 </div>
+
+<script>
+document.querySelectorAll('.footnote-ref').forEach(function (ref) {
+  ref.addEventListener('click', function () {
+    var target = document.getElementById(ref.getAttribute('href').slice(1));
+    if (!target) return;
+    target.classList.remove('footnote-flash');
+    void target.offsetWidth;
+    target.classList.add('footnote-flash');
+  });
+});
+</script>

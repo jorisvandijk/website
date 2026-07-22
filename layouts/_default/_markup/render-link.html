@@ -1,0 +1,2 @@
+{{- $isBareURL := eq .Text .Destination -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $isBareURL }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Text }}</a>

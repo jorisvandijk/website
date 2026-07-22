@@ -24,6 +24,7 @@
     --code-bg: rgb(216, 211, 186);      /* #d8d3ba - bg4 low */
     --border: rgb(185, 192, 171);       /* #b9c0ab - bg5 low */
     --link: #e67e80;                    /* Everforest red */
+    --highlight: #dfa000;               /* Everforest yellow light */
 }
 .dark {
     /* Everforest Dark */
@@ -36,6 +37,7 @@
     --code-block-bg: rgb(52, 63, 68);   /* #343f44 - bg1 medium */
     --code-bg: rgb(61, 72, 77);         /* #3d484d - bg2 medium */
     --border: rgb(71, 82, 88);          /* #475258 - bg3 medium */
+    --highlight: #dbbc7f;               /* Everforest yellow dark */
 }
 body {
 	font-size: 16px;
@@ -976,3 +978,16 @@ body.glitch {
 
 sup[id^="fnref"]::before { content: "["; }
 sup[id^="fnref"]::after  { content: "]"; }
+sup[id^="fnref"] {
+  white-space: nowrap;
+}
+
+@keyframes footnote-flash {
+    from { background: var(--highlight); }
+    to   { background: transparent; }
+}
+
+.footnotes li.footnote-flash {
+    animation: footnote-flash 3s ease;
+    border-radius: 4px;
+}
