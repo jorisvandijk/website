@@ -627,6 +627,7 @@ article p {
 
 .microblog-time-wrap > * {
     grid-area: 1 / 1;
+    justify-self: start;
 }
 
 .microblog-all-link {
