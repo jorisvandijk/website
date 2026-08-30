@@ -3,7 +3,7 @@ title: "Upgrading Proxmox VE From 8 To 9"
 date: 2026-02-23T12:04:12+01:00
 author: "Joris"
 draft: false
-tags: ["proxmox","server"] 
+tags: ["proxmox", "homelab", "tutorial"]
 ---
 
 It's about that time. There's a [new](https://www.proxmox.com/en/about/company-details/press-releases/proxmox-virtual-environment-9-0) version of Proxmox VE in town and it has had a couple of months to "stabilize". Now is the time to bump up the version of that homelab. 

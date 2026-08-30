@@ -3,7 +3,7 @@ title: "Slash"
 date: 2025-08-17T21:57:54+02:00
 author: "Joris"
 draft: false
-tags: ["blog", "slashpages"]
+tags: ["babble", "meta"]
 ---
 
 {{< note >}}

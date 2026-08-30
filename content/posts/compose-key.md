@@ -3,7 +3,7 @@ title: "Compose Key"
 date: 2025-07-20T14:10:38+02:00
 author: "Joris"
 draft: false
-tags: ["linux", "tutorial"]
+tags: ["linux", "tutorial", "keyboard"]
 ---
 
 In many languages there's a need to add decorations, or glyphs to characters, like for example `é` or `č`. These are called [diacritics](https://en.wikipedia.org/wiki/Diacritic). These characters don't exist on a US Standard _qwerty_ keyboard. There is the US International version with _dead keys_, which allow for crafting these special characters by pressing the desired diacritic key followed by the character to apply it to. So for example pressing `~` followed by `n` results in an `ñ`. 

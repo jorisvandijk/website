@@ -3,7 +3,7 @@ title: "Clean $HOME, Clean Mind"
 date: 2026-07-05T17:31:27+02:00
 author: "Joris"
 draft: false
-tags: ["macos", "zsh", "terminal", "tutorial", "linux"] 
+tags: ["macOS", "shell", "tutorial", "linux", "script"]
 ---
 
 I don't like a messy home. Home is where all your stuff lives and if you want to find something, it's easier if there's not a bunch of clutter in the way. This is true in your physical home and your digital `$HOME`. Most Linux distributions and macOS populate your $HOME with directories you never asked for. The difference is whether you can rid yourself of them. On Linux they come from `xdg-user-dirs`. You can remove or disable it, delete the directories, and they stay gone. macOS has no such switch: delete its home directories and the system quietly recreates them. So on the Mac you can't remove them... but you can hide them.

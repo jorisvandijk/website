@@ -3,7 +3,7 @@ title: "Finder"
 date: 2026-05-07T15:46:16+02:00
 author: "Joris"
 draft: false
-tags: ["macOS"] 
+tags: ["macOS", "tutorial"]
 ---
 
 On an Apple Macbook, there's a file browser. It's always "open" and always in the program switcher, which bugs the heck out of me. It's called **Finder** and I need it to go away when I am not using it. By default it's impossible to actually quit Finder due to it being such a large part of the OS. It even handles the desktop, for example. I personally don't use macOS in the intended way. I don't have a launcher bar, all my applications are launched through shortcuts. I do not use, or really ever see the desktop. I do use the application switcher. A lot. Having that stupid face icon there is one thing. Having to tab over it to get from one app to the next is too much. 

@@ -3,7 +3,7 @@ title: "Control Fn"
 date: 2026-07-17T00:28:17+02:00
 author: "Joris"
 draft: false
-tags: ["macos", "quickie"] 
+tags: ["macOS", "quickie", "tutorial", "keyboard"]
 ---
 
 The MacBook keyboard layout is wrong. Control goes in the bottom left corner, but for some reason fn is chilling there. My old ThinkPad also had them in the wrong order. I hate this so, so much, and clearly more people dislike it, as the ThinkPad has an actual dedicated BIOS setting to swap the two. 

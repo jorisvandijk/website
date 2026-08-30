@@ -3,7 +3,7 @@ title: "Remarkable"
 date: 2026-08-30T08:50:20+02:00
 author: "Joris"
 draft: false
-tags: ["hardware","consumerism"] 
+tags: ["hardware", "tutorial"]
 ---
 
 When I got the reMarkable 2 I enjoyed using it very much. It was my go-to way of taking notes in class. Unfortunately after a while, the need to take notes like that vanished, as we went from mainly listening to mainly doing. Now I found myself behind my laptop all day and if the need to take a note arose, launching a quick terminal/micro combination was faster than pulling out the reMarkable. And so it sat in my backpack losing battery until one day it eventually got laid to rest in a drawer in my desk at home.

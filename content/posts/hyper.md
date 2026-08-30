@@ -3,7 +3,7 @@ title: "Hyper"
 date: 2026-07-09T13:46:41+02:00
 author: "Joris"
 draft: false
-tags: ["macos", "linux", "tutorial"] 
+tags: ["macOS", "linux", "tutorial", "keyboard"]
 ---
 
 From day one on the Macbook I looked at how I could make this thing work for me in a way I was accustomed to. I come from Linux, a world of endless possibilities. In the 15+ years I used it as my main system, I got a certain workflow that was my own. People used to joke that I didn’t need to lock my laptop when I was away, as it was unusable to anyone else. I didn’t use a bar. A logged in system would show nothing but the wallpaper. Pressing the super (Windows) key did nothing. Right clicking the desktop did nothing. Sure, a Linux window manager user would press `super` + `enter` and they would be greeted by Kitty, my terminal emulator, but no Windows user would press that combination. 

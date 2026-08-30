@@ -3,7 +3,7 @@ title: "Dust Jacket"
 date: 2026-07-26T21:05:59+02:00
 author: "Joris"
 draft: false
-tags: ["ai", "books"] 
+tags: ["ai", "books", "tutorial"]
 ---
 
 It's hard to pick which book to read next. Especially if you have many. I've spent far too much time in front of my bookcases, pondering what's next. Still, standing there I can pull a book and read the jacket. Put it back, read another. On and on until something tickles my fancy. 

@@ -3,7 +3,7 @@ title: "This Domain"
 date: 2026-05-27T21:01:14+02:00
 author: "Joris"
 draft: false
-tags: ["blog", "nostalgia"] 
+tags: ["babble", "meta"]
 ---
 The _Jorisvandijk.com_ domain goes back quite a while. Using any _whois_ tool, you can discover it's been registered 17 years, 3 months and 26 days ago on **January 31st 2009**. It first appears in the [Wayback Machine](https://web.archive.org/web/20030715000000*/jorisvandijk.com) on the 13th of July 2003. Have a look at it in all its glory.
 

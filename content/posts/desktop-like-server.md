@@ -3,7 +3,7 @@ title: "Desktop-like Server"
 date: 2025-12-18T00:58:01+01:00
 author: "Joris"
 draft: false
-tags: ["server"] 
+tags: ["hardware", "homelab", "tutorial"]
 ---
 
 I just moved my server into my server rack. This sounds silly, but it was a desktop-like enclosure, not a rack mounted one. I do have a rack mount in my basement, but it mainly held switches and the likes. Now it also holds my server and it's amazing. 

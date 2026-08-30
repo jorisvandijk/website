@@ -3,7 +3,7 @@ title: "Hugo, Hosts, And Hard Lessons"
 date: 2025-07-22T16:13:47+02:00
 author: "Joris"
 draft: false
-tags: ["hugo", "git", "blog"]
+tags: ["hugo", "git", "babble", "meta"]
 ---
 
 # Hugo

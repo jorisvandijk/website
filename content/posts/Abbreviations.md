@@ -3,7 +3,7 @@ title: "Terminal Abbreviations"
 date: 2026-03-03T11:11:21+01:00
 author: "Joris"
 draft: false
-tags: ["linux", "terminal", "zsh"] 
+tags: ["linux", "shell", "tutorial"]
 ---
 
 Typing takes time. Typing without typos is an art. Fixing mistakes in a terminal command is a pain in the neck. Luckily there's such a thing as _aliases_. An alias lets you set a keyword and a command it should expand to. For example, I have set a super simple one, which is widely used: `alias ..='cd ..'`. This allows me to write `..` in terminal and it will act like `cd ..`, saving me typing a _c_, a _d_ and a space. This seems minor, but when you imagine how often I need to go up a directory in terminal, it's a huge timesaver. 

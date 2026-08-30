@@ -3,7 +3,7 @@ title: "Don't Buy The Thing"
 date: 2026-03-18T22:24:35+01:00
 author: "Joris"
 draft: false
-tags: ["blog", "consumerism", "minimalism"] 
+tags: ["babble", "consumerism", "minimalism"]
 ---
 
 I recently noticed myself wanting stuff, then thinking on it only to realize I didn't really. It's like _ADHD greed_ and I blame YouTube. Anyway, this got me thinking. What do I own that I really do value? I own things I would replace on the spot if I lost them, but there are also things that couldn't be replaced. So there are things I value enough to acquire them a second time, but there are also things I value more. Things that cannot be replaced. 

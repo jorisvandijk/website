@@ -3,7 +3,7 @@ title: "I Love Writing Tutorials"
 date: 2025-12-04T15:34:19+01:00
 author: "Joris"
 draft: false
-tags: ["blog"] 
+tags: ["babble", "writing", "meta"]
 ---
 
 It's been a while since I wrote one, but the other day I finally finished [my tutorial](https://jorisvandijk.com/posts/proxmox-backup-server/) on setting up _Proxmox Backup Server_. It's a detailed account of what I did. I mainly write these to clean up the notes I take while working on things. If I left the notes as-is, in a few months I’d have no idea what I actually did. The notes simply don’t contain everything, so while it's still fresh in my mind, I turn them into a tutorial. I do so mostly for myself, but hopefully its useful to others as well.

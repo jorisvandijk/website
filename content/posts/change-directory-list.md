@@ -3,7 +3,7 @@ title: "Change Directory, List"
 date: 2026-06-24T13:50:26+02:00
 author: "Joris"
 draft: false
-tags: ["terminal", "zsh", "bash"] 
+tags: ["shell", "tutorial"]
 ---
 
 When moving around in my terminal, I use two commands in sequence all the time. You'll know them, they are `cd` and `ls`. _Change directory_, then _list_ the contents of that directory. I decided this was getting annoying. Why is there not a single command to do this? Why not make one? I first thought an alias might work, but then I realised you cannot call an alias, hand it a variable and have it do something after that variable. `<alias> <user variable> <second action>` is just not possible. 

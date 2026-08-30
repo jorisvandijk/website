@@ -3,7 +3,7 @@ title: "Bananas"
 date: 2026-07-22T13:44:26+02:00
 author: "Joris"
 draft: false
-tags: ["blog", "silly"] 
+tags: ["babble", "silly"]
 ---
 
 Bananas are amazing. They taste great on their own, in a dessert or even on toast. They're teaching aids for a sex-ed class and make-believe handguns. There's likely no human male on the planet who hasn't pointed one at a fellow human and uttered the word "bang". Bananas conveniently come in their own packaging and can be carried along with ease in a backpack, tote bag, or even pocket. Bananas aren’t perfect though.  They do, for example, force other fruits to ripen prematurely[^1][^2]. 

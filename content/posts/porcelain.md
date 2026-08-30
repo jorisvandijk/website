@@ -3,7 +3,7 @@ title: "Porcelain"
 date: 2026-06-25T00:39:30+02:00
 author: "Joris"
 draft: false
-tags: ["zsh", "git", "terminal"]
+tags: ["shell", "git", "tutorial"]
 showtoc: false 
 ---
 

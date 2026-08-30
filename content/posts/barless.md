@@ -3,7 +3,7 @@ title: "Barless"
 date: 2026-07-17T23:53:12+02:00
 author: "Joris"
 draft: false
-tags: ["linux", "script"] 
+tags: ["linux", "script", "tutorial"]
 ---
 
 A bar is used on a Linux Window Manager to display information like the date, time, volume information and maybe most importantly, on which desktop you are. Most people add way more to their bar, like CPU usage, memory usage, system temperature, hard drive space usage, connection state and many many more. It's also a part of the look of your desktop which you're supposed to rice, screenshot and put on [/r/unixporn](https://www.reddit.com/r/unixporn/).

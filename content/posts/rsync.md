@@ -3,7 +3,7 @@ title: "Rsync"
 date: 2026-04-12T17:04:44+02:00
 author: "Joris"
 draft: false
-tags: ["terminal", "quickie"] 
+tags: ["linux", "quickie", "tutorial"]
 ---
 Rsync is an amazing utility to copy (or sync) _stuff_ from one place to another without having to worry about the command getting cut. With a plain _cp_, an interrupted transfer means starting over from scratch. Rsync compares source and destination, skipping files that are already there, and with `--partial` it can even resume a file that was only halfway through. It can also remember ownership and permissions, and even copy over _ssh_. That is, with the right flags, which I can never remember. Hence this post.
 

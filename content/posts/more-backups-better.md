@@ -3,7 +3,7 @@ title: "More Backups Are Always Better"
 date: 2025-07-23T10:15:22+02:00
 author: "Joris"
 draft: false
-tags: ["git", "tutorial"]
+tags: ["git", "tutorial", "backup"]
 ---
 
 I've [mentioned](/posts/hugo-hosts-lessons/#github) before that I have my website's repository mirrored across multiple Git hosts. Well, it is not just the website; it is all my repositories. I have four hosts, namely: [GitHub](https://github.com/jorisvandijk), [GitLab](https://gitlab.com/jorisvandijk), [Codeberg](https://codeberg.org/jorisvandijk), and [Bitbucket](https://bitbucket.org). This is overkill, I know. I really like it, though. It gives me a warm, fuzzy feeling knowing my precious crap is safe. If one host goes down, I’ve got three others. If two go down, there are still two left. And if three go down… well, there’s probably something far more serious going on, but let’s not get distracted.

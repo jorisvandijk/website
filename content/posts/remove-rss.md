@@ -3,7 +3,7 @@ title: "You Should Delete Your RSS Reader"
 date: 2025-09-04
 author: "Joris"
 draft: false
-tags: ["blog"]
+tags: ["babble", "meta"]
 ---
 
 At least, from your computer. Hear me out.

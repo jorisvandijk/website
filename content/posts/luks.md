@@ -3,7 +3,7 @@ title: "LUKS"
 date: 2026-04-15T14:28:45+02:00
 author: "Joris"
 draft: false
-tags: ["linux", "tutorial", "security"] 
+tags: ["linux", "tutorial", "encryption"]
 ---
 
 LUKS, _Linux Unified Key Setup_, is a way to encrypt partitions on Linux. It's a good way to store sensitive data on a flash drive or on your main system. Usage is super simple. You issue a command to unlock it and it will prompt you for your passphrase. After entering the right one, you can mount the partition and use it as normal. When you're done with it, you umount the partition and lock it with another command. Without the right passphrase the data on the partition is just noise.

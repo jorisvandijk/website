@@ -3,7 +3,7 @@ title: "Cover Images"
 date: 2025-11-05T14:01:26+01:00
 author: "Joris"
 draft: false
-tags: ["blog"]
+tags: ["babble", "meta"]
 ---
 I used to have cover images for some posts on my blog. I felt they added some needed pizzazz to the site. Turns out I was wrong. It added a splash of color to the index page, sure, but it also brought some issues.
 

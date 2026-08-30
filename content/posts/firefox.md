@@ -3,7 +3,7 @@ title: "Firefox"
 date: 2026-05-26T23:13:21+02:00
 author: "Joris"
 draft: false
-tags: ["macOS", "firefox"] 
+tags: ["macOS", "browser", "tutorial", "privacy"]
 ---
 
 I have been switching browsers a lot these last few months. The new CEO of Mozilla, Anthony Enzor-DeMeo, stated in [his post](https://blog.mozilla.org/en/mozilla/leadership/mozillas-next-chapter-anthony-enzor-demeo-new-ceo/) that _"It [Firefox] will evolve into a modern AI browser"_. This rubbed me the wrong way. Granted, Mozilla has been adding junk to their browser for a while now and none of it is good. He floated the idea of blocking ad-blockers in an interview. [The Verge](https://archive.is/75FjT) wrote: _"He says he could begin to block ad blockers in Firefox and estimates that’d bring in another $150 million, but he doesn’t want to do that. It feels off-mission"_.

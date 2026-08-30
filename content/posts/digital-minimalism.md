@@ -3,7 +3,7 @@ title: "(Digital) Minimalism"
 date: 2026-06-17T16:27:56+02:00
 author: "Joris"
 draft: false
-tags: ["consumerism","minimalism"] 
+tags: ["consumerism", "minimalism", "babble"]
 ---
 
 So you've now got yourself a dumb phone. You bought an e-reader for reading and an old iPod for _them tunes_. You've deleted Candy Crush - I worry that reference is old as fuck now - and instead you've gotten yourself a small gaming handheld, be it a vintage Game Boy or one of those cool new AliExpress ones. You jot down whatever's important on trusty old paper, in that little book you've got in your back pocket. Along with it you obviously got a pen. A special pen, perhaps one you meticulously picked out. It might even be a fountain pen.
