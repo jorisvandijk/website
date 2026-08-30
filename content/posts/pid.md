@@ -3,7 +3,7 @@ title: "Pi'd"
 date: 2026-08-25T13:33:45+02:00
 author: "Joris"
 draft: false
-tags: ["raspberry pi", "blog", "emulation"] 
+tags: ["hardware", "blog", "emulation"] 
 ---
 It has been a busy weekend. I completed four different projects all to do with entertainment. It started with me rummaging around in my electronics bin and bumping into the Raspberry Pi Zero 2 WH on Friday evening. I hadn’t actually done anything with this Pi before, so I decided on a whim to see what I could do with it. A little surfing later and the idea of playing retro games on my TV in the living room with my Xbox controller seemed like an amazing thing to me. 
 
