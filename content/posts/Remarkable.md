@@ -36,6 +36,8 @@ Installing the software and connecting to the reMarkable is quick and easy. Inst
 
 8. _tripletap_ - to enable mods after boot by clicking the power button three times.
 
+9. _stylus-button-undo-redo_ - double-click the stylus button to undo the last action.
+
 Not only have I gotten my fix for messing with hard- and software for the day, but I also have a great way of keeping myself accountable and I saved a bit of - admittedly far too expensive - tech from the graveyard of forgotten gadgets.
 
 [^1]: [reMarkable Guide: Custom Templates](https://remarkable.guide/guide/config/templates.html)
