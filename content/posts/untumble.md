@@ -30,7 +30,7 @@ www.youtube.com##ytd-guide-renderer
 www.youtube.com##tp-yt-app-drawer
 www.youtube.com##ytd-mini-guide-renderer
 
-! === Kill sign In ===
+! === Kill sign in ===
 www.youtube.com##ytd-button-renderer:has-text(Sign in)
 
 ! === Kill voice search ===
