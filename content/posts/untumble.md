@@ -42,3 +42,12 @@ www.youtube.com###masthead #guide-button
 ! === Kill right three-dot menu ===
 www.youtube.com###masthead #button
 ```
+
+{{< note >}}
+It took less than 24 hours, but I decided to also remove the suggestions on the video pages. These lead to mindless scrolling as well. To remove those add the following.
+
+```
+! === Kill video suggestions pane ===
+youtube.com##ytd-watch-next-secondary-results-renderer
+```
+{{< /note >}}
