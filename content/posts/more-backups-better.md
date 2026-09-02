@@ -8,10 +8,10 @@ tags: ["git", "tutorial", "backup"]
 
 I've [mentioned](/posts/hugo-hosts-lessons/#github) before that I have my website's repository mirrored across multiple Git hosts. Well, it is not just the website; it is all my repositories. I have four hosts, namely: [GitHub](https://github.com/jorisvandijk), [GitLab](https://gitlab.com/jorisvandijk), [Codeberg](https://codeberg.org/jorisvandijk), and [Bitbucket](https://bitbucket.org). This is overkill, I know. I really like it, though. It gives me a warm, fuzzy feeling knowing my precious crap is safe. If one host goes down, I’ve got three others. If two go down, there are still two left. And if three go down… well, there’s probably something far more serious going on, but let’s not get distracted.
 
-Four is a lot, but you might think that at least having a second one is not such a bad idea - and you'd be right. The process is super simple and short. No reason not to do it. I'll walk through the process assuming we're starting with nothing. This is a new repository you're going to set up.
+Four is a lot, but you might think that at least having a second one is not such a bad idea—and you'd be right. The process is super simple and short. No reason not to do it. I'll walk through the process assuming we're starting with nothing. This is a new repository you're going to set up.
 
 # The setup
-The first step is to go to all your Git providers and create a new repository. We'll use this website's repository as an example. My username across (almost - darn that user on Bitbucket) all the hosts is `jorisvandijk`, so substitute that for your own username where applicable. The repository is, unsurprisingly, called `website`. How original.
+The first step is to go to all your Git providers and create a new repository. We'll use this website's repository as an example. My username across almost all the hosts—darn that user on Bitbucket—is jorisvandijk, so substitute that for your own username where applicable. The repository is, unsurprisingly, called `website`. How original.
 
 ## In your browser
 For each host you want to have this repository on, create a new repository there. Make sure it is **completely empty**. Don't initialize with a _README.md_! The process differs from host to host, so I can't explain how to set up the repository in detail. You should be greeted by something like this when it is created:

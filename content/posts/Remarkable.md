@@ -8,7 +8,7 @@ tags: ["hardware", "tutorial"]
 
 When I got the reMarkable 2 I enjoyed using it very much. It was my go-to way of taking notes in class. Unfortunately after a while, the need to take notes like that vanished, as we went from mainly listening to mainly doing. Now I found myself behind my laptop all day and if the need to take a note arose, launching a quick terminal/micro combination was faster than pulling out the reMarkable. And so it sat in my backpack losing battery until one day it eventually got laid to rest in a drawer in my desk at home.
 
-Skip ahead quite a while, and after summer vacation I decided it was time to get back into healthy living. I'd had more than enough Italian beer and wine and - dare I say it? - pizza and gelato. So, I've set up some goals and the best way of keeping myself accountable is noting down what I did each day. "Don't I have a nice bit of tech for that somewhere?"
+Skip ahead quite a while, and after summer vacation I decided it was time to get back into healthy living. I'd had more than enough Italian beer and wine and—dare I say it?—pizza and gelato. So, I've set up some goals and the best way of keeping myself accountable is noting down what I did each day. "Don't I have a nice bit of tech for that somewhere?"
 
 A charge and an update later and I am all set. Though, am I? I went through the templates and none of them exactly fit my needs. Then came searching online, but still nothing. Eventually I decided I'd just make my own and I [did](/img/DailyNote-blank.png). But how do I get that on the reMarkable?
 
@@ -38,7 +38,7 @@ Installing the software and connecting to the reMarkable is quick and easy. Inst
 
 9. _stylus-button-undo-redo_ - double-click the stylus button to undo the last action.
 
-Not only have I gotten my fix for messing with hard- and software for the day, but I also have a great way of keeping myself accountable and I saved a bit of - admittedly far too expensive - tech from the graveyard of forgotten gadgets.
+Not only have I gotten my fix for messing with hard- and software for the day, but I also have a great way of keeping myself accountable and I saved a bit of—admittedly far too expensive—tech from the graveyard of forgotten gadgets.
 
 [^1]: [reMarkable Guide: Custom Templates](https://remarkable.guide/guide/config/templates.html)
 [^2]: [Toltec](https://toltec-dev.org/)

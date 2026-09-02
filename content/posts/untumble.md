@@ -18,7 +18,7 @@ So this evening, sliding down the homepage of despair it hit me. I don’t need 
 
 ![YouTube Home](/img/youtube.png)
 
-The rest of the site works just like normal. You can search for videos, play them, read comments and get suggestions in the bar on the right of the videos. I left that last part intact, because I figure - if I am watching a video I liked, chances are related videos _might_ be fun too. I’ll decide later if I’ll keep it. At any rate, these are my filters should you want the same experience:  
+The rest of the site works just like normal. You can search for videos, play them, read comments and get suggestions in the bar on the right of the videos. I left that last part intact, because I figure—if I am watching a video I liked, chances are related videos _might_ be fun too. I’ll decide later if I’ll keep it. At any rate, these are my filters should you want the same experience:  
 
 ```
 ! === Kill homepage feed ===

@@ -28,7 +28,7 @@ To install PBS, we will be using a _Helper Script_. This script will automate th
 Using these _Helper Scrips_ means running scripts from the internet on your server with root access. Be sure you trust the site, script and/or author.
 {{< /warning >}}
 
-The script we'll be using can be found [here](https://community-scripts.github.io/ProxmoxVE/scripts?id=proxmox-backup-server). Under **How to install** you can copy the install command. At the time of writing this, that would be `bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/proxmox-backup-server.sh)"`. Now go to the web UI for Proxmox and navigate in the left dropdown menu to **Datacenter** > **node** (this can be named, mine is named _pve_). Then in the menu to the right of the dropdown (the secondary menu), click **Shell**.
+The script we'll be using can be found [here](https://community-scripts.github.io/ProxmoxVE/scripts?id=proxmox-backup-server). Under **How to install** you can copy the install command. At the time of writing this, that would be `bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/proxmox-backup-server.sh)"`. Now go to the web UI for Proxmox and navigate in the left dropdown menu to **Datacenter** → **node** (this can be named, mine is named _pve_). Then in the menu to the right of the dropdown (the secondary menu), click **Shell**.
 
 The center of the screen will now display a shell/terminal interface. Paste the command we just copied here and press enter. A _Terminal User Interface_, or TUI will pop up. Select **3. Advanced Settings**. Set the following values in the prompts that pass by:
 
@@ -67,7 +67,7 @@ In order for PBS to be able to access the `/media/backups` mount point, within _
 5. Restart the container with `pct start 116`.
 6. Check if the container is running with `pct status 116`.
 
-Now go back to the PBS IP address, `https://10.10.10.116:8007` in my case, and verify the drive is present by going to **Administration** > **Shell** in the left menu. In this shell issue the following: `touch /backups/test`. If you get no output, the drive is mounted right and the permissions are set properly. If you get permission errors, you'll need to fix permissions.
+Now go back to the PBS IP address, `https://10.10.10.116:8007` in my case, and verify the drive is present by going to **Administration** →  **Shell** in the left menu. In this shell issue the following: `touch /backups/test`. If you get no output, the drive is mounted right and the permissions are set properly. If you get permission errors, you'll need to fix permissions.
 
 {{< info >}}
 To fix permission issues, go to the Proxmox VE Shell and issue `chown -R 100000:100000 /media/backups`.
@@ -91,22 +91,22 @@ Before you continue, make sure you have the right directory set. After the softw
 # Create Backup User
 Next up we're going to create a user that will run the backups. We're doing this so the backups are not being run by the root user. The root user has far too many permissions and could wipe out the PBS if something goes wrong. With setting up a user with fewer permissions, we can make sure only certain intentional actions will be taken.
 
-On the PBS web UI, in the left menu, go to **Configuration** > **Access Control**. Here go to the **User Management** tab (it does so by default). Here we can set up our new user:
+On the PBS web UI, in the left menu, go to **Configuration** → **Access Control**. Here go to the **User Management** tab (it does so by default). Here we can set up our new user:
 
 1. Click **Add**.
 2. Fill out the fields as you like. I named the user _backup_ and gave it a strong password. The _Realm_ can be left as is. Make sure you do not let the user expire.
 3. Click **Add**.
 
-Our user has been created. We now will need to give him some privileges. In the left menu, head over to **Datastores** and select the datastore we've just created. Mine's named _backups_. Here in the top menu click on **Permissions**. Click **Add** > **User Permission**. 
+Our user has been created. We now will need to give him some privileges. In the left menu, head over to **Datastores** and select the datastore we've just created. Mine's named _backups_. Here in the top menu click on **Permissions**. Click **Add** → **User Permission**. 
 
-1. In the **User:** field, select the _backup@pbs_ user (or whatever you've named yours. Note that the _@pbs_ got added automatically - this is normal). 
+1. In the **User:** field, select the _backup@pbs_ user (or whatever you've named yours. Note that the _@pbs_ got added automatically—this is normal). 
 2. Then under **Role** select **DatastoreAdmin**.
 3. Click **Add**.
 
 Now all we need to do is get the _Certificate Fingerprint_, which we need for the next section. In the left menu, head over to **Dashboard**. Here click on the button **Show Fingerprint**. Copy this and close the popup.
 
 # Add PBS to Proxmox VE
-Open the Proxmox VE web UI. In the left menu, navigate to **Datacenter**.  In the secondary menu click on **Storage**. In the top menu click **Add** > **Proxmox Backup Server**. A new popup appears where we need to input the following:
+Open the Proxmox VE web UI. In the left menu, navigate to **Datacenter**.  In the secondary menu click on **Storage**. In the top menu click **Add** **Proxmox Backup Server**. A new popup appears where we need to input the following:
 
 1. **ID**: `backups` (This is just a name. You can choose any you like).
 2. **Server**: `10.10.10.116` (This is the IP of the PBS).

@@ -24,7 +24,7 @@ git_status_prompt() {
 
 This works fine. It does what it's supposed to... It's ugly though. 
 
-Time to take a long hard look at this function. There's an if-else with three branches and I don't much like an if-else past two. A `case` is better for that. I'm also grepping twice there. That's two calls to an outside program, which `case` can do itself - and it's even a shell built-in. Then I realised the worst part... Am I really calling git three times in here? Hang on. Three times for every prompt inside a git repo? That's bonkers!
+Time to take a long hard look at this function. There's an if-else with three branches and I don't much like an if-else past two. A `case` is better for that. I'm also grepping twice there. That's two calls to an outside program, which `case` can do itself—and it's even a shell built-in. Then I realised the worst part... Am I really calling git three times in here? Hang on. Three times for every prompt inside a git repo? That's bonkers!
 
 There must be a better way to tackle this. Isn't there a way to call git once and derive the information I need from that one call? There is. It's even _in_ the function already! The `git status --porcelain` on its own basically has all the information I need. It returns line-separated file with a two-letter code in front of them, denoting the status of that one file. There's no output if there are no changes. That solves the green tick. The red dot could be gotten from the letter code. A little google later and `DD`, `AU`, `UD`, `UA`, `DU`, `AA`, and `UU` are the codes that denote merge conflicts. That means that the yellow cross is also checked, as that's all other possible outputs. That makes the following my new git function. 
 

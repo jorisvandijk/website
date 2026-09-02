@@ -10,7 +10,7 @@ The MacBook keyboard layout is wrong. Control goes in the bottom left corner, bu
 
 ![fn and control](/img/fn-control.png#center)
 
-Now the Mac offers the ability to change what the keys do too, at least it seems to. Unfortunately, changing the setting in **Settings** > **Keyboard** > **Keyboard Shortcuts** > **Modifier Keys** does nothing for me. Not a clue if this is a me problem or a macOS one.
+Now the Mac offers the ability to change what the keys do too, at least it seems to. Unfortunately, changing the setting in **Settings** → **Keyboard** → **Keyboard Shortcuts** → **Modifier Keys** does nothing for me. Not a clue if this is a me problem or a macOS one.
 
 ![Keyboard setting](/img/keyboard.png#center)
 

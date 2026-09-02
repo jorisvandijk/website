@@ -22,6 +22,6 @@ Were things better when you were young? Are memories made when you’re developi
 
 There’s research into this that states that earlier memories get ingrained more than later ones, but this does not explain the ADHD switching behavior. I’m sure there’s research into that as well, I was just too busy scrolling on my phone to read it. 
 
-It doesn’t matter. I am going to make a stand against this behavior I seem to have adopted and I am going to put an end to it. From now on I will choose to watch a movie and I will watch that movie. My phone will be in another room and I will be present for the entire movie (snack runs are allowed, as well as bathroom breaks). I will put an effort into focusing on the thing I am doing. I will not get sidetracked by other unimportant shit. I’ll do one thing and do it well. I will force myself into making fond memories damnit! 
+It doesn’t matter. I am going to make a stand against this behavior I seem to have adopted and I am going to put an end to it. From now on I will choose to watch a movie and I will watch that movie. My phone will be in another room and I will be present for the entire movie, although snack runs are allowed—as well as bathroom breaks. I will put an effort into focusing on the thing I am doing. I will not get sidetracked by other unimportant shit. I’ll do one thing and do it well. I will force myself into making fond memories damnit! 
 
 Where do I buy an album now though?

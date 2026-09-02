@@ -11,9 +11,9 @@ It has been a busy weekend. I completed four different projects all to do with e
 
 I got to work. Downloading RetroPie[^1] and installing it on the Micro SD card was easy with the Raspberry Pi Imager[^2]. Booting into it was no issue either. Then I ran into an issue. No bluetooth on boot. I had to connect my controller with a cable. This won't do! I want to sit on my couch and play, so I grabbed a keyboard, connected that and went through the menus and tried to connect the controller. Best I got was it connecting and disconnecting over and over again. The light on the controller kept blinking and the terminal output in `bluetoothctl` was a scrolling list of connect and disconnect messages. 
 
-Then came many hours of googling, followed by installing a different OS on the Pi named Batocera - only for it to do the exact same with the Xbox controller connection. I sighed deeply. More googling came. Eventually I deduced it was probably the controller’s software. And luckily Microsoft had pushed an update that would fix this. Hooray! 
+Then came many hours of googling, followed by installing a different OS on the Pi named Batocera—only for it to do the exact same with the Xbox controller connection. I sighed deeply. More googling came. Eventually I deduced it was probably the controller’s software. And luckily Microsoft had pushed an update that would fix this. Hooray! 
 
-Updating the controller can only be done with an Xbox - which I don’t own, or on Windows - which I don’t run. Luckily, I thought, I have UTM installed with a Windows VM. I’ll just pass the controller through to it (which worked, it made the *ding* sound and the controller was listed in Device Manager). I downloaded the Xbox Accessories app through the Microsoft Store and launched it. Ignored the account login warning and… no joy. It just would not detect the damn thing. This time it didn’t take me hours to give up. Pretty quickly I said *fuck it* and pulled my wife’s old Windows laptop from the mothballs. Booted into it. Sat through twenty minutes of updates. And finally installed the software and connected the controller. Without any fuss it showed the thing and allowed me to update it. 
+Updating the controller can only be done with an Xbox—which I don’t own, or on Windows—which I don’t run. Luckily, I thought, I have UTM installed with a Windows VM. I’ll just pass the controller through to it (which worked, it made the *ding* sound and the controller was listed in Device Manager). I downloaded the Xbox Accessories app through the Microsoft Store and launched it. Ignored the account login warning and… no joy. It just would not detect the damn thing. This time it didn’t take me hours to give up. Pretty quickly I said *fuck it* and pulled my wife’s old Windows laptop from the mothballs. Booted into it. Sat through twenty minutes of updates. And finally installed the software and connected the controller. Without any fuss it showed the thing and allowed me to update it. 
 
 Within minutes it was done and I booted the Pi into a fresh copy of RetroPie. Went through the keyboard bluetooth hassle again and this time got the controller connected in one go. Bright non-blinking LED! I connected the Pi to my TV and played roughly ten different games for about an hour before I went to bed.
 
@@ -21,7 +21,7 @@ That night I had a thought: I have an Nvidia Shield I could have used to emulate
 
 ## More emulation on TV
 
-Some time Saturday evening I disconnected the Pi and booted into the Shield. I had done some searching online and had a decent plan to get this working. RomM[^3] - the rom manager I have running on my server - has a native Android app called Argosy Launcher[^4]. Unfortunately this app cannot be installed with the Play Store (through which I did install some emulators, like NetherSX2 Classic[^5] and RetroArch[^6], which Argosy will automatically use), but Argosy has to be sideloaded with adb[^7].  I had Developer mode already turned on, so I also turned on USB Debugging and Network Debugging. Then from my laptop I `adb connect`-ed and `adb install`-ed. I then pointed Argosy to my RomM's address and like magic it synced all my games. 
+Some time Saturday evening I disconnected the Pi and booted into the Shield. I had done some searching online and had a decent plan to get this working. RomM[^3]—the rom manager I have running on my server—has a native Android app called Argosy Launcher[^4]. Unfortunately this app cannot be installed with the Play Store (through which I did install some emulators, like NetherSX2 Classic[^5] and RetroArch[^6], which Argosy will automatically use), but Argosy has to be sideloaded with adb[^7].  I had Developer mode already turned on, so I also turned on USB Debugging and Network Debugging. Then from my laptop I `adb connect`-ed and `adb install`-ed. I then pointed Argosy to my RomM's address and like magic it synced all my games. 
 
 Several retro systems work out of the box, some require external emulators and some need you to upload BIOS files, like NetherSX2 Classic did. No problem, just make a BIOS folder anywhere user writable, I went `/sdcard/bios` and `adb push`-ed the BIOS files to that location from the computer. NetherSX2 was a pain to navigate through, as it is supposed to run on a phone (not a TV), but with trial and error and loads of patience, I got it all to work. 
 
@@ -31,7 +31,7 @@ I played a couple of games for about 20 minutes before I decided to please the w
 
 I’ll spare you the swearing and other abuse I made the poor little Pi endure. Suffice to say, the thing just isn’t powerful enough to properly play media from Jellyfin over a network.
 
-Shit. So I went googling again and compared my options. Apple TV: too expensive; a second Shield: also too expensive; Amazon Fire TV stick: crap product. I eventually landed on a Xiaomi TV Box S (3rd Gen). But I didn’t want to run their native OS on it though. That uses Google TV which is the same shit OS the Shield uses. I found that it has support for CoreELEC[^8], which is basically an OS built around Kodi - the popular media center application. This is perfect as Kodi has an add-on for Jellyfin which manages the media on my server. 
+Shit. So I went googling again and compared my options. Apple TV: too expensive; a second Shield: also too expensive; Amazon Fire TV stick: crap product. I eventually landed on a Xiaomi TV Box S (3rd Gen). But I didn’t want to run their native OS on it though. That uses Google TV which is the same shit OS the Shield uses. I found that it has support for CoreELEC[^8], which is basically an OS built around Kodi—the popular media center application. This is perfect as Kodi has an add-on for Jellyfin which manages the media on my server. 
 
 With the Xiaomi in my cart, I wandered around the CoreELEC project’s website, only to stumble across the supported devices page and something caught my eye: HardKernel Odroid N2. I own one of those! It’s been sitting in a box for well over six years. Looking into this a little more, it has several advantages over the Xiaomi even though it’s much older. It has more raw power, it has ethernet, and it carries neither Xiaomi's junk nor Google TV. And most of all, it’s free (as in I already own it). *Empty cart*.
 
@@ -39,7 +39,7 @@ Installing CoreELEC on the N2 is simple. Just `dd` the image on an SD card and p
 
 The only slight hurdle was getting the Jellyfin plugin installed. Sure there’s one on the Kodi repositories, but that’s not the one that we need. This one comes from the Jellyfin repo, which needs to be installed manually. Jellyfin has a page explaining how to do all this in detail[^9] and doing it isn’t hard. After connecting to my server and logging in, it did take quite a while to sync everything. Good thing to note is to leave the device alone while it’s doing this. What not to do is move through menus and content and try playing things, because that freezes up the system requiring a reboot. A reboot means the sync has to start from scratch, I learned the hard way. When it eventually finished I found it handled playback perfectly no matter what file I threw at it. 
 
-Happy wife - happy life. 
+Happy wife—happy life. 
 
 ## Even more emulation, but on Mac now
 
@@ -51,7 +51,7 @@ Back to googling and it turns out, there’s another bit of software called WiiU
 
 After settling the controller issue and setting some *Graphic Packs*, I launched the game and boy what a game! It looks stunning, plays like a charm and will no doubt suck up a lot of my spare time. 
 
-Later that day I finally got around to cleaning up the mess of cables and other hardware that had collected on the dining table during this weekend. After carrying the TV and its new media box to the garage, and neatly storing away my cables and SD cards, I noticed a lone green board left on the table. Oh yeah - I am still not doing anything with the Pi. Back in the electronics box it went. No regrets. 10/10 weekend.
+Later that day I finally got around to cleaning up the mess of cables and other hardware that had collected on the dining table during this weekend. After carrying the TV and its new media box to the garage, and neatly storing away my cables and SD cards, I noticed a lone green board left on the table. Oh yeah—I am still not doing anything with the Pi. Back in the electronics box it went. No regrets. 10/10 weekend.
 
 [^1]: [RetroPie](https://retropie.org.uk/)
 [^2]: [Raspberry Pi Imager](https://www.raspberrypi.com/software/)

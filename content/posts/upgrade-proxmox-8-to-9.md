@@ -99,7 +99,7 @@ After that I cleared out the footage that had accumulated on root, which freed u
 
 ### NOTICE: LVM autoactivation
 
-LVM autoactivation means that logical volumes (the virtual disks your VMs and containers use) are automatically made available by the system at boot. In PVE 8 this was the default behaviour, but it can cause problems on shared storage setups where multiple nodes might try to activate the same volume simultaneously. PVE 9 disables autoactivation for all newly created volumes and lets Proxmox handle activation itself when a guest actually needs it. The migration script takes care of bringing the existing volumes in line with this new behaviour.
+LVM autoactivation means that logical volumes (the virtual disks your VMs and containers use) are automatically made available by the system at boot. In PVE 8 this was the default behavior, but it can cause problems on shared storage setups where multiple nodes might try to activate the same volume simultaneously. PVE 9 disables autoactivation for all newly created volumes and lets Proxmox handle activation itself when a guest actually needs it. The migration script takes care of bringing the existing volumes in line with this new behavior.
 
 As noted in the [Proxmox upgrade documentation](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9#LVM/LVM-thin_storage_has_guest_volumes_with_autoactivation_enabled), running the script is optional if your volumes are on local storage only, but still recommended. I ran it anyway:
 

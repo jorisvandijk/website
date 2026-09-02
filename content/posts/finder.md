@@ -52,7 +52,7 @@ tell application "Finder"
 end tell
 ```
 
-Make sure it's executable and open Raycast. It will magically pop up under **Settings > Extensions > Script Commands**. Set the keybinding and we're done. _(One heads-up: the first run will trigger a macOS Automation prompt. Grant it to Raycast, not Terminal.)_
+Make sure it's executable and open Raycast. It will magically pop up under **Settings** → **Extensions** → **Script Commands**. Set the keybinding and we're done. _(One heads-up: the first run will trigger a macOS Automation prompt. Grant it to Raycast, not Terminal.)_
 
 ![Raycast](/img/RayCast.png)
 

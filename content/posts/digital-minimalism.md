@@ -6,7 +6,7 @@ draft: false
 tags: ["consumerism", "minimalism", "babble"]
 ---
 
-So you've now got yourself a dumb phone. You bought an e-reader for reading and an old iPod for _them tunes_. You've deleted Candy Crush - I worry that reference is old as fuck now - and instead you've gotten yourself a small gaming handheld, be it a vintage Game Boy or one of those cool new AliExpress ones. You jot down whatever's important on trusty old paper, in that little book you've got in your back pocket. Along with it you obviously got a pen. A special pen, perhaps one you meticulously picked out. It might even be a fountain pen.
+So you've now got yourself a dumb phone. You bought an e-reader for reading and an old iPod for _them tunes_. You've deleted Candy Crush—I worry that reference is old as fuck now—and instead you've gotten yourself a small gaming handheld, be it a vintage Game Boy or one of those cool new AliExpress ones. You jot down whatever's important on trusty old paper, in that little book you've got in your back pocket. Along with it you obviously got a pen. A special pen, perhaps one you meticulously picked out. It might even be a fountain pen.
 
 Granted, doing this has made your phone more minimal. But you're now toting around a ton of crap in your pockets, or you've picked up a sling, because all that weight in your pants was kind of unpleasant.
 

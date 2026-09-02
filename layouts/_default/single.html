@@ -36,9 +36,13 @@
 
   {{- if .Content }}
   <div class="post-content">
+    {{- $content := .Content -}}
+    {{- with site.Params.emDashURL -}}
+      {{- $content = $content | replaceRE `—` (printf `<a class="em-dash" href="%s">—</a>` .) | safeHTML -}}
+    {{- end -}}
     {{- if not (.Param "disableAnchoredHeadings") }}
-    {{- partial "anchored_headings.html" .Content -}}
-    {{- else }}{{ .Content }}{{ end }}
+    {{- partial "anchored_headings.html" $content -}}
+    {{- else }}{{ $content }}{{ end }}
   </div>
   {{- end }}
 

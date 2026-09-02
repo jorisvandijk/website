@@ -65,6 +65,6 @@ function ex () {
 }
 ```
 
-So - no more remembering which program name goes with which archive, or which flags are needed to extract a specific type of archive. Just `ex <filename>` and you're done.
+So—no more remembering which program name goes with which archive, or which flags are needed to extract a specific type of archive. Just `ex <filename>` and you're done.
 
 📄 _Original code by [sausageandeggs](https://bbs.archlinux.org/viewtopic.php?pid=692072#p692072) on the [Arch Linux Forums](https://bbs.archlinux.org)._

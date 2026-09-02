@@ -15,6 +15,7 @@ theme = 'PaperMod'
   ShowBreadCrumbs = false
   ShowToc = true
   mainSections = ['posts']
+  emDashURL = "/posts/dashed"
 
   [params.author]
   name = "Joris"

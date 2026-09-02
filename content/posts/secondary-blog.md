@@ -12,6 +12,6 @@ Now, on one hand, I don't like to _pollute_ the website with content that _has n
 
 Maybe the real question is, what do I want. Come to think of it, this is _my_ blog. I should just do what I feel fits, the problem, though, is I don't know.
 
-This post in itself is yapping and adds no real value and I am going to post it on the blog and I will add a tag, just to see how it feels. Maybe I even won't scour the web to find a fitting header image for it. Actually, I just decided - I won't. 
+This post in itself is yapping and adds no real value and I am going to post it on the blog and I will add a tag, just to see how it feels. Maybe I even won't scour the web to find a fitting header image for it. Actually, I just decided—I won't. 
 
 If you have thoughts or suggestions, I don't like comment sections, but you can still email me at `joris` at this domain.
