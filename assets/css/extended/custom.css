@@ -806,6 +806,7 @@ a.microblog-permalink:hover {
 
 .microblog-item {
   margin-bottom: 1.25rem;
+  scroll-margin-top: 5rem;
 }
 
 .microblog-permalink {
@@ -988,7 +989,8 @@ sup[id^="fnref"] {
     to   { background: transparent; }
 }
 
-.footnotes li.footnote-flash {
+.footnotes li.footnote-flash,
+.microblog-item:target {
     animation: footnote-flash 3s ease;
     border-radius: 4px;
 }
