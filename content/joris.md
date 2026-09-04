@@ -28,6 +28,6 @@ I am part of a number of webrings:
 - [IndieWeb Webring](https://xn--sr8hvo.ws/)
 - [Hotline Webring](https://hotlinewebring.club/)
 - [No AI Webring](https://baccyflap.com/noai)
-- [Geek Ring](https://geekring.net/)
+- [Geek Ring Webring](https://geekring.net/)
 
 And on the [IndieWeb wiki](https://indieweb.org/) I have an [wiki user page](https://indieweb.org/User:Jorisvandijk.com).
