@@ -6,11 +6,11 @@ draft: false
 tags: ["macOS", "browser", "tutorial", "privacy"]
 ---
 
-I have been switching browsers a lot these last few months. The new CEO of Mozilla, Anthony Enzor-DeMeo, stated in [his post](https://blog.mozilla.org/en/mozilla/leadership/mozillas-next-chapter-anthony-enzor-demeo-new-ceo/) that _"It [Firefox] will evolve into a modern AI browser"_. This rubbed me the wrong way. Granted, Mozilla has been adding junk to their browser for a while now and none of it is good. He floated the idea of blocking ad-blockers in an interview. [The Verge](https://archive.is/75FjT) wrote: _"He says he could begin to block ad blockers in Firefox and estimates that’d bring in another $150 million, but he doesn’t want to do that. It feels off-mission"_.
+I have been switching browsers a lot these last few months. The new CEO of Mozilla, Anthony Enzor-DeMeo, stated in his post that _"It [Firefox] will evolve into a modern AI browser"_[^1]. This rubbed me the wrong way. Granted, Mozilla has been adding junk to their browser for a while now and none of it is good. He floated the idea of blocking ad-blockers in an interview. The Verge wrote: _"He says he could begin to block ad blockers in Firefox and estimates that’d bring in another $150 million, but he doesn’t want to do that. It feels off-mission"_[^2].
 
 This prompted me to find a new browser after more than 20 years of using Firefox. I tried many different ones, all with the same end result. I hate them all. 
 
-I was going to do a full writeup of all of the ones I tried and exactly what it was that rubbed me the wrong way, but really—who cares? They're just worse than Firefox in some way or another **to me**. So where does that leave me? Back on Firefox... well, a port of it. I've landed on [LibreWolf](https://librewolf.net/), _"A custom version of Firefox, focused on privacy, security and freedom"_. It's basically Firefox with the shit ripped out. So far I'm really enjoying it. It's Firefox from before Pocket and the deluge of crap that followed. 
+I was going to do a full writeup of all of the ones I tried and exactly what it was that rubbed me the wrong way, but really—who cares? They're just worse than Firefox in some way or another **to me**. So where does that leave me? Back on Firefox... well, a port of it. I've landed on LibreWolf[^3], _"A custom version of Firefox, focused on privacy, security and freedom"_. It's basically Firefox with the shit ripped out. So far I'm really enjoying it. It's Firefox from before Pocket and the deluge of crap that followed. 
 
 There are a few things I did want to write down though, in case I have to reinstall.
 
@@ -28,3 +28,7 @@ I have a small list of must have extensions I use:
 
 ## Install
 As I am on a Mac now, I needed to pick how to install this. Homebrew has an annoying issue with LibreWolf: _"Warning: librewolf has been deprecated because it does not pass the macOS Gatekeeper check! It will be disabled on 2026-09-01."_. Apparently this is due to the developers not wanting to shell out 99 bucks a year for an Apple Developer certificate, which I agree—they shouldn't. So best bet is installing straight from their website. Do note that this means you'll have to manually update the browser. 
+
+[^1]: [Mozilla’s next chapter: Building the world’s most trusted software company](https://blog.mozilla.org/en/mozilla/leadership/mozillas-next-chapter-anthony-enzor-demeo-new-ceo/) 
+[^2]: [Mozilla’s new CEO is doubling down on an AI future for Firefox ](https://archive.is/75FjT) 
+[^3]: [LibreWolf](https://librewolf.net/)

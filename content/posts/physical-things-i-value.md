@@ -21,5 +21,6 @@ I identify as a Linux user. It's what I know and have used for well over 15 year
 I own several mechanical watches. All of them automatics and three of them my dad bought. He's no longer with us, but the watches are. These three watches I love wearing and if I was to break any of them, I'd pay whatever the price for the repair was. But if I were to lose any of them, I'd be gutted.
 
 ## ...and?
-Well, that's basically it. I read [somewhere](https://www.latimes.com/health/la-he-keeping-stuff-20140322-story.html) that my home has about 300,000 things in it (if it was moved eastward by about 5000 kilometers or 3200 miles). Four is a laughable percentage of that. And then though, it's just stuff. Losing any or all would sting. The watches would maybe make me shed a tear, then nothing. Then I'd buy a new watch. Stuff does not matter. None of it. Don't buy the thing.
+Well, that's basically it. I read somewhere[^1] that my home has about 300,000 things in it (if it was moved eastward by about 5000 kilometers or 3200 miles). Four is a laughable percentage of that. And then though, it's just stuff. Losing any or all would sting. The watches would maybe make me shed a tear, then nothing. Then I'd buy a new watch. Stuff does not matter. None of it. Don't buy the thing.
 
+[^1]: [For many people, gathering possessions is just the stuff of life](https://www.latimes.com/health/la-he-keeping-stuff-20140322-story.html)

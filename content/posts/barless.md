@@ -6,7 +6,7 @@ draft: false
 tags: ["linux", "script", "tutorial"]
 ---
 
-A bar is used on a Linux Window Manager to display information like the date, time, volume information and maybe most importantly, on which desktop you are. Most people add way more to their bar, like CPU usage, memory usage, system temperature, hard drive space usage, connection state and many many more. It's also a part of the look of your desktop which you're supposed to rice, screenshot and put on [/r/unixporn](https://www.reddit.com/r/unixporn/).
+A bar is used on a Linux Window Manager to display information like the date, time, volume information and maybe most importantly, on which desktop you are. Most people add way more to their bar, like CPU usage, memory usage, system temperature, hard drive space usage, connection state and many many more. It's also a part of the look of your desktop which you're supposed to rice, screenshot and put on /r/unixporn[^1].
 
 I don't use a bar. I used to, as that was the thing people did, but it annoyed me to lose a line of screen real estate which is just sitting there, hardly getting looked at. Only when I wanted to know the time, I'd look at my bar. Hence the bar went the way of the Dodo and I used my wristwatch for the time... for a while at least. I have to admit, being able to display the time on-screen is worth something, but having it always there is pointless. So I wrote a script. A simple script which took the time from the "date" command and displayed that on the screen through a notification. Pressing a keybinding showed the time.
 
@@ -120,3 +120,5 @@ main "$@"
 {{< note >}}
 This post was made on the previous iteration of this website on the 19th of October 2022 when I ran the i3 window manager. The script is a rewrite of the original.
 {{< /note >}}
+
+[^1]: [/r/unixporn](https://www.reddit.com/r/unixporn/)

@@ -24,7 +24,7 @@ A few small details in there are worth pointing out:
 - `"$@"` forwards everything, including nothing. Passing `"$@"` hands `cd` *all* the arguments. This is important if you use zoxide (see below), as it allows more than one argument.
 
 ## Zoxide
-I am a [zoxide](https://github.com/ajeetdsouza/zoxide) user. Zoxide is a cd replacement and _"remembers which directories you use most frequently, so you can 'jump' to them in just a few keystrokes"_, according to their git. I have `eval "$(zoxide init zsh --cmd cd)"` set in my `.zshrc`, which means that my normal `cd` command is replaced with zoxide's behavior. My `cl` command works flawlessly with this, without needing adjustments. 
+I am a zoxide user[^1]. Zoxide is a cd replacement and _"remembers which directories you use most frequently, so you can 'jump' to them in just a few keystrokes"_, according to their git. I have `eval "$(zoxide init zsh --cmd cd)"` set in my `.zshrc`, which means that my normal `cd` command is replaced with zoxide's behavior. My `cl` command works flawlessly with this, without needing adjustments. 
 
 ## The zsh-native way
 If you're on zsh there's an even cleaner option, which I only found _after_ writing the function above. zsh has a `chpwd` hook that fires every single time the working directory changes. That includes `cd`, `cd ..`, `pushd`/`popd`, and zoxide too. Define it like this:
@@ -35,4 +35,4 @@ chpwd() ls
 
 Now you never type a separate `ls` again, no matter how you got there. The tradeoff is that it is no longer opt-in. It lists on _every_ directory change. I personally do not want this, as I do not want an `ls` after every `cd`, but you might like it. I'll stick to my own function.
  
-	
+[^1]: [Zoxide](https://github.com/ajeetdsouza/zoxide)

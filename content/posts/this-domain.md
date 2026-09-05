@@ -5,7 +5,7 @@ author: "Joris"
 draft: false
 tags: ["babble", "meta"]
 ---
-The _Jorisvandijk.com_ domain goes back quite a while. Using any _whois_ tool, you can discover it's been registered 17 years, 3 months and 26 days ago on **January 31st 2009**. It first appears in the [Wayback Machine](https://web.archive.org/web/20030715000000*/jorisvandijk.com) on the 13th of July 2003. Have a look at it in all its glory.
+The _Jorisvandijk.com_ domain goes back quite a while. Using any _whois_ tool, you can discover it's been registered 17 years, 3 months and 26 days ago on **January 31st 2009**. It first appears in the Wayback Machine[^1] on the 13th of July 2003. Have a look at it in all its glory.
 
 ## July 13th 2003
 [![July 13th 2003](/img/website-2003-07-13.png#center)](/img/website-2003-07-13.png)
@@ -22,12 +22,12 @@ This dragged on until sometime around April, when I eventually let go of the dom
 ## April 6th 2005
 [![April 6th 2005](/img/website-2005-04-06.png#center)](/img/website-2005-04-06.png)
 
-More than five years passed until something sparked my love for building and maintaining websites again. I remember damned near praying my domain was still available. Luckily it was. No other _Joris van Dijk_ had decided to pick up webdevving as a hobby. I remember letting out a sigh of relief and I got to work on a new version of the site. This time around I wanted it to have a couple of functions. Firstly as a blog. Not just my own, no, for family members too. The site was in Dutch this time around, as we're from the Netherlands. The second function was to host my projects. I don't remember what those were though. The site, powered by the [Drupal](https://drupal.org) CMS (Content Management System), also hosted family pictures and videos I ripped from old video tapes and encoded, then uploaded and shared with my family. 
+More than five years passed until something sparked my love for building and maintaining websites again. I remember damned near praying my domain was still available. Luckily it was. No other _Joris van Dijk_ had decided to pick up webdevving as a hobby. I remember letting out a sigh of relief and I got to work on a new version of the site. This time around I wanted it to have a couple of functions. Firstly as a blog. Not just my own, no, for family members too. The site was in Dutch this time around, as we're from the Netherlands. The second function was to host my projects. I don't remember what those were though. The site, powered by the Drupal CMS[^2] (Content Management System), also hosted family pictures and videos I ripped from old video tapes and encoded, then uploaded and shared with my family. 
 
 ## February 8th 2011
 [![February 8th 2011](/img/website-2011-02-08.png#center)](/img/website-2011-02-08.png)
 
-I still really like the logo I made. I was super proud of it at the time. Anyway, this version of the site didn't last. My relationship had ended and I didn't want to deal with everything written by her and her family on my site. I also had gotten into Linux a year prior, so I poured my spare time into building the Bodhi Linux [website](https://web.archive.org/web/20110717142458/http://bodhilinux.com/). And for the second time, the poor domain was a placeholder again. 
+I still really like the logo I made. I was super proud of it at the time. Anyway, this version of the site didn't last. My relationship had ended and I didn't want to deal with everything written by her and her family on my site. I also had gotten into Linux a year prior, so I poured my spare time into building the Bodhi Linux website[^3]. And for the second time, the poor domain was a placeholder again. 
 
 ## November 24th 2011
 [![November 24th 2011](/img/website-2011-11-24.png#center)](/img/website-2011-11-24.png)
@@ -37,7 +37,7 @@ Not for long this time. I decided I still loved the looks of the old site, so af
 ## June 2nd 2012
 [![June 2nd 2012](/img/website-2012-06-02.png#center)](/img/website-2012-06-02.png)
 
-But as always, shiny new things are more interesting than dull old ones. I discovered [WordPress](https://wordpress.com/). This site got a completely new look and had some proper responsive design even. The type of content stayed the same, though. I found my niche and I was (and still am) enjoying blogging about these things a lot. I also just now realized that this is the first time the Wayback Machine has cached most of the actual content for my site, not just the home page. One could still browse it over there as long as they keep it up.
+But as always, shiny new things are more interesting than dull old ones. I discovered WordPress[^4]. This site got a completely new look and had some proper responsive design even. The type of content stayed the same, though. I found my niche and I was (and still am) enjoying blogging about these things a lot. I also just now realized that this is the first time the Wayback Machine has cached most of the actual content for my site, not just the home page. One could still browse it over there as long as they keep it up.
 
 ## June 3rd 2013
 [![June 3rd 2013](/img/website-2013-06-03.png#center)](/img/website-2013-06-03.png)
@@ -82,7 +82,7 @@ Then out of nowhere, nearly two whole years later, I decide the placeholder need
 ## May 8th 2021
 [![May 8th 2021](/img/website-2021-05-08.png#center)](/img/website-2021-05-08.png)
 
-A year later, nearly to the day, I post a Hello World post on my new website. As I put it at the time: "This is the first post made on the new version of this website. I am making it to commemorate the occasion. As of yet there obviously isn't much content, but that may change in the future. This site used to be a lot of things over the years, but for the past few it has been nothing more than a placeholder." Unfortunately the first decent snapshot takes a few months, but when it does, the site looks like this. After six years there's finally a real website at this domain again. This website is using [Eleventy](https://www.11ty.dev/) as its backend.
+A year later, nearly to the day, I post a Hello World post on my new website. As I put it at the time: "This is the first post made on the new version of this website. I am making it to commemorate the occasion. As of yet there obviously isn't much content, but that may change in the future. This site used to be a lot of things over the years, but for the past few it has been nothing more than a placeholder." Unfortunately the first decent snapshot takes a few months, but when it does, the site looks like this. After six years there's finally a real website at this domain again. This website is using Eleventy[^5] as its backend.
 
 ## June 26th 2022
 [![June 26th 2022](/img/website-2022-06-26.png#center)](/img/website-2022-06-26.png)
@@ -92,12 +92,12 @@ The website mostly remains the same. Some slight tweaks like a bit more width fo
 ## April 2nd 2023
 [![April 2nd 2023](/img/website-2023-04-02.png#center)](/img/website-2023-04-02.png)
 
-After a long lull of not actually posting any new blogs to the site, come 2025 I decide a new look is what I need to start writing again. This time around, I thought let's do this like a documentation website. I used [Docusaurus](https://docusaurus.io/) for this one.
+After a long lull of not actually posting any new blogs to the site, come 2025 I decide a new look is what I need to start writing again. This time around, I thought let's do this like a documentation website. I used Docusaurus[^6] for this one.
 
 ## March 30th 2025
 [![March 30th 2025](/img/website-2025-03-30.png#center)](/img/website-2025-03-30.png)
 
-It's not long lived though as within a couple of months I have a completely new website. Based on [Hugo](https://gohugo.io/) now. This site first pops up on the Wayback Machine in August and it's close to the current iteration of this website. The one you're looking at now. Sure the font is different and it still sports cover images, but it is this website.
+It's not long lived though as within a couple of months I have a completely new website. Based on Hugo[^7] now. This site first pops up on the Wayback Machine in August and it's close to the current iteration of this website. The one you're looking at now. Sure the font is different and it still sports cover images, but it is this website.
 
 ## August 26th 2025
 [![August 26th 2025](/img/website-2025-08-26.png#center)](/img/website-2025-08-26.png)
@@ -113,3 +113,11 @@ This domain has been around. It's been lost and found. It's been loved and negle
 
 ## May 27th 2026 but live
 [![May 27th 2026 but live](/img/website-2026-05-27-live.png#center)](/img/website-2026-05-27-live.png)
+
+[^1]: [Wayback Machine](https://web.archive.org/web/20030715000000*/jorisvandijk.com)
+[^2]: [Drupal](https://drupal.org)
+[^3]: [Bodhi Linux website on the Wayback Machine](https://web.archive.org/web/20110717142458/http://bodhilinux.com/)
+[^4]: [WordPress](https://wordpress.com/)
+[^5]: [Eleventy](https://www.11ty.dev/)
+[^6]: [Docusaurus](https://docusaurus.io/)
+[^7]: [Hugo](https://gohugo.io/)

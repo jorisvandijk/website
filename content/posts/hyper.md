@@ -18,7 +18,7 @@ It took three programs (none of them window managers) and I am super happy with 
 
 ## Karabiner Elements
 
-Karabiner is _"A powerful and stable keyboard customizer for macOS"_, according to [their website](https://karabiner-elements.pqrs.org/) and they are not lying. I need this because I want a single key to act like the super key. I picked the left option key. I rarely use its default functionality (turning almost every `Option` + `letter` into a glyph), and on the odd occasion I do, there's a second one on the right side of the keyboard.
+Karabiner is _"A powerful and stable keyboard customizer for macOS"_, according to their website[^1] and they are not lying. I need this because I want a single key to act like the super key. I picked the left option key. I rarely use its default functionality (turning almost every `Option` + `letter` into a glyph), and on the odd occasion I do, there's a second one on the right side of the keyboard.
 
 I can't use option _as_ the modifier directly, though. The system still treats it as option, so it fires glyphs instead of triggering my keybindings. Luckily Karabiner lets me remap the left option key into a hyper key: a non-existing key that's a combination of keys being pressed, bound to a single button. 
 
@@ -49,7 +49,7 @@ Pressing the left option key will now register on the system as if you pressed c
 
 ## Raycast
 
-The next program I needed was Raycast. _“Your shortcut to everything”_, they claim on [their site](https://www.raycast.com/). This program is not only my spotlight replacement (or Rofi replacement if we’re speaking Linux window manager terms), but it also handles my custom keybindings system wide. 
+The next program I needed was Raycast. _“Your shortcut to everything”_, they claim on their site[^2]. This program is not only my spotlight replacement (or Rofi replacement if we’re speaking Linux window manager terms), but it also handles my custom keybindings system wide. 
 
 In settings, under the Extensions tab you have Applications. Expanding this shows a list of all installed programs on the system. Three columns right of the name of the application is the Hotkey column. 
 
@@ -59,7 +59,7 @@ As you can see, I’ve set one for LibreWolf, Mail and Notes. I did so by clicki
 
 ## Hammerspoon
 
-Enter Hammerspoon. The third and last program I need. Hammerspoon is _“...a tool for powerful automation of macOS”_, as they state on [their website](https://www.hammerspoon.org/). This program is going to fix both the dock and the full-screening of things for me. Open up the config from the icon in the top bar. In it I entered the following.
+Enter Hammerspoon. The third and last program I need. Hammerspoon is _“...a tool for powerful automation of macOS”_, as they state on their website[^3]. This program is going to fix both the dock and the full-screening of things for me. Open up the config from the icon in the top bar. In it I entered the following.
 
 ```lua
 -- 1. Make windows fill the screen (not macOS fullscreen)
@@ -107,3 +107,6 @@ Save, close, reload config and we’re all set! Now this does not put every prog
 
 I have the same keybindings as I had on Linux. All applications are full-screened. No visual clutter and full keyboard driven navigation around the system. I am content.
 
+[^1]: [Karabiner Elements](https://karabiner-elements.pqrs.org/)
+[^2]: [Raycast](https://www.raycast.com/)
+[^3]: [Hammerspoon](https://www.hammerspoon.org/)

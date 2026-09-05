@@ -14,7 +14,7 @@ Now the Mac offers the ability to change what the keys do too, at least it seems
 
 ![Keyboard setting](/img/keyboard.png#center)
 
-Luckily there’s [Karabiner Elements](https://karabiner-elements.pqrs.org/), which allows for complex modifications, including swapping keys. 
+Luckily there’s Karabiner Elements[^1], which allows for complex modifications, including swapping keys. 
 ```json
 {
     "description": "Swap fn and control keys",
@@ -39,5 +39,7 @@ Luckily there’s [Karabiner Elements](https://karabiner-elements.pqrs.org/), wh
 }
 ```
 
-And to make it all look right: the fn and control keys are the same size, so with great patience, effort, and care, you can physically [pop those out](https://www.youtube.com/watch?v=8dB-vNBXEFQ) and swap them. 
+And to make it all look right: the fn and control keys are the same size, so with great patience, effort, and care, you can physically *pop those out*[^2] and swap them. 
 
+[^1]: [Karabiner Elements](https://karabiner-elements.pqrs.org/)
+[^2]: [How to Remove M2 Macbook Air Keys (cleaning or replacement)](https://www.youtube.com/watch?v=8dB-vNBXEFQ) 

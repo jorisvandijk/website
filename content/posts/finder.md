@@ -33,7 +33,7 @@ And this works... mostly. Once in a while it'd decide to not directly switch to 
 
 ![App Error](/img/AppError.png)
 
-Inconsistency in workflow is a big no-no to me. Two options remain. One is handling it through _[Hammerspoon](https://www.hammerspoon.org/)_, which would mean splitting where keybindings are set. This I don't like as it can cause confusion for future Joris. That guy's got enough to deal with, so let's not. The last option is to set up a "Raycast Script Command". This basically means writing a little script, placing it in my script folder with a `.applescript` extension and calling it from Raycast. Luckily the content of this script is basically the same as the *.app* solution above, just with a Raycast metadata header on top.
+Inconsistency in workflow is a big no-no to me. Two options remain. One is handling it through Hammerspoon[^1], which would mean splitting where keybindings are set. This I don't like as it can cause confusion for future Joris. That guy's got enough to deal with, so let's not. The last option is to set up a "Raycast Script Command". This basically means writing a little script, placing it in my script folder with a `.applescript` extension and calling it from Raycast. Luckily the content of this script is basically the same as the *.app* solution above, just with a Raycast metadata header on top.
 
 ```applescript
 #!/usr/bin/osascript
@@ -57,3 +57,5 @@ Make sure it's executable and open Raycast. It will magically pop up under **Set
 ![Raycast](/img/RayCast.png)
 
 Should you regret implementing this, you can revert the quit behavior of finder with `defaults write com.apple.finder QuitMenuItem -bool false`, followed by a `killall Finder`.
+
+[^1]: [Hammerspoon](https://www.hammerspoon.org/)

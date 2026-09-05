@@ -34,7 +34,7 @@ Note that this does not show _dotfiles_, which are files hidden by using a perio
 At this point the directories you don't want to see in Finder are gone. If for any reason you'd like to see them, just toggling hidden files within the Finder window will show them. You can do so by pressing `command` + `shift` + `.`. Pressing the same key combo hides the hidden files again.
 
 ## macOS: Terminal
-macOS ships with BSD's `ls` command. If it shipped with GNU coreutils `ls`, you could hide these directories by making a simple alias like `alias ls="ls --hide='Music' --hide='Videos' --hide='Templates' --hide='Public' --hide='Desktop' --hide='Pictures'"`. Unfortunately the BSD `ls` does not support the `--hide=PATTERN` flag, so this is not a viable option for us. Luckily `eza`, an `ls` replacement I've used for ages now (and before that the now-defunct `exa`), is the answer. Besides providing a prettier, cleaner and above all configurable output, it also has the ability to hide certain directories. Find it [here](https://github.com/eza-community/eza). 
+macOS ships with BSD's `ls` command. If it shipped with GNU coreutils `ls`, you could hide these directories by making a simple alias like `alias ls="ls --hide='Music' --hide='Videos' --hide='Templates' --hide='Public' --hide='Desktop' --hide='Pictures'"`. Unfortunately the BSD `ls` does not support the `--hide=PATTERN` flag, so this is not a viable option for us. Luckily `eza`, an `ls` replacement I've used for ages now (and before that the now-defunct `exa`), is the answer. Besides providing a prettier, cleaner and above all configurable output, it also has the ability to hide certain directories. Available on their website[^1]. 
 
 After installation, you can use it as an alias. For this post we're only touching on how to set up `eza` to hide the directories, but absolutely dive into the options it offers. The output can be tweaked to your liking in many ways. `eza` has the `--ignore-glob` flag. This allows for a pipe-separated list of _globs_ to ignore, and hence not show. The alias would look something like this.
 
@@ -78,7 +78,7 @@ exec eza "${OPTS[@]}" "${IGNORE[@]}" "$@"
 
 Let's break down the script, so you'll know what is happening. 
 
-- Line 1 is the [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)). 
+- Line 1 is the shebang[^2]. 
 - Line 3 to 8 checks if the script was issued with an additional `-a` or `--all` flag (more on this in a bit). 
 - Line 10 is where you'd set the directories to hide. 
 - Line 12 to 15 is where the magic happens. Here a check is run to see whether you're in your `$HOME` or not. If you are, the clutter directories are hidden from the output. If you're in another directory which happens to have a directory named the same as one in your `CLUTTER` list, it is shown normally. If `-a` is used, everything including hidden files and directories is shown regardless of where you are.
@@ -95,3 +95,6 @@ alias la="list -a"
 And here's where the `-a` from earlier comes back. When you type `ls`, the script sees no `-a`. If you're in `$HOME`, it builds the ignore-glob and the clutter is gone. When you type `la`, that one flag does two jobs. The loop at the top catches it and sets `SHOW_ALL=1`, so the script skips the ignore-glob and stops hiding the clutter. That same `-a` also passes through to `eza` as `--all`, which shows every hidden entry. One flag, two mechanisms. 
 
 Now if you feel the need to dig through the clutter, `la` shows everything. Otherwise `ls` hides the clutter and leaves you a clean `$HOME`.
+
+[^1]: [eza](https://github.com/eza-community/eza)
+[^2]: [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix))
