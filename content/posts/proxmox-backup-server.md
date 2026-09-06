@@ -28,7 +28,7 @@ To install PBS, we will be using a _Helper Script_. This script will automate th
 Using these _Helper Scrips_ means running scripts from the internet on your server with root access. Be sure you trust the site, script and/or author.
 {{< /warning >}}
 
-The script we'll be using can be found [here](https://community-scripts.github.io/ProxmoxVE/scripts?id=proxmox-backup-server). Under **How to install** you can copy the install command. At the time of writing this, that would be `bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/proxmox-backup-server.sh)"`. Now go to the web UI for Proxmox and navigate in the left dropdown menu to **Datacenter** → **node** (this can be named, mine is named _pve_). Then in the menu to the right of the dropdown (the secondary menu), click **Shell**.
+The script we'll be using can be found on the Proxmox VE Scripts website[^1]. Under **How to install** you can copy the install command. At the time of writing this, that would be `bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/proxmox-backup-server.sh)"`. Now go to the web UI for Proxmox and navigate in the left dropdown menu to **Datacenter** → **node** (this can be named, mine is named _pve_). Then in the menu to the right of the dropdown (the secondary menu), click **Shell**.
 
 The center of the screen will now display a shell/terminal interface. Paste the command we just copied here and press enter. A _Terminal User Interface_, or TUI will pop up. Select **3. Advanced Settings**. Set the following values in the prompts that pass by:
 
@@ -151,3 +151,4 @@ Not everything is covered in this article and many more things can be set up, li
 
 You may also have noticed none of this is backing up Proxmox itself at all, which is true. At the time of writing backing up Proxmox like a container isn't supported by PBS. It's on the roadmap though, so fingers crossed. At a later date I'll share my current solution to this problem.
 
+[^1]: [Proxmox VE Scripts: Proxmox Backup Server (PBS)](https://community-scripts.github.io/ProxmoxVE/scripts?id=proxmox-backup-server)

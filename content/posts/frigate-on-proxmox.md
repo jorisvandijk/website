@@ -6,11 +6,11 @@ draft: false
 tags: ["proxmox", "tutorial", "homelab"]
 ---
 
-I have a _homelab_, or more simply a personal server I run at home. It's a small square black box that sits in my office, humming away. This server runs [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview), a _hypervisor_. This controls pretty much everything that goes on, on this server. It has the ability to spin up containers, which it calls _LXC_'s. These are somewhat akin to _Docker containers_. Anyway, the process of spinning one of these up is super simple. Click a few buttons, allocate some space and there's your 'container'.
+I have a _homelab_, or more simply a personal server I run at home. It's a small square black box that sits in my office, humming away. This server runs Proxmox VE[^1], a _hypervisor_. This controls pretty much everything that goes on, on this server. It has the ability to spin up containers, which it calls _LXC_'s. These are somewhat akin to _Docker containers_. Anyway, the process of spinning one of these up is super simple. Click a few buttons, allocate some space and there's your 'container'.
 
-While this is a super simple process, there's an even simpler process. Enter [Proxmox VE Helper-Scripts](https://community-scripts.github.io/ProxmoxVE/). This is a repository filled with installation scripts which offer a _one-liner_ that can be run in Proxmox's terminal, which pulls in a _Bash_ script and executes it. This script will then proceed to not just create an LXC container, but also installs the program you wanted to run on this LXC. Most scripts can be run either automatically, or will offer you choices on how to set up the container and program. It's like magic.
+While this is a super simple process, there's an even simpler process. Enter Proxmox VE Scripts[^2]. This is a repository filled with installation scripts which offer a _one-liner_ that can be run in Proxmox's terminal, which pulls in a _Bash_ script and executes it. This script will then proceed to not just create an LXC container, but also installs the program you wanted to run on this LXC. Most scripts can be run either automatically, or will offer you choices on how to set up the container and program. It's like magic.
 
-Anyway, [one](https://community-scripts.github.io/ProxmoxVE/scripts?id=frigate) of these scripts will install [Frigate](https://frigate.video/), which is a bit of software to monitor security cameras—a so-called _NVR_. When I bought my house it came with security cameras and a very clunky dedicated physical NVR, which was plonked into a wall-mounted server rack in the garage. The software to view the cameras with and check recordings was god-aweful, so I decided on swapping it out in favor of Frigate on my server.
+Anyway, one[^3] of these scripts will install Frigate[^4], which is a bit of software to monitor security cameras—a so-called _NVR_. When I bought my house it came with security cameras and a very clunky dedicated physical NVR, which was plonked into a wall-mounted server rack in the garage. The software to view the cameras with and check recordings was god-aweful, so I decided on swapping it out in favor of Frigate on my server.
 
 Using the script, installation was a breeze, until I hit a snag. I install LXC containers on a dedicated SSD for fast load times. It is meant for running programs and not storing data, like the data a security camera might generate—video, they call it. By default, Frigate will store all camera feeds (and other data, like snapshots of detections and short clips) on the same drive as it is installed on. "No problem", I thought, "I'll just go into the Frigate UI and switch the storage location to a dedicated drive I have already installed on my server." 
 
@@ -58,3 +58,7 @@ pct start <container_id>
 
 And that's it. Without needing to adjust anything else in the UI, Frigate will now store all content on the dedicated external drive. 
  
+[^1]: [Proxmox Virtual Environment](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview)
+[^2]: [Proxmox VE Scripts](https://community-scripts.github.io/ProxmoxVE/)
+[^3]: [Proxmox VE Scripts: Frigate](https://community-scripts.github.io/ProxmoxVE/scripts?id=frigate)
+[^4]: [Frigate](https://frigate.video/)

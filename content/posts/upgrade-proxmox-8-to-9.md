@@ -6,7 +6,7 @@ draft: false
 tags: ["proxmox", "homelab", "tutorial"]
 ---
 
-It's about that time. There's a [new](https://www.proxmox.com/en/about/company-details/press-releases/proxmox-virtual-environment-9-0) version of Proxmox VE in town and it has had a couple of months to "stabilize". Now is the time to bump up the version of that homelab. 
+It's about that time. There's a new[^1] version of Proxmox VE in town and it has had a couple of months to "stabilize". Now is the time to bump up the version of that homelab. 
 
 I've pulled the trigger and did the upgrade. The following is _my_ experience with doing this update. I've run into some issues, which all got solved and I didn't break my server.
 
@@ -36,7 +36,7 @@ I cannot go through all possible issues you might encounter, like I stated above
 
 ### FAIL: systemd-boot meta-package installed
 
-The [wiki](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9#sd-boot-warning) has the solution to this: I first checked whether I'm actually using systemd-boot or if it's just an orphaned package:
+The wiki[^2] has the solution to this: I first checked whether I'm actually using systemd-boot or if it's just an orphaned package:
 
 ```bash
 bootctl status
@@ -101,7 +101,7 @@ After that I cleared out the footage that had accumulated on root, which freed u
 
 LVM autoactivation means that logical volumes (the virtual disks your VMs and containers use) are automatically made available by the system at boot. In PVE 8 this was the default behavior, but it can cause problems on shared storage setups where multiple nodes might try to activate the same volume simultaneously. PVE 9 disables autoactivation for all newly created volumes and lets Proxmox handle activation itself when a guest actually needs it. The migration script takes care of bringing the existing volumes in line with this new behavior.
 
-As noted in the [Proxmox upgrade documentation](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9#LVM/LVM-thin_storage_has_guest_volumes_with_autoactivation_enabled), running the script is optional if your volumes are on local storage only, but still recommended. I ran it anyway:
+As noted in the Proxmox upgrade documentation[^3], running the script is optional if your volumes are on local storage only, but still recommended. I ran it anyway:
 
 ```bash
 /usr/share/pve-manager/migrations/pve-lvm-disable-autoactivation
@@ -215,4 +215,6 @@ Check the web UI to confirm everything looks right.
 
 And that was it. Pretty painless to be honest. Unfortunately I decided to use the second NVMe slot I wasn't using to set up a ZFS pool with the NVMe that was running Proxmox. That way when one fails, I won't lose my Proxmox setup and had some redundancy. Alas it's impossible to switch an LVM to a ZFS pool on a running Proxmox instance. You'll have to do a fresh install... which I did a day after doing this upgrade. At least I can say I've had the experience, I suppose.
 
-
+[^1]: [Proxmox Virtual Environment 9.0 with Debian 13 released](https://www.proxmox.com/en/about/company-details/press-releases/proxmox-virtual-environment-9-0)
+[^2]: [Systemd-boot meta-package changes the bootloader configuration automatically and should be uninstalled](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9#sd-boot-warning)
+[^3]: [LVM/LVM-thin storage has guest volumes with autoactivation enabled](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9#LVM/LVM-thin_storage_has_guest_volumes_with_autoactivation_enabled)

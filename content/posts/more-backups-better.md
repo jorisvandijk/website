@@ -6,7 +6,7 @@ draft: false
 tags: ["git", "tutorial", "backup"]
 ---
 
-I've [mentioned](/posts/hugo-hosts-lessons/#github) before that I have my website's repository mirrored across multiple Git hosts. Well, it is not just the website; it is all my repositories. I have four hosts, namely: [GitHub](https://github.com/jorisvandijk), [GitLab](https://gitlab.com/jorisvandijk), [Codeberg](https://codeberg.org/jorisvandijk), and [Bitbucket](https://bitbucket.org). This is overkill, I know. I really like it, though. It gives me a warm, fuzzy feeling knowing my precious crap is safe. If one host goes down, I’ve got three others. If two go down, there are still two left. And if three go down… well, there’s probably something far more serious going on, but let’s not get distracted.
+I've [mentioned](/posts/hugo-hosts-lessons/#github) before that I have my website's repository mirrored across multiple Git hosts. Well, it is not just the website; it is all my repositories. I have four hosts, namely: GitHub[^1], GitLab[^2], Codeberg[^3], and Bitbucket[^4]. This is overkill, I know. I really like it, though. It gives me a warm, fuzzy feeling knowing my precious crap is safe. If one host goes down, I’ve got three others. If two go down, there are still two left. And if three go down… well, there’s probably something far more serious going on, but let’s not get distracted.
 
 Four is a lot, but you might think that at least having a second one is not such a bad idea—and you'd be right. The process is super simple and short. No reason not to do it. I'll walk through the process assuming we're starting with nothing. This is a new repository you're going to set up.
 
@@ -89,3 +89,8 @@ Once the command is done running, it's time to check if all repositories got the
 
 # Future workflow
 Now that everything is set up, you may be wondering "How do I use this setup when I want to do another push?" Fortunately, you do not have to learn anything new. It's the normal `git add .`, `git commit -m "your message"` and `git push` process. This will now push to all repositories.
+
+[^1]:[GitHub](https://github.com/jorisvandijk)
+[^2]:[GitLab](https://gitlab.com/jorisvandijk)
+[^3]:[Codeberg](https://codeberg.org/jorisvandijk)
+[^4]:[Bitbucket](https://bitbucket.org)
