@@ -33,7 +33,7 @@ theme = 'PaperMod'
 
   [params.homeInfoParams]
   Title = "echo ${core_dump} > /www/blog"
-  Content = "Self-hosting, the terminal, personal posts, and things I found worth jotting down when I should have been doing something more productive. I'm [Joris](/joris). This is my blog. Hi."
+  Content = "Self-hosting on my homelab. Scripting in the terminal. Breaking things and fixing them.  Add some personal babble and that pretty much sums up this place. I'm [Joris](/joris). This is my blog. Hi."
 
 #   [[params.socialIcons]]
 #   name = "github"
