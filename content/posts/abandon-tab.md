@@ -3,7 +3,7 @@ title: "Abandon Tab"
 date: 2026-10-14T15:03:03+02:00
 author: "Joris"
 draft: false
-tags: ["quickie", "macOS"] 
+tags: ["macOS","quickie", "tutorial"] 
 ---
 
 For managing my security camera feeds, I use Frigate[^1]. It offers a decent web-based UI, but not a stand-alone application. This meant I couldn’t quickly `command + tab` to it from whatever application I was running at the time. Frigate got to live in a pinned tab in my browser. I went to it by switching to my browser with the key combination `hyper + w`—w for web. Then either clicking on the tab or pressing `command + 1`, as it was the first tab in the list. In any case, this was a multi-step solution, when all I wanted was to get to it with a single key combination.
