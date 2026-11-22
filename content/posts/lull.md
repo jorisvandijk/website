@@ -3,7 +3,7 @@ title: "Lull"
 date: 2026-11-22T11:32:56+01:00
 author: "Joris"
 draft: false
-tags: ["babble, "meta", "writing"] 
+tags: ["babble", "meta", "writing"] 
 ---
 
 When I see the date on the last post, it makes me sad. Blogging is fun, especially when you've got something interesting to say. Maybe something to teach or something to show. Something worth sharing. Sometimes you just don't feel like it. It's not writer's block, but a general lack of will to sit down and take the time to type out what you have to say. I have plenty of ideas for posts. Some are even partially written. I just can't. Won't. Don't. And I know blogging is not mandatory, but I wish I felt like it right now.
